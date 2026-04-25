@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FraudGuard Banking System</title>
+    <meta name="description" content="Modern fraud detection banking dashboard with monitoring, alerts, transactions, admin actions, and settings." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="loader" class="loader-screen" aria-label="Loading dashboard">
+      <div class="loader-ring"></div>
+      <strong>FraudGuard</strong>
+    </div>
+
+    <div id="loginPage" class="auth-shell">
+      <section class="auth-hero" aria-label="FraudGuard introduction">
+        <div class="brand-mark">FG</div>
+        <h1>FraudGuard Banking System</h1>
+        <p>AI-assisted fraud detection, live transaction monitoring, and review workflows for modern banking teams.</p>
+        <div class="auth-metrics">
+          <span><strong>98.7%</strong> detection confidence</span>
+          <span><strong>24/7</strong> live monitoring</span>
+        </div>
+      </section>
+
+      <main class="auth-card">
+        <div class="auth-tabs" role="tablist">
+          <button class="tab active" data-auth-tab="login" type="button">Login</button>
+          <button class="tab" data-auth-tab="signup" type="button">Signup</button>
+        </div>
+        <form id="authForm" novalidate>
+          <label>
+            Email
+            <input id="email" type="email" placeholder="analyst@bank.com" required />
+          </label>
+          <label>
+            Password
+            <span class="password-field">
+              <input id="password" type="password" placeholder="••••••••" minlength="6" required />
+              <button id="togglePassword" type="button" aria-label="Show password">👁</button>
+            </span>
+          </label>
+          <label id="confirmGroup" class="hidden">
+            Confirm Password
+            <input id="confirmPassword" type="password" placeholder="••••••••" />
+          </label>
+          <p id="authError" class="form-error" role="alert"></p>
+          <button class="primary-btn wide" type="submit">Enter Secure Dashboard</button>
+        </form>
+      </main>
+    </div>
+
+    <div id="appShell" class="app-shell hidden">
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-brand"><span>FG</span><strong>FraudGuard</strong></div>
+        <nav aria-label="Main navigation">
+          <button class="nav-item active" data-page="dashboard" type="button"><span>⌂</span> Dashboard</button>
+          <button class="nav-item" data-page="fraud" type="button"><span>⚠</span> Detection</button>
+          <button class="nav-item" data-page="transactions" type="button"><span>↔</span> Transactions</button>
+          <button class="nav-item" data-page="admin" type="button"><span>▦</span> Admin</button>
+          <button class="nav-item" data-page="settings" type="button"><span>⚙</span> Settings</button>
+        </nav>
+        <button id="logoutBtn" class="ghost-btn" type="button">Logout</button>
+      </aside>
+
+      <div class="content-shell">
+        <header class="topbar">
+          <button id="menuBtn" class="icon-btn" type="button" aria-label="Open menu">☰</button>
+          <div class="search-box"><span>⌕</span><input id="globalSearch" type="search" placeholder="Search transactions, users, merchants" /></div>
+          <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme">☾</button>
+          <button id="alertBell" class="icon-btn alert-bell" type="button" aria-label="Notifications">🔔<em>3</em></button>
+          <div class="avatar">AS</div>
+        </header>
+
+        <main class="page-content">
+          <section id="dashboard" class="page active-page">
+            <div class="page-heading"><div><p>Welcome back, Aisha</p><h2>Banking Command Center</h2></div><span id="today"></span></div>
+            <div class="alert-banner"><span></span><strong>3 high-risk transactions require review today.</strong></div>
+            <div class="stats-grid">
+              <article class="stat-card balance-card"><small>Total Balance</small><h3 id="balanceAmount">$0</h3><button id="hideBalance" type="button">Hide</button></article>
+              <article class="stat-card"><small>Income</small><h3>$84,290</h3><p class="good">+12.4%</p></article>
+              <article class="stat-card"><small>Expenses</small><h3>$31,880</h3><p class="warn">+4.1%</p></article>
+              <article class="stat-card"><small>Flagged</small><h3 id="flaggedCount">0</h3><p class="bad">Needs action</p></article>
+            </div>
+            <div class="split-grid">
+              <section class="panel"><div class="panel-head"><h3>Recent Transactions</h3><button class="ghost-btn" data-jump="transactions" type="button">View all</button></div><div id="recentTransactions" class="transaction-list"></div></section>
+              <section class="panel"><div class="panel-head"><h3>Fraud Alerts</h3><span class="live-dot">Live</span></div><div id="fraudAlerts" class="alerts-list"></div></section>
+            </div>
+          </section>
+
+          <section id="fraud" class="page">
+            <div class="page-heading"><div><p>AI Risk Scoring</p><h2>Fraud Detection</h2></div></div>
+            <div class="filters"><input id="fraudSearch" type="search" placeholder="Search merchant or location" /><select id="riskFilter"><option value="all">All risk levels</option><option value="high">High risk</option><option value="medium">Medium risk</option><option value="low">Low risk</option></select><input id="minAmount" type="number" placeholder="Min amount" /></div>
+            <section class="panel table-panel"><table><thead><tr><th>Date</th><th>Merchant</th><th>Amount</th><th>Type</th><th>Location</th><th>Risk</th><th>Status</th></tr></thead><tbody id="fraudTable"></tbody></table></section>
+          </section>
+
+          <section id="transactions" class="page">
+            <div class="page-heading"><div><p>Real-time Feed</p><h2>Transaction Monitoring</h2></div><button id="pauseFeed" class="primary-btn" type="button">Pause Feed</button></div>
+            <div class="stats-grid compact"><article class="stat-card"><small>TPS</small><h3 id="tpsValue">3.2</h3></article><article class="stat-card"><small>Approved</small><h3>1,284</h3></article><article class="stat-card"><small>Blocked</small><h3 id="blockedValue">18</h3></article></div>
+            <div class="split-grid"><section class="panel chart-panel"><h3>Volume Trend</h3><canvas id="lineChart" width="600" height="260"></canvas></section><section class="panel chart-panel"><h3>Category Mix</h3><canvas id="donutChart" width="360" height="260"></canvas></section></div>
+            <section class="panel"><div class="panel-head"><h3>Live Feed</h3><span class="live-dot">Streaming</span></div><div id="liveFeed" class="transaction-list"></div></section>
+          </section>
+
+          <section id="admin" class="page">
+            <div class="page-heading"><div><p>Review Operations</p><h2>Admin Panel</h2></div></div>
+            <div class="stats-grid compact"><article class="stat-card"><small>Total Users</small><h3>2,438</h3></article><article class="stat-card"><small>Flagged Today</small><h3>29</h3></article><article class="stat-card"><small>Blocked</small><h3>104</h3></article></div>
+            <section class="panel"><div class="panel-head"><h3>Flagged Cases</h3><div class="tabs"><button class="tab active" type="button">Pending</button><button class="tab" type="button">All Users</button></div></div><div id="caseCards" class="case-grid"></div></section>
+          </section>
+
+          <section id="settings" class="page">
+            <div class="page-heading"><div><p>Security Preferences</p><h2>Settings</h2></div></div>
+            <div class="split-grid"><form id="profileForm" class="panel form-panel"><h3>Profile</h3><label>Full name<input value="Aisha Smith" /></label><label>Email<input value="analyst@bank.com" /></label><label>Phone<input value="+1 202 555 0199" /></label><button class="primary-btn" type="submit">Save Changes</button></form><section class="panel settings-panel"><h3>Notifications & Security</h3><label class="toggle-row">Fraud alerts<input type="checkbox" checked /></label><label class="toggle-row">Daily summary<input type="checkbox" checked /></label><label class="toggle-row">Two-factor authentication<input type="checkbox" /></label><label>New password<input type="password" placeholder="••••••••" /></label></section></div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <dialog id="transactionModal" class="modal"><button id="closeModal" class="icon-btn modal-close" type="button">×</button><div id="modalContent"></div></dialog>
+    <div id="toastStack" class="toast-stack" aria-live="polite"></div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
+ 
