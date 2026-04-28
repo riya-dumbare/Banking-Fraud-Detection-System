@@ -13,7 +13,8 @@ DATA_PATH = BASE_DIR.parent / "data" / "synthetic_transactions.csv"
 
 FEATURES = [
     "amount", "location_mismatch", "device_mismatch", "transaction_velocity",
-    "ip_risk", "merchant_category", "account_age_days", "risk_history"
+    "ip_risk", "merchant_category", "account_age_days", "risk_history",
+    "is_weekend"
 ]
 
 def train_model():
@@ -27,13 +28,13 @@ def train_model():
         remainder="passthrough"
     )
     model = Pipeline(steps=[
-        ("preprocessor", preprocessor),
-        ("classifier", RandomForestClassifier(
-            n_estimators=300,
-            max_depth=10,
-            random_state=42,
-            class_weight="balanced"
-        ))
+    ("preprocessor", preprocessor),
+    ("classifier", RandomForestClassifier(
+        n_estimators=150,
+        max_depth=8,
+        random_state=42,
+        class_weight="balanced"
+    ))
     ])
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
     model.fit(X_train, y_train)
@@ -49,14 +50,18 @@ def load_model():
 def predict_fraud(payload):
     model = load_model()
     row = pd.DataFrame([{feature: payload.get(feature, 0) for feature in FEATURES}])
+    
+    # calculating is_weekend from current day - weekday() returns 5 for Saturday, 6 for Sunday
+    from datetime import datetime
+    row.loc[0, "is_weekend"] = 1 if datetime.now().weekday() >= 5 else 0
     if not row.loc[0, "merchant_category"]:
         row.loc[0, "merchant_category"] = "Online Transfer"
     probability = float(model.predict_proba(row)[0][1])
     score = round(probability * 100, 2)
-    if score >= 70:
+    if score >= 75:
         level = "High"
         label = "Fraud"
-    elif score >= 40:
+    elif score >= 45:
         level = "Medium"
         label = "Fraud"
     else:

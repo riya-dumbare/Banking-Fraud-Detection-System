@@ -14,7 +14,7 @@ app.register_blueprint(report_bp)
 
 @app.get("/")
 def health_check():
-    return {"status": "running", "project": "AI-Assisted Banking Fraud Detection System"}
+    return {"status": "running", "project": "SecureBank Fraud Detection System"}
 
 if __name__ == "__main__":
     app.run(debug=True, host="127.0.0.1", port=5000)

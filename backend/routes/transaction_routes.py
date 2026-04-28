@@ -6,6 +6,8 @@ transaction_bp = Blueprint("transactions", __name__)
 
 @transaction_bp.get("/get-transactions")
 def get_transactions():
+    # JOIN is used here to get customer name and details alongside each transaction
+    # without JOIN we would need a separate API call for every transaction's customer info
     rows = fetch_all("""
         SELECT t.*, c.customer_code, c.full_name, c.home_location, c.trusted_device,
                c.account_age_days, c.risk_history, c.kyc_status
@@ -32,3 +34,21 @@ def update_status():
         return jsonify({"message": "Invalid transaction id or status"}), 400
     execute_query("UPDATE transactions SET status=%s WHERE id=%s", (status, transaction_id))
     return jsonify({"message": "Transaction status updated", "status": status})
+
+def dashboard_stats():
+    total = fetch_all("SELECT COUNT(*) as cnt FROM transactions")[0]["cnt"]
+    high_risk = fetch_all(
+        "SELECT COUNT(*) as cnt FROM transactions WHERE risk_level = 'High'"
+    )[0]["cnt"]
+    blocked = fetch_all(
+        "SELECT COUNT(*) as cnt FROM transactions WHERE status = 'Blocked'"
+    )[0]["cnt"]
+    pending = fetch_all(
+        "SELECT COUNT(*) as cnt FROM transactions WHERE status = 'Pending Review'"
+    )[0]["cnt"]
+    return jsonify({
+        "total_transactions": total,
+        "high_risk_count": high_risk,
+        "blocked_count": blocked,
+        "pending_review_count": pending
+    })

@@ -13,6 +13,8 @@ def signup():
     if not name or not email or len(password) < 6:
         return jsonify({"message": "Name, valid email and 6 character password are required"}), 400
     existing = fetch_all("SELECT id FROM users WHERE email=%s", (email,))
+    if "@" not in email or "." not in email.split("@")[-1]:
+        return jsonify({"message": "Please enter a properly formatted email address"}), 400
     if existing:
         return jsonify({"message": "Email already registered"}), 409
     user_id = execute_query(

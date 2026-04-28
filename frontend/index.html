@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FraudGuard Banking System</title>
+    <title>SecureBank - Fraud Detection System</title>
     <meta
       name="description"
       content="Professional fraud detection banking dashboard with review workflows, exports, customer risk profiles, and transaction timelines."
@@ -19,13 +19,13 @@
   <body>
     <div id="loader" class="loader-screen" aria-label="Loading dashboard">
       <div class="loader-ring"></div>
-      <strong>FraudGuard</strong>
+      <strong>SecureBank</strong>
     </div>
 
     <div id="loginPage" class="auth-shell">
       <section class="auth-hero" aria-label="FraudGuard introduction">
-        <div class="brand-mark">FG</div>
-        <h1>FraudGuard Banking System</h1>
+        <div class="brand-mark">SB</div>
+        <h1>SecureBank - Fraud Detection System</h1>
         <p>
           Enterprise fraud operations console for AI-assisted scoring, transaction monitoring, case
           review, and customer risk intelligence.
@@ -44,7 +44,7 @@
         </div>
         <form id="authForm" novalidate>
           <label
-            >Email<input id="email" type="email" placeholder="analyst@bank.com" required
+            >Email<input id="email" type="email" placeholder="riya@securebank.com" required
           /></label>
           <label
             >Password<span class="password-field"
@@ -70,7 +70,7 @@
 
     <div id="appShell" class="app-shell hidden">
       <aside class="sidebar" id="sidebar">
-        <div class="sidebar-brand"><span>FG</span><strong>FraudGuard</strong></div>
+        <div class="sidebar-brand"><span>SB</span><strong>SecureBank</strong></div>
         <nav aria-label="Main navigation">
           <button class="nav-item active" data-page="dashboard" type="button">
             <span>⌂</span> Dashboard
@@ -111,7 +111,7 @@
           >
             🔔<em id="alertCount">0</em>
           </button>
-          <div class="avatar">AS</div>
+          <div class="avatar">RS</div>
         </header>
 
         <main class="page-content">
@@ -323,8 +323,8 @@
             <div class="split-grid">
               <form id="profileForm" class="panel form-panel">
                 <h3>Profile</h3>
-                <label>Full name<input value="Aisha Smith" /></label
-                ><label>Email<input value="analyst@bank.com" /></label
+                <label>Full name<input value="Riya Sharma" /></label
+                ><label>Email<input value="riya@securebank.com" /></label
                 ><label>Phone<input value="+1 202 555 0199" /></label
                 ><button class="primary-btn" type="submit">Save Changes</button>
               </form>
@@ -361,6 +361,6 @@
     <div id="panelBackdrop" class="panel-backdrop"></div>
     <div id="toastStack" class="toast-stack" aria-live="polite"></div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script type="module" src="js/app.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
