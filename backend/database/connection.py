@@ -14,7 +14,7 @@ def fetch_all(query, params=None):
     # dictionary=True means rows come back as {"column": value} instead of (value, value)
     # params tuple prevents SQL injection - user input is never directly put in the query string
     conn = get_db_connection()
-    conn = get_db_connection()
+    
     cursor = conn.cursor(dictionary=True)
     cursor.execute(query, params or ())
     rows = cursor.fetchall()
