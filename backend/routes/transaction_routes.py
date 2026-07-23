@@ -35,6 +35,7 @@ def update_status():
     execute_query("UPDATE transactions SET status=%s WHERE id=%s", (status, transaction_id))
     return jsonify({"message": "Transaction status updated", "status": status})
 
+@transaction_bp.get("/dashboard-stats")
 def dashboard_stats():
     total = fetch_all("SELECT COUNT(*) as cnt FROM transactions")[0]["cnt"]
     high_risk = fetch_all(

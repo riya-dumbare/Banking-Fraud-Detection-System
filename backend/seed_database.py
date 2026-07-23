@@ -9,7 +9,7 @@ DATA_FILE = BASE_DIR / "data" / "synthetic_transactions.csv"
 def seed_transactions():
     train_model()
     with DATA_FILE.open() as file:
-        reader = csv.DictReader(file)
+        reader = csv.DictReader(file, delimiter="\t")
         for row in reader:
             existing = fetch_all("SELECT id FROM transactions WHERE transaction_ref=%s", (row["transaction_ref"],))
             if existing:

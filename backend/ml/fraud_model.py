@@ -13,8 +13,7 @@ DATA_PATH = BASE_DIR.parent / "data" / "synthetic_transactions.csv"
 
 FEATURES = [
     "amount", "location_mismatch", "device_mismatch", "transaction_velocity",
-    "ip_risk", "merchant_category", "account_age_days", "risk_history",
-    "is_weekend"
+    "ip_risk", "merchant_category", "account_age_days", "risk_history"
 ]
 
 def train_model():
@@ -51,9 +50,6 @@ def predict_fraud(payload):
     model = load_model()
     row = pd.DataFrame([{feature: payload.get(feature, 0) for feature in FEATURES}])
     
-    # calculating is_weekend from current day - weekday() returns 5 for Saturday, 6 for Sunday
-    from datetime import datetime
-    row.loc[0, "is_weekend"] = 1 if datetime.now().weekday() >= 5 else 0
     if not row.loc[0, "merchant_category"]:
         row.loc[0, "merchant_category"] = "Online Transfer"
     probability = float(model.predict_proba(row)[0][1])
