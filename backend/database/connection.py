@@ -1,35 +1,19 @@
-import mysql.connector
-from mysql.connector import Error
-from config import DB_CONFIG
+from pymongo import MongoClient, ReturnDocument
+from config import MONGO_CONFIG
 
-def get_db_connection():
-    # **DB_CONFIG unpacks the dictionary as keyword arguments to mysql.connect()
-    # if mysql is not running or password is wrong, this raises a clear error message
-    try:
-        return mysql.connector.connect(**DB_CONFIG)
-    except Error as exc:
-        raise RuntimeError(f"Database connection failed: {exc}")
+_client = MongoClient(MONGO_CONFIG["uri"])
+_db = _client[MONGO_CONFIG["database"]]
 
-def fetch_all(query, params=None):
-    # dictionary=True means rows come back as {"column": value} instead of (value, value)
-    # params tuple prevents SQL injection - user input is never directly put in the query string
-    conn = get_db_connection()
-    
-    cursor = conn.cursor(dictionary=True)
-    cursor.execute(query, params or ())
-    rows = cursor.fetchall()
-    cursor.close()
-    conn.close()
-    return rows
 
-def execute_query(query, params=None):
-    # commit() is essential - without it the change stays in a buffer and disappears when connection closes
-    # lastrowid returns the auto-generated ID of the newly inserted row
-    conn = get_db_connection()
-    cursor = conn.cursor()
-    cursor.execute(query, params or ())
-    conn.commit()
-    last_id = cursor.lastrowid
-    cursor.close()
-    conn.close()
-    return last_id
+def get_collection(name):
+    return _db[name]
+
+
+def get_next_id(counter_name):
+    counters = get_collection("counters")
+    result = counters.find_one_and_update(
+        {"_id": counter_name},
+        {"$inc": {"seq": 1}},
+        upsert=True,
+        return_document=ReturnDocument.AFTER,
+    )

@@ -1,9 +1,10 @@
 import os
+from pathlib import Path
+from dotenv import load_dotenv
 
-DB_CONFIG = {
-    "host": os.getenv("MYSQL_HOST", "localhost"),
-    "user": os.getenv("MYSQL_USER", "root"),
-    "password": os.getenv("MYSQL_PASSWORD", "riya"),
-    "database": os.getenv("MYSQL_DATABASE", "fraudguard_bank"),
-    "port": int(os.getenv("MYSQL_PORT", "3306")),
+load_dotenv(Path(__file__).resolve().parent / ".env")
+
+MONGO_CONFIG = {
+    "uri": os.getenv("MONGO_URI", "mongodb://localhost:27017"),
+    "database": os.getenv("MONGO_DATABASE", "fraudguard_bank"),
 }
