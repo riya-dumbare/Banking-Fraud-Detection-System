@@ -1,0 +1,1501 @@
+transaction_ref	customer_id	amount	merchant	merchant_category	location	device_id	location_mismatch	device_mismatch	transaction_velocity	ip_risk	account_age_days	risk_history	is_fraud
+TXN00001	1	1111.47	Gold Palace	Electronics	London	DEV-760	0	0	8	51	1918	2	0
+TXN00002	8	3344.98	Metro Mart	Electronics	Chennai	DEV-176	0	0	5	30	835	8	0
+TXN00003	7	155.61	SkyWays	Fuel	Mumbai	DEV-589	0	0	4	26	1253	5	0
+TXN00004	5	315.14	Gold Palace	Online Transfer	Chennai	DEV-472	0	0	2	99	1642	6	0
+TXN00005	5	528.16	UPI Transfer	Jewellery	Singapore	DEV-962	0	0	3	60	200	1	0
+TXN00006	9	4514.55	GameHub	Electronics	London	DEV-796	0	0	9	90	1593	0	0
+TXN00007	1	1562.95	Gold Palace	Travel	London	DEV-934	0	0	7	43	816	6	1
+TXN00008	7	2417.73	GameHub	Jewellery	Dubai	DEV-865	0	0	7	48	1207	4	1
+TXN00009	3	434.35	Gold Palace	Grocery	Singapore	DEV-469	1	0	9	82	1016	2	1
+TXN00010	1	442.49	GameHub	Fuel	Dubai	DEV-760	0	0	3	72	1715	8	0
+TXN00011	6	1813.53	City ATM	Electronics	Mumbai	DEV-127	0	0	6	20	428	2	0
+TXN00012	10	1277.23	City ATM	Grocery	Singapore	DEV-602	0	0	4	52	254	3	0
+TXN00013	8	1985.97	City ATM	Electronics	Singapore	DEV-142	0	0	8	21	915	6	0
+TXN00014	8	1023.62	Gold Palace	Fuel	London	DEV-751	0	1	4	76	277	8	1
+TXN00015	8	1556.71	Metro Mart	Gaming	Bengaluru	DEV-970	1	0	8	2	549	8	0
+TXN00016	8	1397.31	TechZone	Gaming	Delhi	DEV-713	1	0	7	82	1453	5	1
+TXN00017	6	2440.58	TechZone	Travel	Dubai	DEV-855	0	0	7	92	1804	0	0
+TXN00018	2	2505.66	GameHub	Jewellery	Dubai	DEV-310	0	0	9	2	1531	0	0
+TXN00019	9	282.06	GameHub	Online Transfer	Delhi	DEV-994	0	0	8	63	712	6	0
+TXN00020	5	160.37	Metro Mart	Electronics	Chennai	DEV-595	0	0	3	7	1795	4	0
+TXN00021	6	2985.64	UPI Transfer	Electronics	London	DEV-707	0	0	5	36	905	1	0
+TXN00022	4	3529.65	UPI Transfer	Gaming	Delhi	DEV-793	0	0	5	33	414	6	0
+TXN00023	2	483.69	City ATM	Electronics	Singapore	DEV-675	0	0	1	51	1668	8	0
+TXN00024	10	227.27	TechZone	Travel	Dubai	DEV-385	0	0	6	91	1146	0	0
+TXN00025	8	1324.95	SkyWays	Fuel	Mumbai	DEV-650	0	0	4	46	827	7	0
+TXN00026	7	2801.06	QuickFuel	Fuel	Chennai	DEV-688	0	0	4	39	1460	3	0
+TXN00027	5	6110.94	Metro Mart	Electronics	Singapore	DEV-871	0	0	1	9	1599	3	0
+TXN00028	9	1928.83	Metro Mart	Grocery	Kolkata	DEV-533	0	0	5	88	507	6	0
+TXN00029	6	867.36	QuickFuel	Grocery	Mumbai	DEV-551	0	0	6	31	275	2	0
+TXN00030	5	542.5	TechZone	ATM Withdrawal	Bengaluru	DEV-552	1	0	1	46	1146	1	0
+TXN00031	5	1224.52	Metro Mart	Grocery	London	DEV-202	0	0	6	9	132	8	0
+TXN00032	3	925.8	City ATM	Online Transfer	Chennai	DEV-181	0	0	2	28	1411	3	0
+TXN00033	1	486.11	UPI Transfer	Online Transfer	Kolkata	DEV-118	0	0	2	55	978	1	0
+TXN00034	6	7660.86	SkyWays	Jewellery	Chennai	DEV-699	0	0	4	90	487	6	0
+TXN00035	9	6042.97	Metro Mart	ATM Withdrawal	Bengaluru	DEV-476	1	0	4	32	1324	1	0
+TXN00036	1	3369.24	GameHub	Travel	Kolkata	DEV-879	0	0	9	56	838	6	0
+TXN00037	9	529.13	City ATM	Fuel	Chennai	DEV-732	0	0	1	87	866	0	0
+TXN00038	9	2616.3	TechZone	Grocery	Mumbai	DEV-227	0	0	4	36	491	4	0
+TXN00039	3	2155.25	QuickFuel	Jewellery	Bengaluru	DEV-190	1	0	7	29	1493	3	1
+TXN00040	7	1804.96	QuickFuel	Online Transfer	London	DEV-429	0	0	3	4	1988	8	0
+TXN00041	2	3732.0	TechZone	ATM Withdrawal	Delhi	DEV-928	0	0	9	90	1368	4	1
+TXN00042	8	2147.02	SkyWays	Electronics	Kolkata	DEV-143	0	0	7	11	536	8	0
+TXN00043	8	2359.05	TechZone	Grocery	London	DEV-268	0	0	9	21	1836	2	0
+TXN00044	4	2149.98	Metro Mart	ATM Withdrawal	Mumbai	DEV-126	0	1	9	13	283	4	1
+TXN00045	1	1647.0	Gold Palace	Online Transfer	Delhi	DEV-472	0	0	1	70	651	7	1
+TXN00046	10	243.41	Gold Palace	Gaming	Delhi	DEV-990	0	0	5	36	96	1	0
+TXN00047	5	1306.7	TechZone	Electronics	Dubai	DEV-715	1	0	7	70	1869	8	1
+TXN00048	9	734.67	QuickFuel	Electronics	Kolkata	DEV-544	0	0	1	60	117	6	1
+TXN00049	7	383.04	Gold Palace	Electronics	Delhi	DEV-229	0	1	5	1	1210	6	0
+TXN00050	8	5506.23	QuickFuel	Online Transfer	Bengaluru	DEV-419	0	0	7	30	437	2	0
+TXN00051	8	5745.06	Metro Mart	Grocery	Delhi	DEV-572	1	0	8	0	482	7	1
+TXN00052	2	4118.72	City ATM	ATM Withdrawal	London	DEV-347	0	0	4	6	1345	7	0
+TXN00053	4	1524.91	City ATM	Grocery	Bengaluru	DEV-734	0	0	8	47	1772	2	0
+TXN00054	5	4086.98	Metro Mart	Electronics	London	DEV-982	1	1	7	26	58	5	0
+TXN00055	5	1225.19	Gold Palace	Fuel	Singapore	DEV-285	1	0	1	8	365	0	0
+TXN00056	1	1454.65	City ATM	Online Transfer	Dubai	DEV-327	1	0	3	40	645	3	0
+TXN00057	6	452.99	SkyWays	Online Transfer	London	DEV-213	0	1	9	45	2076	1	0
+TXN00058	2	1732.45	City ATM	ATM Withdrawal	Singapore	DEV-753	0	0	1	99	146	5	1
+TXN00059	8	1279.66	SkyWays	Gaming	Delhi	DEV-515	0	0	1	66	409	4	0
+TXN00060	7	375.26	Metro Mart	Grocery	Mumbai	DEV-355	0	0	4	39	899	4	0
+TXN00061	10	1157.39	SkyWays	Grocery	Kolkata	DEV-297	0	0	9	47	729	6	0
+TXN00062	8	1128.05	SkyWays	ATM Withdrawal	Delhi	DEV-163	0	0	7	8	125	8	0
+TXN00063	4	6110.75	QuickFuel	Electronics	Mumbai	DEV-528	0	0	2	38	1197	1	0
+TXN00064	10	2710.24	GameHub	Travel	Kolkata	DEV-714	1	0	4	58	1344	1	0
+TXN00065	5	1224.52	TechZone	Gaming	Delhi	DEV-311	0	0	9	2	405	1	0
+TXN00066	4	1516.12	UPI Transfer	Online Transfer	Mumbai	DEV-101	0	0	2	91	1520	8	1
+TXN00067	10	1261.16	TechZone	Travel	Bengaluru	DEV-525	0	1	6	51	143	0	1
+TXN00068	4	1009.67	UPI Transfer	Gaming	Kolkata	DEV-708	0	0	5	78	1614	0	0
+TXN00069	1	457.52	GameHub	Jewellery	Mumbai	DEV-410	0	0	7	27	584	1	0
+TXN00070	5	1057.91	UPI Transfer	Jewellery	Delhi	DEV-325	0	0	7	83	509	6	1
+TXN00071	8	619.25	City ATM	Gaming	Delhi	DEV-238	0	0	8	36	448	5	0
+TXN00072	2	393.36	QuickFuel	Electronics	Kolkata	DEV-771	1	0	2	92	1913	8	1
+TXN00073	5	1920.04	GameHub	Electronics	Singapore	DEV-875	0	0	5	52	1114	1	0
+TXN00074	2	1723.54	Gold Palace	Jewellery	London	DEV-792	0	0	7	63	1524	3	0
+TXN00075	7	242.73	Gold Palace	Grocery	Dubai	DEV-566	0	0	4	20	464	4	0
+TXN00076	5	1085.27	UPI Transfer	Grocery	London	DEV-751	1	1	7	99	143	0	1
+TXN00077	4	2969.45	QuickFuel	Gaming	Bengaluru	DEV-457	0	0	6	19	103	8	0
+TXN00078	3	3144.16	Gold Palace	Grocery	Chennai	DEV-122	0	0	4	3	980	7	0
+TXN00079	6	3051.09	Metro Mart	Jewellery	Mumbai	DEV-430	0	0	1	43	731	1	0
+TXN00080	7	1255.16	SkyWays	Fuel	Dubai	DEV-733	0	0	9	83	1693	7	0
+TXN00081	10	566.49	Gold Palace	Grocery	Chennai	DEV-682	0	0	8	92	1738	4	1
+TXN00082	5	456.99	SkyWays	Jewellery	Bengaluru	DEV-991	0	0	9	85	697	3	0
+TXN00083	2	1652.66	GameHub	Gaming	Dubai	DEV-997	0	0	3	55	965	8	1
+TXN00084	9	1705.05	City ATM	Electronics	Kolkata	DEV-318	0	0	3	91	851	4	1
+TXN00085	7	3860.68	UPI Transfer	Grocery	Chennai	DEV-108	0	1	3	49	1491	2	0
+TXN00086	8	3261.63	UPI Transfer	Grocery	Bengaluru	DEV-346	0	0	1	47	1392	7	0
+TXN00087	1	1075.99	City ATM	Grocery	Kolkata	DEV-888	0	0	2	18	1439	6	0
+TXN00088	4	395.53	TechZone	ATM Withdrawal	Delhi	DEV-832	0	0	3	78	140	1	0
+TXN00089	8	909.42	GameHub	Fuel	London	DEV-188	0	0	9	31	756	6	0
+TXN00090	9	1473.67	QuickFuel	Fuel	Singapore	DEV-244	0	1	2	19	2127	5	0
+TXN00091	5	1010.42	TechZone	Travel	Mumbai	DEV-607	0	0	5	36	765	2	0
+TXN00092	9	720.46	QuickFuel	Electronics	Singapore	DEV-694	1	0	5	60	400	3	0
+TXN00093	9	1521.72	QuickFuel	ATM Withdrawal	Chennai	DEV-984	1	1	4	27	455	7	0
+TXN00094	4	770.04	TechZone	Electronics	Singapore	DEV-779	0	0	9	35	78	1	0
+TXN00095	9	688.66	City ATM	Online Transfer	Delhi	DEV-290	0	0	1	33	1722	6	0
+TXN00096	3	1604.08	GameHub	Grocery	Mumbai	DEV-133	0	0	8	59	31	7	0
+TXN00097	3	844.05	GameHub	Grocery	Kolkata	DEV-670	0	0	7	71	1319	8	1
+TXN00098	7	1509.74	UPI Transfer	Online Transfer	London	DEV-598	0	1	3	67	891	2	0
+TXN00099	7	1549.8	Gold Palace	Travel	Dubai	DEV-929	0	0	7	14	226	2	0
+TXN00100	2	434.64	SkyWays	Electronics	Dubai	DEV-618	0	0	4	34	1947	8	0
+TXN00101	9	785.94	GameHub	Fuel	London	DEV-551	1	0	9	64	1637	4	1
+TXN00102	2	4420.46	City ATM	Travel	Dubai	DEV-373	0	0	1	21	1807	5	0
+TXN00103	9	425.87	SkyWays	Jewellery	Singapore	DEV-177	1	0	1	6	2061	4	0
+TXN00104	1	180.37	City ATM	ATM Withdrawal	London	DEV-888	0	0	5	32	2008	4	0
+TXN00105	8	226.86	City ATM	Travel	Delhi	DEV-843	0	0	9	67	1547	5	1
+TXN00106	8	1244.14	UPI Transfer	Gaming	Bengaluru	DEV-246	0	0	1	66	1183	3	0
+TXN00107	8	1246.16	Metro Mart	Jewellery	Bengaluru	DEV-733	0	1	8	12	1539	3	0
+TXN00108	7	1090.24	City ATM	Online Transfer	Delhi	DEV-427	0	0	9	67	998	3	1
+TXN00109	5	3614.72	QuickFuel	Travel	Bengaluru	DEV-493	0	0	5	19	415	5	0
+TXN00110	8	109.34	QuickFuel	Gaming	London	DEV-863	0	1	8	74	861	7	1
+TXN00111	3	1730.8	UPI Transfer	Travel	Mumbai	DEV-857	0	1	7	56	1037	4	0
+TXN00112	8	4940.86	SkyWays	ATM Withdrawal	Bengaluru	DEV-271	0	0	2	12	121	6	0
+TXN00113	6	439.22	QuickFuel	Online Transfer	Mumbai	DEV-376	0	0	8	35	1867	3	0
+TXN00114	5	861.07	TechZone	Fuel	Mumbai	DEV-839	1	0	7	81	2002	6	0
+TXN00115	6	615.48	City ATM	Travel	Kolkata	DEV-925	0	0	1	43	935	3	0
+TXN00116	6	541.9	TechZone	Jewellery	Mumbai	DEV-171	0	0	6	68	1101	3	0
+TXN00117	1	903.58	TechZone	Travel	Dubai	DEV-850	1	0	6	74	1853	0	1
+TXN00118	2	4379.71	Gold Palace	Jewellery	Chennai	DEV-540	1	0	8	3	1012	2	0
+TXN00119	3	6333.75	UPI Transfer	Gaming	London	DEV-631	0	0	7	93	1520	6	1
+TXN00120	2	895.74	UPI Transfer	Fuel	Bengaluru	DEV-167	0	0	5	33	1143	0	0
+TXN00121	5	6731.51	GameHub	Grocery	Bengaluru	DEV-712	0	0	3	79	611	2	0
+TXN00122	7	1251.4	Gold Palace	Grocery	Singapore	DEV-710	0	0	2	46	1751	6	0
+TXN00123	7	5874.18	TechZone	Grocery	Singapore	DEV-696	0	1	1	57	440	7	0
+TXN00124	5	1114.36	UPI Transfer	Travel	Bengaluru	DEV-811	0	0	6	36	509	3	0
+TXN00125	9	1363.69	QuickFuel	Grocery	Dubai	DEV-951	0	0	9	85	1527	3	0
+TXN00126	6	1684.0	GameHub	Online Transfer	Singapore	DEV-864	0	1	1	11	1567	4	0
+TXN00127	1	20000.0	QuickFuel	Fuel	Bengaluru	DEV-770	0	0	7	89	2100	6	0
+TXN00128	8	2607.53	TechZone	Gaming	Singapore	DEV-983	0	1	6	20	1569	4	0
+TXN00129	6	641.28	Metro Mart	Gaming	Mumbai	DEV-707	0	0	2	88	73	1	0
+TXN00130	7	2898.93	UPI Transfer	Gaming	Mumbai	DEV-704	1	0	2	2	1872	3	0
+TXN00131	6	875.11	City ATM	Jewellery	Delhi	DEV-587	0	0	3	1	922	2	0
+TXN00132	6	779.95	Metro Mart	Fuel	Singapore	DEV-792	0	0	7	9	38	6	0
+TXN00133	1	2745.56	TechZone	ATM Withdrawal	London	DEV-164	0	0	3	54	1282	1	0
+TXN00134	6	1246.35	GameHub	Grocery	London	DEV-555	1	0	8	26	391	5	1
+TXN00135	8	1557.31	GameHub	Electronics	Chennai	DEV-482	0	0	4	59	926	1	0
+TXN00136	4	1227.32	QuickFuel	Electronics	Delhi	DEV-921	0	0	1	81	1046	8	0
+TXN00137	7	1640.78	Gold Palace	Online Transfer	Dubai	DEV-165	0	0	1	2	181	5	0
+TXN00138	1	1776.62	Gold Palace	Jewellery	Dubai	DEV-679	1	0	4	52	1874	1	0
+TXN00139	4	212.03	Metro Mart	Gaming	Singapore	DEV-265	0	0	4	73	1132	8	0
+TXN00140	5	2208.16	City ATM	ATM Withdrawal	Mumbai	DEV-895	0	0	7	42	2123	5	0
+TXN00141	10	500.79	QuickFuel	Electronics	Mumbai	DEV-866	0	0	5	92	1033	5	1
+TXN00142	3	330.94	TechZone	Gaming	London	DEV-311	0	0	2	66	1316	0	0
+TXN00143	3	1149.9	Metro Mart	Grocery	Dubai	DEV-884	0	0	2	3	1790	1	0
+TXN00144	5	1307.12	City ATM	ATM Withdrawal	London	DEV-547	1	0	6	54	482	7	1
+TXN00145	10	649.27	Gold Palace	Grocery	Bengaluru	DEV-973	0	0	4	38	2001	4	0
+TXN00146	9	2560.43	Metro Mart	Gaming	London	DEV-756	0	0	7	13	422	5	0
+TXN00147	1	362.14	SkyWays	Electronics	Delhi	DEV-131	1	0	9	95	2191	8	0
+TXN00148	3	840.29	QuickFuel	ATM Withdrawal	Bengaluru	DEV-282	0	0	4	22	1413	3	0
+TXN00149	9	715.95	City ATM	Grocery	Delhi	DEV-463	1	0	5	8	1150	3	0
+TXN00150	1	1162.2	Metro Mart	Electronics	Chennai	DEV-290	0	0	8	22	477	7	0
+TXN00151	9	1557.72	City ATM	ATM Withdrawal	Chennai	DEV-219	0	0	2	82	1260	0	0
+TXN00152	3	489.26	City ATM	Travel	Bengaluru	DEV-980	0	0	5	59	1225	4	0
+TXN00153	10	2325.88	SkyWays	Fuel	Mumbai	DEV-882	0	0	3	81	2164	7	0
+TXN00154	3	1282.67	GameHub	Travel	London	DEV-491	1	0	6	46	1839	2	1
+TXN00155	5	220.8	Metro Mart	Fuel	London	DEV-293	0	0	7	11	1072	2	0
+TXN00156	7	207.94	GameHub	Electronics	London	DEV-263	0	0	2	38	869	4	0
+TXN00157	2	1198.6	City ATM	Jewellery	Bengaluru	DEV-924	0	0	2	19	863	0	0
+TXN00158	6	993.4	City ATM	Fuel	Kolkata	DEV-398	0	0	1	55	845	0	0
+TXN00159	6	1104.25	QuickFuel	Grocery	Delhi	DEV-111	0	0	1	26	49	2	0
+TXN00160	8	1181.83	City ATM	Grocery	Mumbai	DEV-457	0	0	1	97	98	8	0
+TXN00161	10	1484.75	SkyWays	ATM Withdrawal	Bengaluru	DEV-508	0	0	7	37	1658	1	0
+TXN00162	7	2843.77	City ATM	ATM Withdrawal	Singapore	DEV-660	0	0	9	31	573	6	1
+TXN00163	5	445.86	Gold Palace	Grocery	Bengaluru	DEV-404	0	0	4	98	916	3	0
+TXN00164	5	422.09	GameHub	Grocery	Mumbai	DEV-930	0	0	8	52	1542	6	0
+TXN00165	5	453.05	Metro Mart	Travel	Chennai	DEV-679	0	0	7	17	1344	2	0
+TXN00166	9	1571.88	TechZone	ATM Withdrawal	Mumbai	DEV-987	1	0	8	48	805	7	1
+TXN00167	4	3716.18	UPI Transfer	Online Transfer	Dubai	DEV-430	0	0	7	25	1660	3	0
+TXN00168	2	822.04	Gold Palace	Gaming	Singapore	DEV-686	0	0	2	71	365	7	0
+TXN00169	4	127.55	GameHub	Fuel	Singapore	DEV-428	0	1	5	57	1050	7	0
+TXN00170	1	261.49	UPI Transfer	Online Transfer	Bengaluru	DEV-729	1	0	5	73	250	3	0
+TXN00171	2	572.65	QuickFuel	Travel	Mumbai	DEV-771	1	0	6	94	1178	6	1
+TXN00172	1	733.66	GameHub	Online Transfer	Kolkata	DEV-389	0	0	8	72	227	1	1
+TXN00173	8	839.2	SkyWays	Jewellery	Singapore	DEV-943	0	0	2	34	2072	4	0
+TXN00174	8	1254.79	UPI Transfer	Fuel	Dubai	DEV-871	0	0	7	20	1456	3	0
+TXN00175	7	915.46	City ATM	Online Transfer	Kolkata	DEV-905	0	0	8	52	555	8	1
+TXN00176	5	3116.31	Gold Palace	Online Transfer	Singapore	DEV-296	0	0	2	44	1355	8	1
+TXN00177	8	659.57	SkyWays	Electronics	London	DEV-746	0	0	4	31	782	7	0
+TXN00178	2	557.75	SkyWays	Grocery	London	DEV-195	0	0	9	81	1150	8	1
+TXN00179	10	1864.95	UPI Transfer	Travel	Singapore	DEV-194	0	0	1	90	384	8	0
+TXN00180	6	304.27	TechZone	ATM Withdrawal	Delhi	DEV-975	0	0	2	38	1110	6	0
+TXN00181	10	1721.11	Gold Palace	Fuel	Delhi	DEV-237	1	0	8	68	252	5	0
+TXN00182	2	1329.15	GameHub	Fuel	Singapore	DEV-877	0	0	2	98	353	1	0
+TXN00183	5	1061.36	SkyWays	Online Transfer	Dubai	DEV-487	0	1	7	1	1293	7	0
+TXN00184	7	5061.65	City ATM	Fuel	Delhi	DEV-373	1	0	9	36	1111	1	1
+TXN00185	5	692.3	QuickFuel	Electronics	Chennai	DEV-166	0	0	5	73	660	1	0
+TXN00186	5	7740.86	UPI Transfer	Online Transfer	London	DEV-707	0	0	5	49	150	7	1
+TXN00187	2	989.41	City ATM	Jewellery	Delhi	DEV-749	1	0	4	79	943	1	1
+TXN00188	4	384.02	SkyWays	Online Transfer	Mumbai	DEV-520	0	0	4	47	2038	1	0
+TXN00189	3	1290.68	City ATM	Travel	Kolkata	DEV-828	1	0	4	6	1563	4	0
+TXN00190	4	460.07	Metro Mart	Electronics	Chennai	DEV-390	1	0	5	43	146	5	1
+TXN00191	7	616.11	SkyWays	Electronics	Bengaluru	DEV-596	0	0	9	40	2064	0	0
+TXN00192	7	1732.52	Metro Mart	Online Transfer	Mumbai	DEV-358	1	0	9	84	943	3	1
+TXN00193	7	1998.24	GameHub	Grocery	Mumbai	DEV-624	1	0	8	14	1275	2	0
+TXN00194	4	692.32	QuickFuel	Grocery	Bengaluru	DEV-222	0	0	2	15	21	2	0
+TXN00195	10	2947.36	GameHub	Gaming	Delhi	DEV-528	1	1	3	14	695	1	0
+TXN00196	1	3434.95	UPI Transfer	Online Transfer	Mumbai	DEV-594	0	0	7	56	1733	6	0
+TXN00197	4	4414.6	City ATM	Gaming	Kolkata	DEV-600	0	0	5	99	740	4	1
+TXN00198	2	1951.73	QuickFuel	Fuel	Bengaluru	DEV-501	1	0	4	61	382	8	1
+TXN00199	4	4134.35	QuickFuel	ATM Withdrawal	London	DEV-679	0	0	3	81	217	0	0
+TXN00200	10	223.02	Gold Palace	Fuel	Singapore	DEV-560	1	0	2	85	2036	6	0
+TXN00201	4	910.4	QuickFuel	Online Transfer	Kolkata	DEV-354	0	0	3	60	1792	8	0
+TXN00202	10	555.4	UPI Transfer	Grocery	Mumbai	DEV-293	1	0	4	60	115	4	0
+TXN00203	5	1349.25	UPI Transfer	ATM Withdrawal	Dubai	DEV-682	0	0	4	24	2036	6	1
+TXN00204	7	724.66	QuickFuel	Fuel	Kolkata	DEV-944	0	0	5	96	1809	3	0
+TXN00205	5	1043.63	Metro Mart	Gaming	Kolkata	DEV-777	0	0	3	78	804	5	1
+TXN00206	3	6594.28	QuickFuel	Fuel	Delhi	DEV-674	1	1	2	87	1451	8	1
+TXN00207	8	1040.29	GameHub	Gaming	Dubai	DEV-929	0	0	8	98	582	4	1
+TXN00208	10	1758.85	QuickFuel	Electronics	Delhi	DEV-909	0	0	4	34	564	5	0
+TXN00209	3	983.34	GameHub	Travel	Bengaluru	DEV-555	0	0	3	14	1577	8	0
+TXN00210	8	1297.43	QuickFuel	Grocery	Chennai	DEV-198	0	0	6	85	461	4	0
+TXN00211	3	1218.55	City ATM	Online Transfer	London	DEV-670	1	0	5	47	794	1	0
+TXN00212	8	1814.37	TechZone	Grocery	Singapore	DEV-660	1	0	6	95	799	6	1
+TXN00213	8	3459.15	GameHub	Fuel	Kolkata	DEV-349	0	0	2	69	347	6	1
+TXN00214	5	5338.26	GameHub	Jewellery	Delhi	DEV-864	0	0	7	25	1825	2	0
+TXN00215	8	1601.44	TechZone	Fuel	Kolkata	DEV-882	0	0	2	35	1488	6	0
+TXN00216	3	2060.27	Gold Palace	Grocery	Chennai	DEV-397	0	0	8	61	1899	0	0
+TXN00217	1	430.19	Gold Palace	Jewellery	Kolkata	DEV-529	0	0	4	39	1162	2	0
+TXN00218	1	1119.81	TechZone	Online Transfer	Delhi	DEV-275	1	1	4	28	402	7	0
+TXN00219	5	2824.99	UPI Transfer	Online Transfer	Dubai	DEV-260	0	1	4	20	629	5	1
+TXN00220	10	2642.21	Metro Mart	ATM Withdrawal	Singapore	DEV-338	0	1	4	64	790	5	0
+TXN00221	2	1466.23	SkyWays	Travel	Mumbai	DEV-429	0	1	6	3	2073	5	0
+TXN00222	5	2691.23	GameHub	Electronics	London	DEV-345	0	0	5	9	537	1	1
+TXN00223	8	1885.01	City ATM	Grocery	Bengaluru	DEV-236	0	0	2	4	1530	8	0
+TXN00224	3	3569.84	TechZone	ATM Withdrawal	Chennai	DEV-502	0	0	6	73	287	2	1
+TXN00225	8	1572.5	UPI Transfer	Jewellery	Singapore	DEV-661	0	0	3	2	2104	7	0
+TXN00226	4	879.96	TechZone	Travel	London	DEV-393	0	0	1	41	1429	8	0
+TXN00227	9	1639.68	Gold Palace	Online Transfer	Chennai	DEV-580	0	0	8	12	958	2	1
+TXN00228	6	86.7	City ATM	Travel	Singapore	DEV-344	0	0	3	58	773	5	0
+TXN00229	6	1710.6	City ATM	Fuel	Mumbai	DEV-733	1	0	6	3	792	0	0
+TXN00230	2	50.0	City ATM	Online Transfer	Chennai	DEV-683	0	0	2	2	511	5	0
+TXN00231	5	256.95	QuickFuel	Jewellery	Kolkata	DEV-964	1	0	4	41	1327	3	0
+TXN00232	9	1820.0	GameHub	Gaming	Delhi	DEV-147	0	0	4	69	1907	0	0
+TXN00233	1	1862.69	TechZone	Jewellery	Bengaluru	DEV-867	1	0	2	10	545	6	0
+TXN00234	8	425.73	SkyWays	Gaming	Chennai	DEV-406	0	0	9	49	1651	8	0
+TXN00235	5	638.49	QuickFuel	Jewellery	Delhi	DEV-159	0	0	3	81	1254	0	0
+TXN00236	8	4160.9	City ATM	Travel	Dubai	DEV-720	0	0	6	62	1706	8	0
+TXN00237	7	783.97	QuickFuel	Travel	Dubai	DEV-254	1	0	6	75	1698	7	1
+TXN00238	5	9123.68	Metro Mart	Gaming	Chennai	DEV-258	0	1	4	31	105	4	1
+TXN00239	4	1209.87	City ATM	Travel	Singapore	DEV-981	0	1	6	94	66	8	0
+TXN00240	7	1749.76	City ATM	Electronics	Mumbai	DEV-298	0	0	6	14	2014	2	0
+TXN00241	2	5193.62	GameHub	Travel	Bengaluru	DEV-592	1	1	1	60	358	6	1
+TXN00242	6	1363.66	Gold Palace	Fuel	Kolkata	DEV-280	0	0	7	43	1272	6	0
+TXN00243	1	491.71	QuickFuel	Jewellery	Dubai	DEV-211	0	1	2	3	1661	5	0
+TXN00244	7	1098.0	GameHub	Grocery	London	DEV-100	0	0	4	94	1118	7	1
+TXN00245	7	1173.74	GameHub	Electronics	Singapore	DEV-114	1	0	4	70	33	7	1
+TXN00246	1	354.86	QuickFuel	ATM Withdrawal	Bengaluru	DEV-526	0	0	5	22	43	7	0
+TXN00247	8	962.71	Gold Palace	Travel	London	DEV-490	1	0	1	5	1479	5	0
+TXN00248	5	621.43	City ATM	Travel	Bengaluru	DEV-135	1	1	7	67	1976	8	1
+TXN00249	8	2784.77	QuickFuel	Fuel	Dubai	DEV-414	1	1	4	54	768	5	1
+TXN00250	1	1250.31	Gold Palace	Gaming	Chennai	DEV-345	0	0	1	4	1205	5	0
+TXN00251	2	939.63	TechZone	Electronics	Chennai	DEV-614	0	0	1	98	2055	1	0
+TXN00252	5	1101.51	SkyWays	Online Transfer	Bengaluru	DEV-995	0	0	5	71	1818	2	1
+TXN00253	2	1481.5	SkyWays	Travel	London	DEV-722	0	0	6	46	1198	8	0
+TXN00254	4	2111.46	QuickFuel	Online Transfer	Mumbai	DEV-926	0	0	5	23	1449	4	1
+TXN00255	7	492.88	UPI Transfer	Travel	Delhi	DEV-273	0	1	7	27	2115	4	0
+TXN00256	2	474.65	TechZone	Online Transfer	Singapore	DEV-293	0	0	7	45	1756	7	0
+TXN00257	7	3275.45	Gold Palace	Grocery	Dubai	DEV-775	0	0	8	5	926	2	0
+TXN00258	2	836.22	City ATM	Gaming	Kolkata	DEV-379	1	0	9	36	1530	2	0
+TXN00259	2	338.61	UPI Transfer	Fuel	Bengaluru	DEV-863	0	0	8	21	737	0	0
+TXN00260	6	1807.01	Gold Palace	Grocery	Kolkata	DEV-517	0	0	8	11	2027	2	0
+TXN00261	8	1839.1	Gold Palace	Fuel	Singapore	DEV-280	0	1	4	12	223	4	0
+TXN00262	2	305.62	Gold Palace	Travel	Kolkata	DEV-859	0	0	5	34	511	6	1
+TXN00263	3	1490.0	TechZone	Grocery	London	DEV-595	0	0	6	38	774	2	0
+TXN00264	10	2349.66	GameHub	Jewellery	Dubai	DEV-822	0	1	2	35	460	3	0
+TXN00265	10	1697.56	Metro Mart	Fuel	Dubai	DEV-507	0	0	7	68	1317	1	0
+TXN00266	6	2140.48	GameHub	Fuel	London	DEV-213	0	0	6	52	1573	7	0
+TXN00267	5	342.46	UPI Transfer	Gaming	Kolkata	DEV-712	0	1	5	19	1961	4	0
+TXN00268	4	1632.61	SkyWays	Travel	Bengaluru	DEV-212	0	0	8	97	1113	1	1
+TXN00269	7	923.01	UPI Transfer	Electronics	Delhi	DEV-696	0	0	7	73	1374	5	0
+TXN00270	6	784.85	GameHub	Grocery	Mumbai	DEV-475	1	0	9	47	1326	3	0
+TXN00271	3	2653.14	TechZone	Electronics	Bengaluru	DEV-812	0	0	9	4	27	7	0
+TXN00272	1	4588.68	TechZone	Fuel	London	DEV-883	0	0	8	91	1564	2	1
+TXN00273	2	6093.23	Gold Palace	Travel	Delhi	DEV-466	0	1	3	74	70	7	1
+TXN00274	10	3957.34	Gold Palace	Travel	Dubai	DEV-893	0	0	2	46	1213	6	0
+TXN00275	5	1097.99	Metro Mart	Gaming	Singapore	DEV-199	0	0	3	16	2199	1	0
+TXN00276	5	1664.78	QuickFuel	Travel	Chennai	DEV-196	0	0	7	10	1737	6	0
+TXN00277	5	2416.66	GameHub	Gaming	Bengaluru	DEV-994	0	0	8	28	1124	6	0
+TXN00278	8	1351.62	QuickFuel	ATM Withdrawal	Bengaluru	DEV-616	0	0	8	23	715	4	0
+TXN00279	1	1363.33	Gold Palace	Electronics	London	DEV-505	0	0	7	20	1845	1	0
+TXN00280	1	2543.71	SkyWays	Fuel	Dubai	DEV-240	0	0	7	40	1892	4	0
+TXN00281	3	1149.0	Gold Palace	Gaming	Kolkata	DEV-360	0	0	9	4	822	5	1
+TXN00282	5	628.69	Metro Mart	ATM Withdrawal	Bengaluru	DEV-717	1	0	7	32	254	1	0
+TXN00283	7	834.62	SkyWays	Travel	Delhi	DEV-839	0	0	2	87	1289	3	0
+TXN00284	5	2144.19	SkyWays	ATM Withdrawal	Singapore	DEV-924	1	0	5	86	1402	6	1
+TXN00285	5	1215.24	UPI Transfer	ATM Withdrawal	Dubai	DEV-466	0	1	4	0	2056	4	0
+TXN00286	10	1646.14	UPI Transfer	Grocery	Dubai	DEV-509	0	0	6	67	1960	8	0
+TXN00287	2	2215.14	TechZone	Travel	Mumbai	DEV-246	0	0	6	99	519	1	1
+TXN00288	6	864.92	Gold Palace	Online Transfer	Singapore	DEV-174	0	1	3	57	570	7	0
+TXN00289	6	2393.77	SkyWays	Travel	Bengaluru	DEV-494	0	0	3	39	2193	3	0
+TXN00290	5	1704.38	UPI Transfer	Jewellery	Singapore	DEV-621	1	0	1	49	732	2	0
+TXN00291	9	398.88	QuickFuel	Travel	Kolkata	DEV-193	0	0	3	21	1019	8	0
+TXN00292	3	4438.51	City ATM	Online Transfer	Mumbai	DEV-467	0	1	8	39	685	5	1
+TXN00293	10	772.27	UPI Transfer	Grocery	Singapore	DEV-677	1	0	6	93	877	4	1
+TXN00294	4	273.26	TechZone	Travel	Bengaluru	DEV-829	1	1	9	61	1250	2	1
+TXN00295	6	473.17	SkyWays	Travel	Chennai	DEV-944	0	0	9	43	657	7	1
+TXN00296	6	483.5	Gold Palace	Grocery	Bengaluru	DEV-406	0	0	8	12	920	0	0
+TXN00297	9	1270.23	TechZone	Jewellery	Singapore	DEV-452	0	0	2	90	788	1	0
+TXN00298	5	947.22	City ATM	Travel	London	DEV-887	1	0	4	16	255	1	0
+TXN00299	3	895.02	GameHub	Gaming	Dubai	DEV-723	1	0	1	72	1734	5	0
+TXN00300	1	2116.95	SkyWays	Jewellery	Singapore	DEV-346	0	0	1	30	1963	0	0
+TXN00301	4	1645.65	GameHub	Fuel	Singapore	DEV-716	1	0	3	27	1092	7	0
+TXN00302	9	1610.73	City ATM	ATM Withdrawal	Kolkata	DEV-241	1	0	3	17	466	1	0
+TXN00303	1	1752.58	City ATM	Online Transfer	Dubai	DEV-504	0	0	1	37	1421	6	0
+TXN00304	9	2110.16	TechZone	Online Transfer	Dubai	DEV-375	0	0	8	67	1184	7	0
+TXN00305	6	181.79	GameHub	Grocery	Kolkata	DEV-993	0	0	5	41	1221	7	0
+TXN00306	2	873.06	GameHub	Online Transfer	Mumbai	DEV-131	1	0	6	2	1316	2	1
+TXN00307	4	170.34	GameHub	Jewellery	Mumbai	DEV-871	0	0	6	26	1585	0	0
+TXN00308	6	1251.95	City ATM	ATM Withdrawal	Chennai	DEV-353	0	0	9	16	108	6	1
+TXN00309	4	1206.92	TechZone	Electronics	Delhi	DEV-132	0	1	2	40	236	4	0
+TXN00310	2	3105.65	SkyWays	Online Transfer	Kolkata	DEV-694	0	0	4	90	228	8	1
+TXN00311	7	3529.36	SkyWays	Fuel	Mumbai	DEV-710	0	0	3	96	357	1	0
+TXN00312	7	1454.62	Metro Mart	Travel	Bengaluru	DEV-228	0	0	5	99	2138	5	0
+TXN00313	2	772.53	City ATM	Grocery	Kolkata	DEV-134	0	0	5	11	1611	1	0
+TXN00314	3	1875.53	City ATM	Gaming	Bengaluru	DEV-200	0	0	8	48	1468	4	0
+TXN00315	3	753.61	City ATM	Online Transfer	London	DEV-467	0	0	6	4	1543	0	0
+TXN00316	7	1210.45	Metro Mart	Fuel	Dubai	DEV-219	0	0	3	49	93	6	0
+TXN00317	8	2943.99	GameHub	Online Transfer	Delhi	DEV-732	0	0	6	57	485	5	0
+TXN00318	8	733.63	Metro Mart	Travel	Kolkata	DEV-169	0	0	9	77	1751	0	0
+TXN00319	10	2502.66	QuickFuel	Travel	Delhi	DEV-810	0	0	6	33	1028	4	0
+TXN00320	8	2229.79	GameHub	Jewellery	Chennai	DEV-887	0	0	6	3	1128	3	0
+TXN00321	4	513.21	City ATM	Jewellery	London	DEV-745	0	0	2	45	1655	6	0
+TXN00322	2	2911.74	GameHub	ATM Withdrawal	Bengaluru	DEV-949	0	0	1	42	183	4	0
+TXN00323	7	2272.67	SkyWays	Gaming	Dubai	DEV-945	0	0	2	62	1761	4	0
+TXN00324	10	1328.4	Metro Mart	Fuel	Bengaluru	DEV-141	1	0	1	9	1504	7	0
+TXN00325	10	610.27	SkyWays	Gaming	Kolkata	DEV-407	0	0	5	61	899	4	0
+TXN00326	3	559.32	Gold Palace	Electronics	Bengaluru	DEV-784	0	0	8	40	1108	7	0
+TXN00327	3	747.03	UPI Transfer	Gaming	London	DEV-405	0	0	5	73	181	7	0
+TXN00328	1	1975.02	QuickFuel	Grocery	Delhi	DEV-763	0	0	6	98	466	7	0
+TXN00329	2	512.83	SkyWays	Travel	Bengaluru	DEV-796	0	0	8	22	557	8	0
+TXN00330	6	1796.8	Metro Mart	Travel	Singapore	DEV-997	0	1	7	75	1933	6	1
+TXN00331	6	396.4	TechZone	ATM Withdrawal	Delhi	DEV-396	0	0	6	12	265	5	0
+TXN00332	4	1008.62	SkyWays	Travel	Mumbai	DEV-413	1	0	8	98	655	4	1
+TXN00333	4	1337.67	City ATM	ATM Withdrawal	Singapore	DEV-121	0	0	3	48	307	1	0
+TXN00334	9	10944.77	Gold Palace	Online Transfer	Mumbai	DEV-356	0	1	4	74	640	7	0
+TXN00335	5	350.87	TechZone	Grocery	Mumbai	DEV-352	0	0	4	77	43	6	0
+TXN00336	9	4558.79	Metro Mart	Gaming	London	DEV-507	0	1	8	60	614	7	1
+TXN00337	10	1386.94	UPI Transfer	Grocery	Singapore	DEV-479	1	0	4	38	1597	6	0
+TXN00338	4	1754.7	UPI Transfer	Grocery	Singapore	DEV-870	0	0	9	75	1693	4	0
+TXN00339	3	1348.18	Metro Mart	Jewellery	Dubai	DEV-796	0	0	2	47	847	2	0
+TXN00340	10	1808.5	GameHub	Fuel	Delhi	DEV-755	0	1	2	65	1559	8	1
+TXN00341	7	1055.41	UPI Transfer	Fuel	Mumbai	DEV-104	1	0	7	61	1368	6	1
+TXN00342	3	4485.68	SkyWays	Grocery	Delhi	DEV-524	0	0	7	46	1988	7	0
+TXN00343	7	803.66	UPI Transfer	Jewellery	Chennai	DEV-756	0	0	7	11	1774	5	0
+TXN00344	6	3357.7	TechZone	Travel	Kolkata	DEV-320	0	0	3	29	519	4	0
+TXN00345	10	678.63	City ATM	Grocery	Dubai	DEV-482	0	0	1	93	1303	0	0
+TXN00346	3	1148.0	TechZone	Jewellery	Kolkata	DEV-754	0	0	3	52	1734	0	0
+TXN00347	10	461.85	Metro Mart	Electronics	Mumbai	DEV-815	0	0	5	63	686	6	0
+TXN00348	10	1825.34	Gold Palace	Online Transfer	Bengaluru	DEV-869	0	0	4	25	1269	2	0
+TXN00349	2	4449.8	QuickFuel	Grocery	Dubai	DEV-486	0	0	9	70	892	0	0
+TXN00350	2	1130.46	UPI Transfer	Online Transfer	Kolkata	DEV-459	1	0	8	48	692	6	1
+TXN00351	6	1015.16	GameHub	Gaming	Kolkata	DEV-444	0	0	7	21	454	5	0
+TXN00352	1	444.45	Gold Palace	Electronics	Chennai	DEV-701	0	1	1	14	97	1	0
+TXN00353	3	985.98	City ATM	Fuel	Mumbai	DEV-477	0	0	2	39	1654	4	0
+TXN00354	5	289.02	City ATM	Jewellery	Kolkata	DEV-460	0	0	4	56	1805	4	0
+TXN00355	10	532.94	UPI Transfer	Jewellery	London	DEV-251	1	0	6	28	1440	0	0
+TXN00356	10	1486.39	UPI Transfer	Travel	Delhi	DEV-530	0	0	7	24	545	5	0
+TXN00357	2	3972.34	GameHub	Jewellery	Dubai	DEV-313	0	0	3	26	61	3	0
+TXN00358	9	15188.44	Gold Palace	Grocery	Chennai	DEV-572	0	0	1	29	1397	7	0
+TXN00359	1	714.85	GameHub	Jewellery	Dubai	DEV-899	1	0	3	73	455	1	0
+TXN00360	8	4410.62	Gold Palace	ATM Withdrawal	Mumbai	DEV-798	0	0	8	49	1216	7	0
+TXN00361	9	1509.26	QuickFuel	Jewellery	Delhi	DEV-530	0	0	9	46	2135	0	0
+TXN00362	9	1057.73	Metro Mart	Gaming	Singapore	DEV-979	1	0	9	16	29	6	1
+TXN00363	3	1788.86	Gold Palace	Fuel	Mumbai	DEV-982	0	1	6	54	1278	7	1
+TXN00364	9	1281.42	Metro Mart	ATM Withdrawal	Chennai	DEV-499	1	0	1	96	2187	3	1
+TXN00365	2	1338.57	TechZone	Gaming	London	DEV-787	1	0	9	74	748	2	1
+TXN00366	6	839.24	Metro Mart	ATM Withdrawal	Chennai	DEV-408	0	0	2	44	1795	1	0
+TXN00367	5	344.36	QuickFuel	Online Transfer	Dubai	DEV-890	0	1	3	30	1825	3	0
+TXN00368	4	302.09	GameHub	Online Transfer	London	DEV-436	0	0	9	35	1080	6	0
+TXN00369	1	2181.83	GameHub	Jewellery	Delhi	DEV-332	1	0	5	2	688	6	0
+TXN00370	8	944.8	Gold Palace	ATM Withdrawal	Delhi	DEV-220	0	0	2	2	1503	1	0
+TXN00371	4	708.76	SkyWays	Gaming	Delhi	DEV-858	0	0	5	77	1370	0	0
+TXN00372	7	1221.28	Gold Palace	Electronics	Bengaluru	DEV-367	0	0	1	84	1058	5	1
+TXN00373	5	2478.57	City ATM	Travel	Kolkata	DEV-831	0	0	3	96	440	5	0
+TXN00374	4	1425.57	Gold Palace	Travel	Chennai	DEV-177	0	1	9	62	1643	8	1
+TXN00375	9	671.52	GameHub	Grocery	Kolkata	DEV-550	0	0	3	92	480	6	0
+TXN00376	1	3654.31	City ATM	Travel	Chennai	DEV-485	0	0	9	41	312	4	1
+TXN00377	8	5020.41	City ATM	Grocery	London	DEV-494	0	0	5	25	166	5	0
+TXN00378	8	1891.45	QuickFuel	Travel	Delhi	DEV-250	1	0	6	24	993	5	0
+TXN00379	4	2911.13	GameHub	ATM Withdrawal	Delhi	DEV-166	0	0	7	23	281	4	0
+TXN00380	3	3706.21	Gold Palace	Travel	Singapore	DEV-411	1	0	5	74	751	6	0
+TXN00381	1	3351.25	SkyWays	Online Transfer	Mumbai	DEV-523	0	0	1	0	547	1	0
+TXN00382	10	2106.3	GameHub	Fuel	Mumbai	DEV-814	0	0	9	94	1022	7	1
+TXN00383	10	2076.65	Gold Palace	Grocery	Bengaluru	DEV-516	0	0	5	77	1715	7	0
+TXN00384	3	1934.67	Metro Mart	Online Transfer	Kolkata	DEV-321	0	0	6	38	1002	3	0
+TXN00385	1	451.42	QuickFuel	ATM Withdrawal	Kolkata	DEV-336	0	0	5	70	1234	4	0
+TXN00386	2	2277.08	City ATM	Gaming	London	DEV-650	0	0	6	13	331	4	0
+TXN00387	1	357.73	UPI Transfer	ATM Withdrawal	Chennai	DEV-492	0	0	4	43	266	7	0
+TXN00388	9	592.8	Gold Palace	Jewellery	Mumbai	DEV-911	0	0	8	10	2148	1	0
+TXN00389	9	3917.5	TechZone	Online Transfer	Chennai	DEV-495	1	0	3	11	1371	3	0
+TXN00390	2	2581.69	TechZone	Grocery	Mumbai	DEV-610	0	0	6	0	53	5	0
+TXN00391	8	4622.35	City ATM	Gaming	Mumbai	DEV-157	0	0	6	79	1252	6	0
+TXN00392	2	949.08	Metro Mart	Online Transfer	Delhi	DEV-274	1	0	5	74	41	2	1
+TXN00393	4	429.65	SkyWays	Fuel	Singapore	DEV-865	0	0	1	89	188	1	0
+TXN00394	6	976.14	GameHub	Fuel	Singapore	DEV-410	1	0	4	98	834	4	1
+TXN00395	8	1328.53	UPI Transfer	Jewellery	London	DEV-478	0	0	1	96	1451	5	0
+TXN00396	9	1301.26	Gold Palace	Travel	Kolkata	DEV-631	0	0	5	99	1372	6	0
+TXN00397	1	3362.07	SkyWays	Gaming	Kolkata	DEV-152	0	0	7	1	1744	0	0
+TXN00398	2	875.55	Gold Palace	Fuel	Singapore	DEV-555	0	0	5	78	411	0	0
+TXN00399	3	1663.75	QuickFuel	Travel	Delhi	DEV-411	0	0	7	72	437	3	0
+TXN00400	4	497.82	QuickFuel	Fuel	Kolkata	DEV-233	0	1	4	16	1182	5	0
+TXN00401	10	1817.62	Metro Mart	Gaming	London	DEV-476	0	0	3	13	1913	0	0
+TXN00402	8	1215.36	UPI Transfer	Fuel	Chennai	DEV-502	0	0	5	97	1595	1	0
+TXN00403	4	617.18	GameHub	Jewellery	Bengaluru	DEV-267	0	0	3	88	1479	3	0
+TXN00404	10	980.2	GameHub	Gaming	Kolkata	DEV-588	0	0	8	32	225	2	0
+TXN00405	5	1026.84	City ATM	Travel	Chennai	DEV-771	0	0	8	7	1934	6	1
+TXN00406	6	950.38	Metro Mart	Gaming	Bengaluru	DEV-340	0	1	4	33	2166	0	0
+TXN00407	5	5968.24	QuickFuel	Fuel	London	DEV-969	1	1	8	0	1289	7	1
+TXN00408	2	1109.2	Gold Palace	Online Transfer	Kolkata	DEV-651	0	0	1	68	754	1	0
+TXN00409	10	973.11	QuickFuel	Grocery	Bengaluru	DEV-795	0	0	2	38	1464	3	0
+TXN00410	1	183.51	QuickFuel	Grocery	Delhi	DEV-163	0	0	3	4	1420	8	0
+TXN00411	2	541.97	QuickFuel	Gaming	London	DEV-790	0	0	4	97	2045	5	0
+TXN00412	3	956.46	City ATM	Gaming	Kolkata	DEV-402	0	0	3	82	261	8	0
+TXN00413	3	653.75	GameHub	ATM Withdrawal	Chennai	DEV-739	1	0	5	90	1143	0	0
+TXN00414	2	4202.93	TechZone	Online Transfer	Delhi	DEV-823	0	0	8	99	1566	6	0
+TXN00415	1	1044.77	UPI Transfer	Electronics	London	DEV-325	0	1	5	1	780	0	0
+TXN00416	7	3864.55	TechZone	Grocery	Kolkata	DEV-333	1	0	5	77	1852	5	0
+TXN00417	10	1281.18	TechZone	Fuel	London	DEV-153	1	0	1	78	161	2	1
+TXN00418	2	1253.26	QuickFuel	Online Transfer	Singapore	DEV-644	1	0	3	78	249	6	1
+TXN00419	3	1118.88	SkyWays	Fuel	Chennai	DEV-796	0	0	8	26	1744	1	0
+TXN00420	6	1216.11	SkyWays	Electronics	London	DEV-469	0	0	8	39	294	8	0
+TXN00421	10	5692.56	UPI Transfer	Grocery	Mumbai	DEV-244	0	0	1	92	932	4	0
+TXN00422	7	150.26	Gold Palace	Electronics	Delhi	DEV-384	1	0	1	6	632	4	0
+TXN00423	8	200.06	SkyWays	Grocery	Bengaluru	DEV-462	0	0	8	64	1520	5	0
+TXN00424	6	743.33	TechZone	Travel	Singapore	DEV-924	0	0	2	79	46	0	0
+TXN00425	5	1227.92	SkyWays	Grocery	Delhi	DEV-211	0	0	6	79	797	2	0
+TXN00426	2	2255.43	City ATM	Jewellery	Bengaluru	DEV-408	0	0	8	59	2169	6	0
+TXN00427	9	1855.26	TechZone	Fuel	Kolkata	DEV-674	1	1	8	76	824	8	1
+TXN00428	9	857.64	QuickFuel	Travel	Kolkata	DEV-313	0	0	5	90	1324	8	0
+TXN00429	1	3032.49	City ATM	Jewellery	Delhi	DEV-896	0	0	4	76	2173	4	0
+TXN00430	8	3063.08	GameHub	Grocery	Mumbai	DEV-918	1	0	7	11	1344	2	0
+TXN00431	1	1430.32	GameHub	Travel	Kolkata	DEV-442	0	0	7	24	1665	4	0
+TXN00432	8	2882.44	UPI Transfer	Grocery	Delhi	DEV-771	1	0	8	30	2110	4	0
+TXN00433	9	1549.02	GameHub	Electronics	Singapore	DEV-780	1	1	5	34	1365	3	1
+TXN00434	2	731.18	GameHub	ATM Withdrawal	Kolkata	DEV-713	0	0	9	36	1833	3	0
+TXN00435	5	2271.14	GameHub	Grocery	Kolkata	DEV-267	0	0	7	21	1127	7	0
+TXN00436	2	1338.83	GameHub	Fuel	Singapore	DEV-144	0	0	1	68	1795	3	0
+TXN00437	6	1213.43	Gold Palace	Grocery	Delhi	DEV-412	0	0	3	11	1419	0	0
+TXN00438	10	4562.65	City ATM	Fuel	Chennai	DEV-218	0	1	8	78	760	6	1
+TXN00439	1	133.52	SkyWays	Online Transfer	Singapore	DEV-363	1	0	2	65	1236	5	0
+TXN00440	4	338.35	Gold Palace	Fuel	Chennai	DEV-674	0	0	7	96	750	3	0
+TXN00441	10	416.4	SkyWays	Online Transfer	Chennai	DEV-629	0	0	4	0	885	5	0
+TXN00442	4	873.99	SkyWays	ATM Withdrawal	Chennai	DEV-288	0	0	2	29	655	8	1
+TXN00443	2	963.77	TechZone	ATM Withdrawal	Bengaluru	DEV-115	0	0	5	89	1090	8	1
+TXN00444	5	312.13	UPI Transfer	Jewellery	Singapore	DEV-303	0	0	9	49	775	7	0
+TXN00445	6	499.38	TechZone	Online Transfer	London	DEV-509	1	0	9	56	1384	5	0
+TXN00446	7	558.49	City ATM	ATM Withdrawal	Delhi	DEV-801	1	1	4	2	825	0	0
+TXN00447	4	11066.54	SkyWays	Gaming	Dubai	DEV-428	0	0	1	76	1090	4	0
+TXN00448	10	6133.79	SkyWays	Fuel	Mumbai	DEV-357	0	0	8	25	325	7	0
+TXN00449	6	836.67	SkyWays	Grocery	Delhi	DEV-596	1	0	9	96	862	7	1
+TXN00450	3	873.73	SkyWays	Travel	Kolkata	DEV-164	1	0	6	37	795	6	0
+TXN00451	10	430.83	Metro Mart	ATM Withdrawal	Kolkata	DEV-302	0	0	6	18	2115	8	0
+TXN00452	10	217.61	Gold Palace	Jewellery	Delhi	DEV-132	1	0	5	59	993	4	0
+TXN00453	5	1090.95	SkyWays	Fuel	London	DEV-573	1	0	1	47	66	0	0
+TXN00454	1	493.7	Gold Palace	Fuel	Delhi	DEV-498	0	1	2	47	694	4	0
+TXN00455	6	1122.86	Metro Mart	Fuel	Dubai	DEV-624	0	0	2	94	1610	2	0
+TXN00456	6	287.1	TechZone	Gaming	Singapore	DEV-655	0	1	9	36	380	7	1
+TXN00457	2	610.47	Metro Mart	Jewellery	London	DEV-455	0	1	1	39	375	6	0
+TXN00458	7	1385.43	GameHub	ATM Withdrawal	Mumbai	DEV-881	0	0	6	62	834	3	0
+TXN00459	9	1685.11	Metro Mart	Fuel	Kolkata	DEV-926	0	0	4	17	797	3	0
+TXN00460	2	1764.68	UPI Transfer	Electronics	Kolkata	DEV-199	0	0	1	82	1068	1	0
+TXN00461	8	369.28	TechZone	Travel	London	DEV-928	0	0	9	22	94	0	0
+TXN00462	2	2615.52	City ATM	ATM Withdrawal	London	DEV-277	0	0	1	24	1591	2	0
+TXN00463	8	589.82	Metro Mart	Jewellery	Mumbai	DEV-323	0	0	8	1	486	2	0
+TXN00464	5	2142.16	Metro Mart	Jewellery	Mumbai	DEV-576	0	0	7	34	1570	2	0
+TXN00465	1	1200.42	GameHub	Electronics	Chennai	DEV-126	1	0	8	58	1250	8	0
+TXN00466	10	351.16	SkyWays	Fuel	Dubai	DEV-427	0	0	2	70	461	6	0
+TXN00467	2	911.8	UPI Transfer	ATM Withdrawal	Singapore	DEV-275	0	0	8	89	1043	4	0
+TXN00468	6	1683.83	GameHub	Electronics	Kolkata	DEV-534	0	0	6	77	99	1	0
+TXN00469	2	2104.15	Metro Mart	Online Transfer	Mumbai	DEV-833	0	0	4	32	1549	7	0
+TXN00470	10	1067.54	QuickFuel	Travel	Bengaluru	DEV-931	0	0	7	82	682	5	0
+TXN00471	8	4810.72	GameHub	Fuel	Bengaluru	DEV-290	0	0	4	19	855	4	0
+TXN00472	9	3001.18	City ATM	Gaming	Kolkata	DEV-590	0	0	3	20	362	4	0
+TXN00473	5	962.0	Gold Palace	Travel	Delhi	DEV-526	0	0	3	35	815	4	0
+TXN00474	5	2380.6	SkyWays	Travel	Singapore	DEV-473	0	0	6	53	882	7	0
+TXN00475	7	6907.85	Metro Mart	Gaming	Dubai	DEV-669	0	0	6	20	510	6	0
+TXN00476	8	7075.8	SkyWays	Fuel	Kolkata	DEV-990	1	0	3	90	2154	4	0
+TXN00477	9	401.34	City ATM	Fuel	Singapore	DEV-464	1	0	3	27	629	6	0
+TXN00478	1	526.43	Gold Palace	Jewellery	Kolkata	DEV-158	0	0	9	39	414	8	1
+TXN00479	7	4612.05	GameHub	Grocery	Kolkata	DEV-924	0	0	5	60	1215	2	0
+TXN00480	2	467.57	Metro Mart	Travel	Bengaluru	DEV-938	0	0	8	42	715	8	0
+TXN00481	3	368.6	SkyWays	Travel	Mumbai	DEV-390	1	0	3	40	1009	5	0
+TXN00482	9	782.45	UPI Transfer	Travel	Mumbai	DEV-551	0	0	3	98	1600	1	0
+TXN00483	3	1769.06	Metro Mart	Grocery	Chennai	DEV-876	0	0	3	43	190	8	0
+TXN00484	8	1105.27	UPI Transfer	Online Transfer	Kolkata	DEV-553	0	0	5	11	1130	6	0
+TXN00485	5	674.85	GameHub	Fuel	Kolkata	DEV-533	1	0	8	73	67	3	0
+TXN00486	3	660.64	City ATM	Travel	Chennai	DEV-929	0	1	5	70	115	1	0
+TXN00487	4	638.36	QuickFuel	Travel	Bengaluru	DEV-845	1	0	3	21	221	8	0
+TXN00488	6	549.19	City ATM	Electronics	Delhi	DEV-556	0	0	9	85	372	7	1
+TXN00489	8	9447.16	Metro Mart	Gaming	Singapore	DEV-245	0	0	6	39	781	0	0
+TXN00490	7	1584.08	TechZone	Fuel	Bengaluru	DEV-494	1	1	4	15	2058	5	0
+TXN00491	10	2692.12	QuickFuel	Travel	Mumbai	DEV-708	1	0	1	17	1995	1	0
+TXN00492	9	780.42	GameHub	Grocery	Bengaluru	DEV-345	0	0	6	71	244	2	0
+TXN00493	8	1025.2	QuickFuel	Electronics	London	DEV-583	0	0	6	21	2180	5	0
+TXN00494	7	637.66	TechZone	Grocery	Mumbai	DEV-692	0	1	9	46	1404	2	1
+TXN00495	3	111.44	City ATM	ATM Withdrawal	Dubai	DEV-176	0	0	3	73	1227	4	0
+TXN00496	5	350.65	TechZone	Gaming	Singapore	DEV-612	0	1	2	85	1747	3	1
+TXN00497	2	237.57	SkyWays	Fuel	Chennai	DEV-763	0	0	9	48	1076	5	0
+TXN00498	4	160.0	Gold Palace	ATM Withdrawal	Delhi	DEV-292	0	0	5	90	598	7	0
+TXN00499	10	413.3	SkyWays	Fuel	Mumbai	DEV-593	0	0	1	30	1174	1	0
+TXN00500	5	3993.65	TechZone	Grocery	London	DEV-738	0	0	1	87	1600	7	0
+TXN00501	2	1164.45	QuickFuel	ATM Withdrawal	Chennai	DEV-139	0	0	5	25	1508	2	0
+TXN00502	7	3871.93	TechZone	ATM Withdrawal	Kolkata	DEV-679	0	0	6	6	390	0	0
+TXN00503	10	1754.4	UPI Transfer	Fuel	Chennai	DEV-333	0	1	3	72	2065	4	0
+TXN00504	9	2451.13	Gold Palace	Jewellery	Kolkata	DEV-457	0	0	4	75	640	2	0
+TXN00505	3	538.72	GameHub	Grocery	Singapore	DEV-683	0	0	7	92	1807	1	0
+TXN00506	5	1942.16	QuickFuel	Online Transfer	Mumbai	DEV-103	1	0	9	92	699	3	1
+TXN00507	6	2335.18	GameHub	Online Transfer	Singapore	DEV-115	0	0	5	10	158	7	1
+TXN00508	3	721.27	Metro Mart	Online Transfer	Chennai	DEV-501	0	0	4	62	2192	5	0
+TXN00509	3	2005.37	QuickFuel	Jewellery	London	DEV-954	0	0	4	70	1303	6	0
+TXN00510	3	2017.41	SkyWays	Online Transfer	Dubai	DEV-105	1	0	2	60	487	1	0
+TXN00511	10	739.08	UPI Transfer	Jewellery	Mumbai	DEV-809	0	0	1	1	20	0	0
+TXN00512	8	441.2	TechZone	Gaming	Chennai	DEV-167	0	1	8	4	301	3	0
+TXN00513	9	417.5	SkyWays	Grocery	Singapore	DEV-540	0	0	1	67	390	6	0
+TXN00514	9	1310.1	SkyWays	Electronics	London	DEV-487	0	1	8	85	2038	7	0
+TXN00515	10	1626.7	City ATM	Electronics	London	DEV-521	0	0	3	17	405	0	0
+TXN00516	2	593.91	SkyWays	Jewellery	London	DEV-173	0	0	7	4	373	4	1
+TXN00517	9	1241.32	SkyWays	Grocery	Bengaluru	DEV-778	0	0	9	40	1846	3	0
+TXN00518	1	2025.32	GameHub	Fuel	Singapore	DEV-348	0	1	7	31	1936	6	0
+TXN00519	5	2114.07	QuickFuel	ATM Withdrawal	London	DEV-793	0	0	7	98	475	1	0
+TXN00520	6	4898.54	Metro Mart	Travel	Chennai	DEV-689	0	0	3	92	1437	4	1
+TXN00521	4	3824.88	Gold Palace	Online Transfer	Singapore	DEV-596	0	0	6	55	1185	7	0
+TXN00522	2	492.18	Gold Palace	Online Transfer	Bengaluru	DEV-377	0	0	6	94	1277	4	0
+TXN00523	2	5515.0	Gold Palace	Electronics	Kolkata	DEV-687	1	0	4	22	698	7	0
+TXN00524	9	751.54	Metro Mart	Travel	Mumbai	DEV-997	1	1	1	99	1657	5	1
+TXN00525	4	3103.81	Gold Palace	Travel	Dubai	DEV-930	0	0	9	44	1940	5	0
+TXN00526	4	1288.44	Metro Mart	Fuel	London	DEV-924	0	0	2	47	1602	2	0
+TXN00527	10	836.37	Gold Palace	Travel	Kolkata	DEV-297	0	0	9	5	1988	8	0
+TXN00528	2	238.19	City ATM	Travel	Bengaluru	DEV-626	0	1	9	17	260	2	0
+TXN00529	10	1038.56	City ATM	Grocery	Dubai	DEV-458	0	0	1	19	1452	8	0
+TXN00530	10	297.84	SkyWays	Grocery	Delhi	DEV-970	0	0	7	48	2198	8	0
+TXN00531	6	2894.5	SkyWays	Gaming	Delhi	DEV-955	0	0	6	18	1187	4	0
+TXN00532	2	4746.27	Gold Palace	Online Transfer	Singapore	DEV-881	0	0	3	10	2073	7	0
+TXN00533	2	591.57	TechZone	Travel	London	DEV-246	0	0	8	60	779	6	0
+TXN00534	3	1590.45	GameHub	Online Transfer	Mumbai	DEV-387	0	0	2	87	1974	6	0
+TXN00535	6	630.9	TechZone	Grocery	Dubai	DEV-740	0	0	3	6	2066	0	0
+TXN00536	2	688.4	UPI Transfer	Electronics	Dubai	DEV-774	0	0	9	56	1376	1	0
+TXN00537	5	2433.4	QuickFuel	Travel	Bengaluru	DEV-415	0	1	7	96	1556	0	0
+TXN00538	2	1170.65	City ATM	Travel	Singapore	DEV-223	0	0	2	40	1159	0	0
+TXN00539	6	5800.41	GameHub	Grocery	Delhi	DEV-223	1	1	2	18	710	7	1
+TXN00540	1	785.24	Gold Palace	Electronics	Dubai	DEV-716	0	0	3	7	1189	1	0
+TXN00541	8	2979.18	QuickFuel	Electronics	Chennai	DEV-508	0	0	1	93	2118	0	0
+TXN00542	1	1323.02	Gold Palace	Fuel	Singapore	DEV-541	1	0	2	40	52	8	0
+TXN00543	2	2480.46	City ATM	Jewellery	Bengaluru	DEV-833	0	0	6	10	467	2	0
+TXN00544	2	810.42	UPI Transfer	Online Transfer	Dubai	DEV-115	0	0	1	86	1108	7	0
+TXN00545	9	1159.1	Gold Palace	Online Transfer	London	DEV-779	0	0	3	80	759	8	0
+TXN00546	1	1092.31	QuickFuel	Jewellery	Kolkata	DEV-346	0	0	3	70	1379	4	0
+TXN00547	5	571.09	GameHub	Jewellery	London	DEV-938	0	0	9	8	806	8	0
+TXN00548	6	2199.25	TechZone	Electronics	Chennai	DEV-959	0	0	9	8	1455	8	0
+TXN00549	6	2175.96	TechZone	Grocery	Dubai	DEV-551	0	0	8	21	251	1	1
+TXN00550	7	2067.71	Gold Palace	Electronics	Singapore	DEV-384	0	0	4	15	744	1	0
+TXN00551	9	4833.22	SkyWays	Travel	Bengaluru	DEV-309	0	1	5	53	1530	3	0
+TXN00552	4	4466.72	UPI Transfer	ATM Withdrawal	Mumbai	DEV-263	0	1	5	39	1047	5	1
+TXN00553	9	864.84	City ATM	Fuel	London	DEV-999	0	0	8	76	1575	7	0
+TXN00554	4	1695.52	SkyWays	Gaming	Kolkata	DEV-268	1	0	7	10	1407	1	0
+TXN00555	10	691.43	UPI Transfer	ATM Withdrawal	Mumbai	DEV-501	0	0	9	72	736	1	0
+TXN00556	6	1237.71	TechZone	Electronics	Mumbai	DEV-531	1	0	5	93	953	2	1
+TXN00557	8	706.43	Gold Palace	Gaming	Mumbai	DEV-711	0	0	9	13	2123	2	0
+TXN00558	9	5208.58	QuickFuel	Electronics	Mumbai	DEV-858	0	0	7	65	2117	8	1
+TXN00559	8	1681.31	SkyWays	Grocery	Delhi	DEV-602	0	0	7	50	97	3	0
+TXN00560	9	996.03	QuickFuel	Travel	London	DEV-782	0	0	6	9	1557	7	0
+TXN00561	6	3548.42	Gold Palace	Grocery	Singapore	DEV-610	0	0	4	29	1090	0	0
+TXN00562	1	171.82	Gold Palace	ATM Withdrawal	Chennai	DEV-493	0	0	6	78	22	0	0
+TXN00563	5	197.81	TechZone	Electronics	Kolkata	DEV-241	0	0	4	86	1402	7	0
+TXN00564	2	2480.6	UPI Transfer	Fuel	London	DEV-287	0	0	6	36	70	2	0
+TXN00565	9	1279.75	City ATM	Electronics	Kolkata	DEV-489	0	0	3	10	715	0	0
+TXN00566	3	1518.38	Metro Mart	Fuel	Bengaluru	DEV-141	1	0	8	24	1524	5	0
+TXN00567	3	367.32	GameHub	Gaming	Singapore	DEV-384	0	0	6	84	1791	1	0
+TXN00568	3	1186.89	SkyWays	ATM Withdrawal	Singapore	DEV-516	0	0	7	56	919	0	0
+TXN00569	7	7355.17	QuickFuel	Travel	London	DEV-525	0	1	2	43	1783	3	0
+TXN00570	6	2544.73	QuickFuel	Online Transfer	Dubai	DEV-833	1	0	8	1	1850	4	1
+TXN00571	10	1411.96	Gold Palace	Fuel	Mumbai	DEV-970	0	0	8	78	995	4	0
+TXN00572	5	816.36	Metro Mart	Travel	Dubai	DEV-756	0	0	2	46	397	5	0
+TXN00573	3	849.7	SkyWays	ATM Withdrawal	Kolkata	DEV-171	0	0	4	54	1457	0	0
+TXN00574	1	178.35	City ATM	Travel	Mumbai	DEV-467	0	1	7	84	50	2	0
+TXN00575	1	1528.25	TechZone	Grocery	Mumbai	DEV-756	0	0	8	56	1967	3	0
+TXN00576	4	2593.94	QuickFuel	Travel	Chennai	DEV-635	0	0	7	92	866	2	0
+TXN00577	10	293.52	QuickFuel	Electronics	Delhi	DEV-512	0	0	5	55	1676	5	0
+TXN00578	6	668.29	UPI Transfer	Jewellery	Singapore	DEV-492	0	0	3	34	1624	2	0
+TXN00579	9	427.64	GameHub	Fuel	Singapore	DEV-465	1	0	9	92	1050	5	1
+TXN00580	2	508.36	City ATM	Travel	Dubai	DEV-621	0	1	8	64	2138	8	1
+TXN00581	1	1271.73	GameHub	Travel	Singapore	DEV-260	0	1	9	76	1755	5	1
+TXN00582	9	185.68	Gold Palace	ATM Withdrawal	Chennai	DEV-565	0	0	3	22	1946	3	0
+TXN00583	2	2106.63	Gold Palace	Gaming	London	DEV-285	1	0	4	67	224	3	1
+TXN00584	1	2388.62	Metro Mart	ATM Withdrawal	London	DEV-712	0	0	3	56	1075	5	0
+TXN00585	5	966.82	City ATM	Jewellery	Dubai	DEV-878	1	0	9	10	2095	6	1
+TXN00586	10	129.98	Metro Mart	Jewellery	Kolkata	DEV-556	0	0	8	25	1791	2	0
+TXN00587	7	494.34	TechZone	Gaming	Singapore	DEV-448	0	0	2	91	1009	0	0
+TXN00588	1	3676.11	Gold Palace	Jewellery	Bengaluru	DEV-946	0	1	3	57	173	6	0
+TXN00589	9	99.46	Metro Mart	Electronics	Kolkata	DEV-693	0	0	5	77	635	5	0
+TXN00590	9	886.45	Gold Palace	Fuel	Delhi	DEV-485	0	0	4	17	1267	0	0
+TXN00591	9	419.05	QuickFuel	Electronics	Kolkata	DEV-125	0	0	5	21	1419	5	0
+TXN00592	10	2500.17	UPI Transfer	Travel	Dubai	DEV-114	1	0	4	94	2034	0	0
+TXN00593	3	660.1	UPI Transfer	Grocery	London	DEV-299	0	0	7	42	222	5	0
+TXN00594	10	1743.34	City ATM	Online Transfer	Mumbai	DEV-312	0	0	9	88	884	6	0
+TXN00595	4	2016.09	Metro Mart	Gaming	London	DEV-749	0	0	9	80	613	0	1
+TXN00596	9	6327.14	City ATM	Travel	London	DEV-550	0	1	5	33	2113	6	0
+TXN00597	6	1009.64	UPI Transfer	Travel	Dubai	DEV-999	0	0	8	94	382	1	0
+TXN00598	8	1700.1	Metro Mart	Travel	Chennai	DEV-586	0	0	7	77	501	2	0
+TXN00599	7	318.45	City ATM	Gaming	Chennai	DEV-912	1	0	2	12	669	6	0
+TXN00600	7	3538.2	SkyWays	Fuel	Kolkata	DEV-597	1	0	8	9	250	3	1
+TXN00601	7	611.27	UPI Transfer	Fuel	Dubai	DEV-422	0	0	4	12	1422	8	0
+TXN00602	8	731.66	City ATM	Travel	Singapore	DEV-743	0	0	6	74	1163	8	0
+TXN00603	8	1187.94	Metro Mart	ATM Withdrawal	Singapore	DEV-504	1	0	7	14	1235	8	0
+TXN00604	2	296.9	Gold Palace	Electronics	London	DEV-347	1	0	9	28	1997	0	1
+TXN00605	9	1489.05	Metro Mart	Gaming	Bengaluru	DEV-525	1	0	9	43	964	1	0
+TXN00606	6	2894.94	GameHub	Online Transfer	Singapore	DEV-698	0	1	8	13	698	1	0
+TXN00607	4	1577.57	UPI Transfer	Grocery	Chennai	DEV-438	0	1	5	33	838	5	0
+TXN00608	6	290.03	GameHub	Gaming	Kolkata	DEV-733	1	0	4	67	1764	3	1
+TXN00609	10	1084.17	QuickFuel	Jewellery	Delhi	DEV-982	0	0	4	97	1171	6	1
+TXN00610	9	2363.33	Gold Palace	Jewellery	Delhi	DEV-470	0	0	9	46	388	2	0
+TXN00611	9	223.59	TechZone	Grocery	Dubai	DEV-365	0	0	2	74	1523	1	0
+TXN00612	5	460.68	Gold Palace	Gaming	Singapore	DEV-461	0	0	5	53	1645	5	0
+TXN00613	8	2667.48	QuickFuel	ATM Withdrawal	Singapore	DEV-854	0	0	7	46	564	5	0
+TXN00614	4	1545.47	Metro Mart	Electronics	London	DEV-261	0	1	1	52	1234	6	0
+TXN00615	7	1755.97	GameHub	Travel	Singapore	DEV-976	0	1	6	95	1248	2	1
+TXN00616	7	6461.04	GameHub	Gaming	Bengaluru	DEV-472	1	0	3	5	401	4	0
+TXN00617	3	1847.7	SkyWays	ATM Withdrawal	Delhi	DEV-857	0	0	3	51	39	8	0
+TXN00618	3	2190.97	City ATM	Jewellery	Kolkata	DEV-808	1	1	6	5	1585	5	1
+TXN00619	1	13900.37	TechZone	Jewellery	Chennai	DEV-805	0	1	1	87	1361	8	0
+TXN00620	2	999.82	SkyWays	Grocery	Singapore	DEV-918	1	0	2	60	1575	3	1
+TXN00621	5	591.05	UPI Transfer	Travel	Kolkata	DEV-266	0	0	5	4	842	0	0
+TXN00622	5	1781.15	City ATM	ATM Withdrawal	Mumbai	DEV-634	0	1	6	62	1143	6	1
+TXN00623	2	1799.19	QuickFuel	Electronics	Mumbai	DEV-189	0	0	1	43	2160	4	0
+TXN00624	5	754.43	GameHub	Fuel	Mumbai	DEV-369	0	0	4	4	511	0	0
+TXN00625	7	478.59	QuickFuel	Online Transfer	Mumbai	DEV-136	1	0	3	97	1443	1	1
+TXN00626	3	9690.1	City ATM	Travel	London	DEV-714	0	0	5	37	308	2	0
+TXN00627	4	1626.46	Metro Mart	Travel	Delhi	DEV-646	1	0	3	2	163	1	0
+TXN00628	4	627.0	TechZone	Grocery	Mumbai	DEV-766	0	0	1	61	2106	6	0
+TXN00629	6	2763.73	QuickFuel	Electronics	Singapore	DEV-258	0	0	5	37	303	5	0
+TXN00630	4	1098.58	City ATM	Fuel	Bengaluru	DEV-398	1	0	8	65	1449	2	0
+TXN00631	8	965.27	Gold Palace	Grocery	Chennai	DEV-708	0	0	6	16	1140	0	0
+TXN00632	4	2010.31	UPI Transfer	Fuel	Chennai	DEV-843	1	0	4	82	1784	0	0
+TXN00633	5	378.91	GameHub	Fuel	Mumbai	DEV-897	1	0	5	42	1211	8	0
+TXN00634	4	1664.64	QuickFuel	Jewellery	Bengaluru	DEV-166	0	0	2	42	1539	3	0
+TXN00635	2	6779.5	TechZone	Jewellery	Delhi	DEV-462	0	0	3	80	1969	0	0
+TXN00636	7	1843.76	TechZone	ATM Withdrawal	Bengaluru	DEV-109	0	1	4	54	1828	6	0
+TXN00637	3	863.86	TechZone	Gaming	Kolkata	DEV-836	0	0	6	0	1593	7	0
+TXN00638	3	767.86	UPI Transfer	Fuel	Delhi	DEV-210	0	0	5	57	374	1	0
+TXN00639	8	837.73	City ATM	ATM Withdrawal	London	DEV-839	0	0	9	64	389	8	1
+TXN00640	10	964.33	UPI Transfer	Jewellery	Kolkata	DEV-240	1	0	6	31	1103	6	0
+TXN00641	7	862.62	GameHub	Grocery	Singapore	DEV-113	0	0	1	18	1456	2	0
+TXN00642	10	2764.68	GameHub	Fuel	Delhi	DEV-891	1	0	5	5	1474	6	0
+TXN00643	9	254.71	Metro Mart	Online Transfer	London	DEV-494	0	1	6	84	1734	3	0
+TXN00644	5	2632.79	SkyWays	Gaming	Dubai	DEV-482	0	0	1	0	245	5	0
+TXN00645	8	861.16	GameHub	Fuel	Bengaluru	DEV-682	0	0	4	58	398	1	0
+TXN00646	4	1701.48	Metro Mart	Grocery	Dubai	DEV-347	0	0	8	83	346	2	0
+TXN00647	5	439.53	GameHub	Grocery	Singapore	DEV-721	0	0	4	35	1199	6	0
+TXN00648	6	4006.88	City ATM	Travel	Kolkata	DEV-486	0	0	5	20	1402	7	0
+TXN00649	10	3718.48	GameHub	Online Transfer	Kolkata	DEV-345	0	0	2	71	271	0	0
+TXN00650	9	2874.49	QuickFuel	Jewellery	Kolkata	DEV-455	0	1	1	63	1913	1	0
+TXN00651	5	310.05	Metro Mart	Electronics	Kolkata	DEV-105	0	1	3	1	681	5	0
+TXN00652	7	2556.03	SkyWays	Online Transfer	Mumbai	DEV-371	1	0	7	57	1459	8	1
+TXN00653	3	1744.76	UPI Transfer	Gaming	Kolkata	DEV-632	0	0	9	0	1658	6	0
+TXN00654	9	285.79	City ATM	Gaming	Bengaluru	DEV-224	0	0	6	39	98	6	0
+TXN00655	6	1185.75	QuickFuel	Grocery	Kolkata	DEV-206	0	0	8	30	1905	3	0
+TXN00656	6	1682.58	UPI Transfer	Jewellery	Bengaluru	DEV-690	1	0	6	83	2135	0	0
+TXN00657	8	1999.13	SkyWays	ATM Withdrawal	Mumbai	DEV-485	0	0	6	97	2109	6	0
+TXN00658	7	1421.6	SkyWays	Gaming	London	DEV-222	0	0	4	69	324	7	0
+TXN00659	1	1575.15	Gold Palace	Fuel	Bengaluru	DEV-773	0	0	1	73	875	3	0
+TXN00660	3	4565.35	SkyWays	Electronics	Chennai	DEV-797	1	0	4	2	526	4	0
+TXN00661	2	3653.46	UPI Transfer	ATM Withdrawal	Singapore	DEV-131	0	0	8	6	1002	2	0
+TXN00662	8	91.8	UPI Transfer	Travel	Mumbai	DEV-281	0	0	5	77	2145	4	0
+TXN00663	1	910.78	GameHub	Jewellery	Bengaluru	DEV-433	0	0	7	42	1683	2	0
+TXN00664	3	1045.04	Metro Mart	Travel	London	DEV-758	0	1	1	50	1700	3	0
+TXN00665	6	250.41	Gold Palace	ATM Withdrawal	Singapore	DEV-166	0	1	2	69	939	1	0
+TXN00666	7	1319.18	UPI Transfer	Travel	Bengaluru	DEV-825	0	0	3	34	2061	5	0
+TXN00667	6	3728.95	Metro Mart	Travel	Singapore	DEV-387	0	1	4	68	2025	2	0
+TXN00668	9	455.82	GameHub	Fuel	Mumbai	DEV-212	0	0	9	72	1778	6	0
+TXN00669	10	1640.51	UPI Transfer	Grocery	Mumbai	DEV-877	0	0	5	24	1795	4	0
+TXN00670	2	531.53	City ATM	Electronics	Chennai	DEV-178	0	0	6	68	1440	8	0
+TXN00671	10	662.01	City ATM	Fuel	London	DEV-216	0	0	6	16	227	1	0
+TXN00672	7	4580.92	TechZone	Fuel	Delhi	DEV-954	0	0	4	31	640	2	0
+TXN00673	7	743.74	UPI Transfer	Jewellery	Chennai	DEV-567	1	0	9	78	1695	2	1
+TXN00674	1	1837.19	Gold Palace	Jewellery	London	DEV-516	0	0	3	98	732	5	1
+TXN00675	7	224.96	GameHub	ATM Withdrawal	Delhi	DEV-718	1	1	1	6	395	0	0
+TXN00676	8	6477.47	TechZone	Electronics	London	DEV-667	0	0	7	64	2085	6	0
+TXN00677	6	2084.71	GameHub	Jewellery	Bengaluru	DEV-652	1	0	6	56	1084	7	1
+TXN00678	1	1028.39	Metro Mart	Online Transfer	Chennai	DEV-120	0	0	3	60	1896	6	0
+TXN00679	6	2034.47	City ATM	Grocery	Singapore	DEV-596	0	0	8	78	639	1	0
+TXN00680	10	340.75	QuickFuel	Online Transfer	Bengaluru	DEV-350	0	0	2	6	803	4	0
+TXN00681	8	3513.18	QuickFuel	Gaming	Mumbai	DEV-826	0	0	3	73	768	4	0
+TXN00682	2	905.43	SkyWays	Fuel	Mumbai	DEV-554	0	0	2	27	833	3	0
+TXN00683	10	1008.62	SkyWays	Grocery	Bengaluru	DEV-211	0	0	2	15	973	4	0
+TXN00684	10	778.61	GameHub	Fuel	Dubai	DEV-897	1	0	7	44	668	6	0
+TXN00685	2	718.68	Gold Palace	Fuel	Chennai	DEV-355	0	0	7	2	1794	7	0
+TXN00686	9	2264.71	UPI Transfer	Jewellery	Dubai	DEV-344	0	0	6	63	730	2	0
+TXN00687	5	1525.86	QuickFuel	Gaming	Bengaluru	DEV-942	0	0	8	56	982	2	0
+TXN00688	6	2178.9	GameHub	Jewellery	Bengaluru	DEV-797	1	0	1	51	1896	1	0
+TXN00689	5	1202.41	City ATM	Grocery	Mumbai	DEV-873	0	1	6	3	972	3	0
+TXN00690	8	1923.46	QuickFuel	Fuel	Dubai	DEV-695	0	0	2	76	42	4	0
+TXN00691	10	831.34	TechZone	Online Transfer	Mumbai	DEV-919	1	0	9	3	21	6	1
+TXN00692	8	9016.02	UPI Transfer	Fuel	Mumbai	DEV-203	1	0	6	26	970	2	1
+TXN00693	10	295.56	QuickFuel	Jewellery	Dubai	DEV-639	0	1	7	39	1433	1	0
+TXN00694	10	3770.05	TechZone	Online Transfer	Bengaluru	DEV-364	0	0	6	70	2075	0	0
+TXN00695	1	4151.05	UPI Transfer	Fuel	Mumbai	DEV-458	0	0	4	40	305	0	0
+TXN00696	3	562.87	GameHub	Online Transfer	Dubai	DEV-314	0	1	7	81	1202	0	1
+TXN00697	8	9012.31	Gold Palace	Electronics	Chennai	DEV-284	0	0	8	93	649	1	0
+TXN00698	6	2968.88	GameHub	Grocery	Mumbai	DEV-498	0	0	2	76	1001	6	0
+TXN00699	1	2904.52	SkyWays	Fuel	Bengaluru	DEV-926	0	0	8	3	984	6	0
+TXN00700	1	1242.92	SkyWays	Electronics	Singapore	DEV-671	0	0	7	77	700	8	1
+TXN00701	6	996.75	QuickFuel	Travel	London	DEV-414	0	0	1	20	59	4	0
+TXN00702	7	1003.78	SkyWays	ATM Withdrawal	Chennai	DEV-490	1	0	9	88	181	4	1
+TXN00703	2	1722.41	SkyWays	Jewellery	Bengaluru	DEV-576	0	0	2	97	1158	8	0
+TXN00704	2	4277.26	SkyWays	Travel	Dubai	DEV-320	0	0	6	8	509	1	0
+TXN00705	2	1426.79	QuickFuel	Gaming	Bengaluru	DEV-569	0	0	2	9	732	5	0
+TXN00706	6	533.63	TechZone	Gaming	Chennai	DEV-726	0	0	2	69	217	7	0
+TXN00707	1	2545.25	Gold Palace	Travel	Singapore	DEV-318	0	0	6	14	128	4	1
+TXN00708	6	2776.75	SkyWays	Grocery	Singapore	DEV-626	0	0	7	96	296	2	0
+TXN00709	5	2184.61	SkyWays	Fuel	Singapore	DEV-737	1	0	7	54	842	5	1
+TXN00710	5	2370.72	Gold Palace	Jewellery	Chennai	DEV-567	0	0	4	57	376	8	0
+TXN00711	7	949.72	TechZone	Online Transfer	Bengaluru	DEV-362	0	0	8	86	524	2	0
+TXN00712	6	525.27	UPI Transfer	Electronics	Kolkata	DEV-598	0	0	1	21	678	5	0
+TXN00713	8	554.81	Metro Mart	Jewellery	Delhi	DEV-813	0	0	8	55	655	0	0
+TXN00714	8	278.13	Gold Palace	Travel	Bengaluru	DEV-299	0	0	3	99	44	2	0
+TXN00715	10	1500.05	QuickFuel	Online Transfer	Dubai	DEV-617	0	0	6	2	275	6	0
+TXN00716	8	1124.28	QuickFuel	ATM Withdrawal	Singapore	DEV-712	0	0	9	17	2091	4	0
+TXN00717	6	815.67	City ATM	Jewellery	Bengaluru	DEV-389	1	0	3	14	1476	1	0
+TXN00718	5	84.77	QuickFuel	Electronics	Dubai	DEV-448	0	1	4	33	289	3	0
+TXN00719	3	394.42	Metro Mart	Fuel	Bengaluru	DEV-899	0	0	8	12	638	1	0
+TXN00720	6	3323.44	TechZone	ATM Withdrawal	Chennai	DEV-427	0	1	8	17	855	7	0
+TXN00721	2	666.36	SkyWays	Travel	London	DEV-638	1	0	3	85	1994	8	0
+TXN00722	10	1676.62	City ATM	Fuel	London	DEV-234	0	0	5	46	1937	0	0
+TXN00723	9	346.67	Gold Palace	Grocery	Dubai	DEV-933	0	0	3	35	1699	2	0
+TXN00724	2	4424.16	UPI Transfer	Gaming	London	DEV-637	0	1	5	41	252	7	1
+TXN00725	8	1064.62	GameHub	Electronics	Delhi	DEV-784	0	0	4	97	1089	7	1
+TXN00726	2	1573.47	SkyWays	ATM Withdrawal	Singapore	DEV-642	0	0	1	49	1074	6	0
+TXN00727	8	9830.07	Gold Palace	Online Transfer	Kolkata	DEV-419	0	0	9	46	1409	6	1
+TXN00728	1	4744.76	Metro Mart	Jewellery	Bengaluru	DEV-406	0	0	6	92	1861	7	1
+TXN00729	5	919.74	Metro Mart	Jewellery	Kolkata	DEV-731	0	0	5	3	719	3	0
+TXN00730	7	710.59	Gold Palace	Grocery	Bengaluru	DEV-873	0	1	1	47	1234	8	0
+TXN00731	8	904.16	TechZone	Jewellery	Mumbai	DEV-214	0	0	1	74	595	7	0
+TXN00732	5	1917.75	UPI Transfer	Online Transfer	Delhi	DEV-860	1	0	5	51	478	2	1
+TXN00733	10	1102.46	TechZone	ATM Withdrawal	Delhi	DEV-847	0	0	6	86	703	0	1
+TXN00734	8	849.19	UPI Transfer	Jewellery	Bengaluru	DEV-198	1	0	3	88	1623	4	0
+TXN00735	3	4539.01	Gold Palace	ATM Withdrawal	Delhi	DEV-197	1	0	7	33	974	6	1
+TXN00736	7	1093.58	TechZone	ATM Withdrawal	Dubai	DEV-725	0	0	4	81	1505	7	0
+TXN00737	8	9601.07	TechZone	Jewellery	Dubai	DEV-858	0	0	1	24	1526	1	0
+TXN00738	4	1315.1	GameHub	Electronics	London	DEV-454	0	0	5	23	809	3	0
+TXN00739	8	6043.79	UPI Transfer	Grocery	Kolkata	DEV-676	0	0	2	97	2101	6	0
+TXN00740	9	1671.69	TechZone	Fuel	Dubai	DEV-999	0	0	1	1	120	0	0
+TXN00741	9	2883.22	Metro Mart	ATM Withdrawal	London	DEV-390	0	0	2	35	1975	6	0
+TXN00742	8	631.34	Metro Mart	Grocery	Singapore	DEV-302	0	0	3	62	37	2	0
+TXN00743	7	562.06	GameHub	Electronics	Delhi	DEV-992	1	1	5	41	853	0	0
+TXN00744	3	1833.05	GameHub	Online Transfer	Bengaluru	DEV-352	0	0	9	84	1819	2	1
+TXN00745	8	2950.41	SkyWays	Grocery	Dubai	DEV-525	1	0	2	25	1511	6	0
+TXN00746	4	1256.68	Gold Palace	ATM Withdrawal	Delhi	DEV-497	1	0	1	55	720	7	1
+TXN00747	6	380.79	QuickFuel	Online Transfer	Delhi	DEV-570	1	0	2	12	1950	0	0
+TXN00748	4	356.3	GameHub	Travel	Singapore	DEV-341	0	0	3	21	320	4	0
+TXN00749	4	335.48	QuickFuel	Grocery	Bengaluru	DEV-711	0	0	2	17	1482	1	0
+TXN00750	2	246.94	QuickFuel	Online Transfer	Singapore	DEV-722	0	1	3	74	1150	6	1
+TXN00751	10	1337.47	GameHub	Gaming	Singapore	DEV-280	0	1	9	20	471	7	1
+TXN00752	2	3336.04	SkyWays	ATM Withdrawal	Mumbai	DEV-532	0	0	4	66	2027	8	0
+TXN00753	1	1197.42	QuickFuel	Gaming	Delhi	DEV-151	1	0	6	34	1688	3	0
+TXN00754	10	158.48	Metro Mart	Travel	Delhi	DEV-298	0	0	7	56	38	2	1
+TXN00755	6	1020.77	SkyWays	Online Transfer	Delhi	DEV-988	0	0	2	87	209	2	0
+TXN00756	5	1046.79	GameHub	Travel	London	DEV-555	0	0	3	86	142	6	0
+TXN00757	8	7993.62	City ATM	Travel	Dubai	DEV-660	1	0	4	1	925	4	0
+TXN00758	4	326.55	Metro Mart	Online Transfer	Singapore	DEV-899	1	0	5	78	929	0	0
+TXN00759	2	852.68	TechZone	Electronics	Delhi	DEV-742	0	0	1	95	1598	8	0
+TXN00760	8	5626.64	GameHub	Online Transfer	Singapore	DEV-813	1	0	6	66	1493	0	0
+TXN00761	2	1817.07	City ATM	Gaming	Chennai	DEV-740	0	1	3	18	52	8	1
+TXN00762	6	2012.2	SkyWays	Travel	Kolkata	DEV-548	0	1	3	66	1057	1	0
+TXN00763	10	1343.62	TechZone	Jewellery	Singapore	DEV-669	1	0	6	63	1730	4	0
+TXN00764	10	1631.0	UPI Transfer	Gaming	Bengaluru	DEV-359	1	1	9	66	1976	2	1
+TXN00765	4	2440.23	TechZone	Electronics	Mumbai	DEV-901	0	0	8	42	656	6	0
+TXN00766	8	584.91	GameHub	Jewellery	Singapore	DEV-261	0	0	9	52	116	3	0
+TXN00767	7	2671.12	UPI Transfer	Electronics	Singapore	DEV-895	0	0	4	65	353	3	0
+TXN00768	5	352.23	Metro Mart	ATM Withdrawal	Singapore	DEV-890	0	0	2	46	761	4	0
+TXN00769	2	1628.69	City ATM	Travel	London	DEV-228	0	1	2	77	986	8	0
+TXN00770	4	1423.49	UPI Transfer	ATM Withdrawal	Bengaluru	DEV-739	0	0	4	70	785	2	0
+TXN00771	7	695.99	SkyWays	Gaming	Delhi	DEV-990	0	0	3	30	217	1	0
+TXN00772	10	1187.47	SkyWays	Gaming	Delhi	DEV-614	1	0	2	61	761	0	0
+TXN00773	1	692.09	TechZone	Electronics	Singapore	DEV-406	0	0	2	75	651	6	0
+TXN00774	8	461.96	UPI Transfer	Jewellery	Chennai	DEV-891	0	0	2	48	1083	6	0
+TXN00775	9	881.61	UPI Transfer	Fuel	Delhi	DEV-561	0	0	6	71	192	5	1
+TXN00776	10	448.73	Gold Palace	Fuel	Delhi	DEV-209	0	0	5	12	1743	0	0
+TXN00777	5	1620.54	Gold Palace	ATM Withdrawal	London	DEV-324	0	0	1	38	929	7	0
+TXN00778	2	430.49	City ATM	Jewellery	Singapore	DEV-714	1	1	6	70	712	7	1
+TXN00779	3	2300.26	GameHub	Online Transfer	Kolkata	DEV-509	0	1	8	89	1996	8	1
+TXN00780	9	418.5	TechZone	Travel	Kolkata	DEV-295	0	1	4	64	1642	8	0
+TXN00781	9	728.02	QuickFuel	Gaming	London	DEV-819	0	0	3	66	318	2	0
+TXN00782	7	690.8	GameHub	Online Transfer	Bengaluru	DEV-208	0	0	3	34	339	6	0
+TXN00783	2	3994.33	Metro Mart	ATM Withdrawal	London	DEV-297	0	0	4	70	24	3	1
+TXN00784	2	1631.51	UPI Transfer	Grocery	Mumbai	DEV-519	0	0	3	35	1242	5	0
+TXN00785	5	1001.69	SkyWays	Jewellery	Bengaluru	DEV-135	1	0	9	5	793	2	0
+TXN00786	6	1898.55	UPI Transfer	Jewellery	Dubai	DEV-448	1	0	9	24	837	5	0
+TXN00787	1	181.91	Gold Palace	Jewellery	Mumbai	DEV-918	1	0	4	61	1130	8	0
+TXN00788	7	1165.82	TechZone	Travel	Singapore	DEV-947	0	0	9	96	1195	5	0
+TXN00789	6	7315.59	TechZone	Electronics	Kolkata	DEV-884	0	0	8	49	22	8	1
+TXN00790	1	1365.28	UPI Transfer	Fuel	London	DEV-391	0	0	1	86	254	8	0
+TXN00791	1	1288.36	Gold Palace	Jewellery	Delhi	DEV-158	0	0	5	77	1740	1	0
+TXN00792	5	1984.88	GameHub	Grocery	Kolkata	DEV-833	0	0	6	56	2098	8	0
+TXN00793	8	2713.64	UPI Transfer	Electronics	London	DEV-435	1	1	4	80	1845	7	1
+TXN00794	9	200.79	SkyWays	Jewellery	Delhi	DEV-773	0	0	5	40	1995	3	0
+TXN00795	5	266.64	Gold Palace	Travel	Chennai	DEV-207	0	0	5	44	1030	5	0
+TXN00796	3	1464.49	City ATM	Gaming	Singapore	DEV-701	0	0	7	73	1821	5	0
+TXN00797	10	636.9	Metro Mart	Online Transfer	Singapore	DEV-627	0	1	3	63	1943	7	1
+TXN00798	5	3947.44	Gold Palace	Travel	Bengaluru	DEV-928	0	0	6	52	1966	7	0
+TXN00799	4	912.64	UPI Transfer	Travel	London	DEV-191	0	0	3	43	345	0	0
+TXN00800	5	212.5	UPI Transfer	Gaming	Singapore	DEV-467	1	0	9	97	339	0	1
+TXN00801	1	387.14	QuickFuel	Fuel	Chennai	DEV-990	0	0	1	6	897	2	0
+TXN00802	4	102.03	Gold Palace	Gaming	Chennai	DEV-450	1	0	1	5	1118	4	0
+TXN00803	6	981.7	Gold Palace	Electronics	Kolkata	DEV-692	1	1	1	47	2108	7	0
+TXN00804	10	1022.96	UPI Transfer	Fuel	London	DEV-244	1	0	4	3	713	5	1
+TXN00805	8	827.15	QuickFuel	Fuel	Mumbai	DEV-755	0	1	6	34	1832	1	0
+TXN00806	8	3200.27	UPI Transfer	Online Transfer	Chennai	DEV-348	0	0	9	56	1954	6	0
+TXN00807	6	3564.1	UPI Transfer	Travel	Mumbai	DEV-614	0	0	5	40	2124	4	0
+TXN00808	2	1039.66	UPI Transfer	Electronics	Mumbai	DEV-891	0	1	2	20	432	3	0
+TXN00809	4	177.47	QuickFuel	Fuel	London	DEV-694	1	1	4	28	547	6	1
+TXN00810	10	2112.34	Gold Palace	Grocery	Dubai	DEV-526	0	0	2	60	499	2	0
+TXN00811	1	1997.84	TechZone	Fuel	Kolkata	DEV-271	1	0	5	95	1622	5	0
+TXN00812	9	1601.11	Gold Palace	Jewellery	Bengaluru	DEV-407	1	0	7	78	1517	1	0
+TXN00813	7	2931.68	City ATM	Online Transfer	Mumbai	DEV-864	0	0	1	54	907	3	0
+TXN00814	3	424.82	UPI Transfer	Travel	Bengaluru	DEV-294	1	0	7	13	213	5	0
+TXN00815	8	7389.98	GameHub	Gaming	Bengaluru	DEV-690	1	0	3	24	1155	5	0
+TXN00816	9	511.07	GameHub	ATM Withdrawal	Chennai	DEV-536	0	0	7	44	1616	8	0
+TXN00817	1	2378.68	Metro Mart	Online Transfer	Chennai	DEV-388	0	1	8	24	1054	2	0
+TXN00818	2	265.44	Metro Mart	ATM Withdrawal	London	DEV-744	0	0	7	68	604	8	1
+TXN00819	7	524.67	City ATM	Electronics	London	DEV-425	0	0	7	36	1311	7	1
+TXN00820	10	4744.45	QuickFuel	Gaming	Chennai	DEV-358	0	0	7	83	1460	3	0
+TXN00821	1	958.33	Metro Mart	Online Transfer	Kolkata	DEV-576	1	0	2	26	1308	1	0
+TXN00822	7	2581.0	GameHub	Jewellery	London	DEV-781	1	0	2	49	1923	2	0
+TXN00823	2	1500.06	Gold Palace	Grocery	Dubai	DEV-877	0	0	4	71	704	5	0
+TXN00824	7	1102.72	GameHub	Jewellery	Kolkata	DEV-666	0	0	6	20	1348	7	0
+TXN00825	7	4135.92	QuickFuel	ATM Withdrawal	Chennai	DEV-695	0	0	6	76	1883	5	0
+TXN00826	1	979.47	TechZone	ATM Withdrawal	London	DEV-808	0	0	7	58	483	6	0
+TXN00827	7	244.04	City ATM	Electronics	Mumbai	DEV-342	1	0	3	64	633	0	0
+TXN00828	9	588.21	Gold Palace	Grocery	Singapore	DEV-325	0	0	8	45	127	4	1
+TXN00829	9	1990.36	Metro Mart	Online Transfer	Singapore	DEV-535	0	0	5	93	837	7	0
+TXN00830	1	1730.14	QuickFuel	Travel	Chennai	DEV-667	1	0	3	77	117	3	0
+TXN00831	3	295.79	GameHub	Grocery	Chennai	DEV-681	0	0	7	19	1647	8	0
+TXN00832	3	631.5	Metro Mart	Jewellery	Dubai	DEV-238	1	0	2	55	213	1	0
+TXN00833	5	717.99	QuickFuel	ATM Withdrawal	London	DEV-802	0	0	4	90	1529	8	0
+TXN00834	2	872.25	TechZone	Fuel	Delhi	DEV-427	0	0	8	27	1284	7	0
+TXN00835	9	351.31	Metro Mart	Electronics	Chennai	DEV-889	0	0	7	53	2173	5	0
+TXN00836	8	688.47	Metro Mart	Fuel	Kolkata	DEV-751	0	0	3	75	779	5	0
+TXN00837	9	629.08	TechZone	Electronics	Kolkata	DEV-984	0	0	2	27	771	8	0
+TXN00838	2	2426.92	QuickFuel	Travel	Delhi	DEV-668	1	1	1	51	549	3	1
+TXN00839	1	2510.43	UPI Transfer	Jewellery	Chennai	DEV-574	0	0	1	55	1191	1	0
+TXN00840	10	1062.92	Gold Palace	Jewellery	Singapore	DEV-269	0	0	8	17	498	8	1
+TXN00841	3	851.64	TechZone	Fuel	Kolkata	DEV-458	1	0	8	17	267	0	0
+TXN00842	7	1374.62	SkyWays	Fuel	Delhi	DEV-872	0	0	5	56	2087	5	0
+TXN00843	10	581.19	UPI Transfer	Gaming	Singapore	DEV-443	0	0	6	17	1500	2	0
+TXN00844	1	431.75	UPI Transfer	Grocery	London	DEV-148	0	0	3	94	279	8	1
+TXN00845	1	519.99	City ATM	Travel	Chennai	DEV-320	0	0	2	52	1367	8	0
+TXN00846	1	684.49	SkyWays	Travel	Bengaluru	DEV-635	0	0	1	70	684	4	0
+TXN00847	2	425.33	TechZone	ATM Withdrawal	Bengaluru	DEV-666	0	0	7	39	412	4	0
+TXN00848	1	1402.28	SkyWays	Fuel	Dubai	DEV-985	1	0	1	29	1047	4	0
+TXN00849	9	2337.28	UPI Transfer	Travel	Chennai	DEV-940	0	0	1	48	1737	3	0
+TXN00850	7	290.5	GameHub	ATM Withdrawal	Mumbai	DEV-578	1	0	8	71	20	8	1
+TXN00851	10	1239.69	TechZone	Grocery	Chennai	DEV-599	1	0	6	39	794	2	0
+TXN00852	9	994.32	TechZone	Fuel	Bengaluru	DEV-820	0	0	5	28	2027	8	0
+TXN00853	10	1648.07	GameHub	Travel	Chennai	DEV-143	0	1	2	14	879	5	0
+TXN00854	3	1197.94	GameHub	Online Transfer	Delhi	DEV-635	0	1	2	54	236	8	0
+TXN00855	3	327.59	Gold Palace	Online Transfer	Delhi	DEV-526	1	0	5	67	954	5	0
+TXN00856	9	389.11	City ATM	Gaming	Chennai	DEV-804	0	1	4	52	1507	7	0
+TXN00857	3	1244.49	SkyWays	Fuel	London	DEV-820	0	0	5	25	2191	4	0
+TXN00858	1	3059.18	UPI Transfer	Fuel	Kolkata	DEV-690	1	0	2	24	1390	4	0
+TXN00859	7	165.21	SkyWays	ATM Withdrawal	Chennai	DEV-691	0	1	3	37	130	2	1
+TXN00860	9	1654.33	GameHub	Gaming	Delhi	DEV-722	1	0	2	34	1783	1	0
+TXN00861	10	3535.68	GameHub	Travel	London	DEV-622	0	0	4	20	1720	0	0
+TXN00862	10	1056.04	Metro Mart	Online Transfer	Kolkata	DEV-305	0	0	3	94	1440	3	0
+TXN00863	2	1988.59	Metro Mart	Gaming	Delhi	DEV-356	0	0	3	32	1974	8	0
+TXN00864	8	643.7	Gold Palace	Jewellery	Dubai	DEV-767	0	0	5	25	1697	8	0
+TXN00865	9	1088.52	City ATM	Online Transfer	Dubai	DEV-656	0	1	5	60	526	6	0
+TXN00866	7	281.79	UPI Transfer	Travel	Delhi	DEV-314	0	1	2	80	938	3	0
+TXN00867	9	146.95	Metro Mart	Travel	Delhi	DEV-890	0	0	7	46	1126	4	0
+TXN00868	9	2831.29	GameHub	Travel	Bengaluru	DEV-982	1	0	4	66	1085	6	0
+TXN00869	5	499.45	Gold Palace	Grocery	Delhi	DEV-663	1	0	4	9	1412	0	0
+TXN00870	1	804.34	Metro Mart	ATM Withdrawal	London	DEV-305	0	0	5	53	1549	8	0
+TXN00871	5	348.0	City ATM	Online Transfer	Chennai	DEV-944	1	1	2	6	246	7	0
+TXN00872	3	340.71	UPI Transfer	Gaming	Dubai	DEV-313	1	0	4	13	1259	8	0
+TXN00873	2	1036.44	Gold Palace	Fuel	Kolkata	DEV-489	1	0	6	59	104	0	0
+TXN00874	2	628.53	SkyWays	ATM Withdrawal	Kolkata	DEV-872	0	0	2	20	1135	8	0
+TXN00875	7	1703.05	QuickFuel	Grocery	London	DEV-568	0	0	6	3	940	5	0
+TXN00876	6	1821.26	TechZone	ATM Withdrawal	Delhi	DEV-318	0	0	1	17	468	4	0
+TXN00877	6	1617.71	QuickFuel	Travel	Bengaluru	DEV-172	0	1	6	77	2179	1	0
+TXN00878	8	1502.28	TechZone	Travel	Singapore	DEV-424	0	0	1	58	582	4	0
+TXN00879	6	5014.01	Gold Palace	Travel	London	DEV-704	0	0	2	38	142	3	0
+TXN00880	7	463.67	Metro Mart	Gaming	Kolkata	DEV-743	0	0	4	97	801	8	0
+TXN00881	1	1153.5	GameHub	Fuel	Dubai	DEV-300	0	0	6	38	1671	3	0
+TXN00882	9	3359.07	SkyWays	Electronics	London	DEV-242	0	0	7	87	40	1	0
+TXN00883	5	3782.29	City ATM	Electronics	Kolkata	DEV-731	0	0	5	34	1094	8	0
+TXN00884	2	337.11	TechZone	Gaming	Mumbai	DEV-243	0	1	2	2	929	1	0
+TXN00885	9	914.96	QuickFuel	Fuel	Delhi	DEV-157	0	0	4	11	1907	8	0
+TXN00886	8	4114.65	TechZone	Travel	Singapore	DEV-537	1	0	8	27	26	8	1
+TXN00887	1	1914.61	GameHub	Electronics	Mumbai	DEV-613	0	0	1	18	57	2	0
+TXN00888	2	1444.82	TechZone	Fuel	Delhi	DEV-319	1	0	7	15	1251	6	0
+TXN00889	1	996.34	City ATM	Online Transfer	Bengaluru	DEV-290	1	1	4	38	411	7	1
+TXN00890	3	857.98	GameHub	Gaming	Bengaluru	DEV-312	0	0	1	97	1554	4	0
+TXN00891	1	1570.89	SkyWays	Travel	Delhi	DEV-408	0	0	7	20	626	6	1
+TXN00892	8	965.71	TechZone	Gaming	Kolkata	DEV-108	0	0	1	23	1245	1	0
+TXN00893	6	1166.4	QuickFuel	Travel	Delhi	DEV-110	0	0	4	99	102	4	1
+TXN00894	10	1300.81	Gold Palace	Jewellery	London	DEV-433	0	0	2	20	1531	4	0
+TXN00895	8	658.35	Gold Palace	Electronics	Mumbai	DEV-117	0	1	6	83	1149	5	1
+TXN00896	7	1956.51	SkyWays	Fuel	Delhi	DEV-386	0	0	1	62	20	8	1
+TXN00897	6	16694.26	UPI Transfer	Electronics	Kolkata	DEV-622	0	0	1	92	599	7	0
+TXN00898	1	244.87	City ATM	Fuel	Chennai	DEV-128	0	0	5	55	149	5	0
+TXN00899	1	1622.32	UPI Transfer	Gaming	Mumbai	DEV-656	0	0	9	59	117	3	1
+TXN00900	7	611.45	Gold Palace	ATM Withdrawal	London	DEV-659	0	0	1	22	1542	3	0
+TXN00901	1	2037.87	Gold Palace	Gaming	Singapore	DEV-616	0	0	5	57	952	0	0
+TXN00902	1	1263.83	Gold Palace	Electronics	Kolkata	DEV-663	0	0	8	67	1770	4	0
+TXN00903	3	2405.88	SkyWays	Jewellery	Mumbai	DEV-828	0	0	3	98	581	2	0
+TXN00904	9	3491.04	GameHub	Electronics	Delhi	DEV-163	0	0	5	9	1584	7	0
+TXN00905	5	1441.12	QuickFuel	Gaming	London	DEV-251	0	0	8	15	1360	6	0
+TXN00906	8	3357.15	QuickFuel	Jewellery	Mumbai	DEV-385	0	0	7	1	1465	8	0
+TXN00907	5	146.96	Metro Mart	Electronics	Singapore	DEV-719	0	0	3	79	1825	8	0
+TXN00908	2	5071.58	UPI Transfer	Electronics	Kolkata	DEV-885	0	0	7	8	1562	3	0
+TXN00909	4	1698.59	UPI Transfer	Electronics	Dubai	DEV-926	0	0	7	91	1645	3	0
+TXN00910	1	3197.29	TechZone	Jewellery	Kolkata	DEV-623	0	0	5	36	1632	5	0
+TXN00911	8	404.28	QuickFuel	Online Transfer	Bengaluru	DEV-469	1	0	4	28	994	3	0
+TXN00912	2	573.82	Metro Mart	Electronics	Dubai	DEV-470	0	0	9	97	1599	2	0
+TXN00913	4	1382.08	GameHub	Gaming	London	DEV-153	0	0	8	72	1855	6	0
+TXN00914	10	1193.52	GameHub	Gaming	Bengaluru	DEV-518	0	0	9	54	1628	4	0
+TXN00915	6	1563.62	QuickFuel	Electronics	Chennai	DEV-561	1	1	7	88	1344	8	1
+TXN00916	5	3216.55	TechZone	ATM Withdrawal	Kolkata	DEV-287	0	0	4	75	181	1	0
+TXN00917	6	247.47	TechZone	Grocery	Chennai	DEV-791	0	0	1	63	971	3	1
+TXN00918	8	2911.54	UPI Transfer	ATM Withdrawal	Bengaluru	DEV-830	0	0	2	32	157	4	0
+TXN00919	3	1221.03	Gold Palace	Fuel	Singapore	DEV-371	0	0	9	98	246	8	1
+TXN00920	7	1008.88	SkyWays	Jewellery	Mumbai	DEV-922	0	0	4	71	807	5	1
+TXN00921	9	322.47	SkyWays	Fuel	London	DEV-196	0	1	1	94	1031	0	0
+TXN00922	6	1905.97	City ATM	Electronics	Chennai	DEV-919	1	0	3	96	1170	3	1
+TXN00923	5	138.01	Metro Mart	Fuel	London	DEV-791	1	0	1	54	1982	7	0
+TXN00924	2	2172.33	QuickFuel	Online Transfer	Delhi	DEV-301	0	0	5	35	1682	2	0
+TXN00925	3	316.43	TechZone	Travel	Singapore	DEV-685	1	0	6	94	941	3	1
+TXN00926	10	1271.7	Gold Palace	Gaming	London	DEV-379	0	0	4	99	749	1	1
+TXN00927	6	1088.71	City ATM	ATM Withdrawal	Singapore	DEV-819	0	0	7	12	1573	6	0
+TXN00928	4	3472.34	QuickFuel	Jewellery	Dubai	DEV-244	1	0	5	63	619	1	1
+TXN00929	5	1031.96	Gold Palace	Jewellery	London	DEV-320	0	1	9	60	1946	3	0
+TXN00930	6	648.9	QuickFuel	Online Transfer	Delhi	DEV-376	0	0	7	74	1723	6	0
+TXN00931	6	768.21	Gold Palace	Grocery	Bengaluru	DEV-279	0	0	1	97	1507	8	0
+TXN00932	7	3810.8	UPI Transfer	Online Transfer	Kolkata	DEV-399	0	0	3	25	563	1	0
+TXN00933	3	1963.86	GameHub	Grocery	Singapore	DEV-642	0	0	7	97	1375	2	0
+TXN00934	7	856.57	TechZone	Online Transfer	Singapore	DEV-669	1	0	5	64	1809	1	0
+TXN00935	5	979.65	City ATM	Fuel	Dubai	DEV-598	1	0	7	8	176	3	0
+TXN00936	10	295.76	Gold Palace	Online Transfer	Dubai	DEV-270	0	0	4	51	406	8	0
+TXN00937	2	1719.22	QuickFuel	Gaming	Singapore	DEV-282	0	0	1	13	1143	2	0
+TXN00938	2	248.68	Metro Mart	Grocery	Bengaluru	DEV-927	0	0	8	95	803	2	0
+TXN00939	5	2384.19	City ATM	Jewellery	London	DEV-326	1	0	8	76	1566	3	1
+TXN00940	6	1360.71	Gold Palace	Electronics	London	DEV-192	0	0	6	90	894	8	1
+TXN00941	7	10386.44	SkyWays	Fuel	London	DEV-508	1	0	4	60	2192	4	0
+TXN00942	5	450.28	City ATM	Jewellery	Dubai	DEV-106	0	0	1	39	672	5	0
+TXN00943	10	1105.0	QuickFuel	ATM Withdrawal	Chennai	DEV-408	0	0	7	42	805	7	0
+TXN00944	5	6114.75	GameHub	Travel	Dubai	DEV-869	0	0	6	94	27	6	0
+TXN00945	2	3541.31	Gold Palace	ATM Withdrawal	Kolkata	DEV-340	0	0	7	15	559	5	0
+TXN00946	2	647.69	TechZone	Gaming	Singapore	DEV-733	1	1	2	88	533	5	1
+TXN00947	10	1482.63	TechZone	Jewellery	Singapore	DEV-540	0	0	7	42	1682	4	0
+TXN00948	2	1214.15	GameHub	Jewellery	Bengaluru	DEV-419	0	0	7	59	756	1	0
+TXN00949	10	1562.06	GameHub	Fuel	Bengaluru	DEV-695	1	0	8	66	463	3	0
+TXN00950	3	646.25	QuickFuel	Grocery	London	DEV-635	0	0	6	8	703	7	0
+TXN00951	1	1118.35	UPI Transfer	Jewellery	Singapore	DEV-386	0	0	7	14	1246	0	0
+TXN00952	4	287.65	GameHub	Gaming	Mumbai	DEV-301	0	0	4	16	1732	7	0
+TXN00953	7	1368.69	TechZone	Grocery	Singapore	DEV-925	0	1	7	77	2153	5	0
+TXN00954	5	1817.14	TechZone	Online Transfer	Dubai	DEV-251	1	0	7	7	123	3	0
+TXN00955	8	987.64	GameHub	Online Transfer	Mumbai	DEV-963	0	0	8	61	1853	1	1
+TXN00956	7	283.29	TechZone	Gaming	Delhi	DEV-524	1	0	8	10	867	6	1
+TXN00957	5	2950.35	GameHub	Fuel	Chennai	DEV-997	0	1	1	76	1781	0	1
+TXN00958	7	1682.56	UPI Transfer	Electronics	Kolkata	DEV-417	0	0	8	97	101	4	1
+TXN00959	10	630.55	SkyWays	Electronics	Bengaluru	DEV-608	0	0	8	41	1384	1	0
+TXN00960	5	941.49	City ATM	Gaming	Dubai	DEV-653	0	0	5	21	2048	8	0
+TXN00961	2	314.0	SkyWays	ATM Withdrawal	Mumbai	DEV-404	0	0	5	44	105	1	0
+TXN00962	5	481.61	TechZone	Electronics	Mumbai	DEV-296	0	0	7	69	1742	7	0
+TXN00963	9	746.93	City ATM	ATM Withdrawal	Mumbai	DEV-568	0	0	5	72	269	5	1
+TXN00964	3	3661.32	Metro Mart	Jewellery	Kolkata	DEV-696	0	0	4	63	2161	0	0
+TXN00965	10	681.6	Gold Palace	Electronics	Kolkata	DEV-335	0	0	8	58	1642	6	0
+TXN00966	6	2156.39	GameHub	Travel	Kolkata	DEV-790	1	0	8	63	2004	7	0
+TXN00967	7	746.59	City ATM	Jewellery	Singapore	DEV-674	0	0	2	21	1976	1	0
+TXN00968	4	1514.97	City ATM	Online Transfer	Bengaluru	DEV-249	0	0	8	20	708	8	1
+TXN00969	10	1067.15	Gold Palace	ATM Withdrawal	Delhi	DEV-944	0	1	3	93	926	7	0
+TXN00970	1	2659.12	SkyWays	Online Transfer	Dubai	DEV-139	0	0	2	57	1527	6	0
+TXN00971	3	748.95	UPI Transfer	Travel	London	DEV-688	0	0	8	86	401	3	0
+TXN00972	5	294.34	GameHub	Jewellery	Delhi	DEV-495	1	0	3	62	688	1	0
+TXN00973	5	349.41	SkyWays	Online Transfer	Dubai	DEV-688	1	0	2	45	235	3	0
+TXN00974	5	750.93	GameHub	Electronics	Delhi	DEV-796	0	0	3	57	1956	7	0
+TXN00975	2	393.8	Gold Palace	Electronics	Bengaluru	DEV-718	1	0	5	69	560	5	0
+TXN00976	3	1753.19	Metro Mart	Gaming	Singapore	DEV-685	1	0	2	18	915	5	0
+TXN00977	1	796.96	Gold Palace	Jewellery	Bengaluru	DEV-856	0	0	2	46	1006	7	0
+TXN00978	6	10271.68	Metro Mart	Online Transfer	Chennai	DEV-731	0	0	4	72	839	3	0
+TXN00979	4	253.68	Gold Palace	Electronics	Chennai	DEV-832	0	0	2	8	1715	0	0
+TXN00980	6	1455.74	Gold Palace	Fuel	Mumbai	DEV-462	0	0	2	7	2012	7	0
+TXN00981	6	439.15	UPI Transfer	Jewellery	Bengaluru	DEV-282	0	0	9	16	1268	5	0
+TXN00982	8	777.39	Metro Mart	ATM Withdrawal	Chennai	DEV-311	0	0	6	59	1844	5	0
+TXN00983	6	1376.47	GameHub	Jewellery	London	DEV-650	0	0	1	23	261	5	0
+TXN00984	7	149.48	SkyWays	Online Transfer	Chennai	DEV-578	0	0	1	43	2126	7	0
+TXN00985	6	1499.88	Gold Palace	Travel	Singapore	DEV-169	0	0	8	13	272	6	1
+TXN00986	7	6718.48	City ATM	ATM Withdrawal	Mumbai	DEV-283	0	0	3	25	164	6	0
+TXN00987	7	805.86	Gold Palace	Grocery	Bengaluru	DEV-970	0	1	2	1	68	7	0
+TXN00988	4	1531.23	QuickFuel	ATM Withdrawal	Dubai	DEV-753	1	1	6	80	550	2	1
+TXN00989	3	3048.57	City ATM	Electronics	Chennai	DEV-779	0	0	8	46	1845	6	0
+TXN00990	8	1045.7	City ATM	ATM Withdrawal	London	DEV-277	0	0	4	17	675	8	0
+TXN00991	4	718.48	Gold Palace	ATM Withdrawal	London	DEV-157	0	0	7	52	1744	2	0
+TXN00992	6	156.31	SkyWays	Gaming	Bengaluru	DEV-362	1	0	4	93	945	5	0
+TXN00993	2	2157.9	Gold Palace	ATM Withdrawal	Mumbai	DEV-871	1	0	1	82	246	6	1
+TXN00994	5	1094.6	UPI Transfer	Jewellery	Singapore	DEV-555	0	0	8	88	1051	4	1
+TXN00995	6	487.16	City ATM	Gaming	Singapore	DEV-806	0	0	9	40	526	8	0
+TXN00996	7	1358.23	Metro Mart	Grocery	Dubai	DEV-538	0	1	9	36	655	3	1
+TXN00997	6	716.72	City ATM	Travel	Bengaluru	DEV-541	1	0	1	31	1147	1	0
+TXN00998	4	753.26	GameHub	Jewellery	Dubai	DEV-640	0	0	6	30	1743	1	0
+TXN00999	10	2091.55	GameHub	Gaming	Delhi	DEV-963	1	0	6	91	1299	7	1
+TXN01000	6	363.38	SkyWays	Gaming	Dubai	DEV-493	1	0	1	13	506	6	0
+TXN01001	9	3110.64	QuickFuel	Jewellery	Bengaluru	DEV-636	0	1	9	85	1584	5	0
+TXN01002	8	344.5	TechZone	Jewellery	Chennai	DEV-927	0	1	1	91	1538	3	0
+TXN01003	6	667.52	QuickFuel	Jewellery	Singapore	DEV-435	0	1	3	84	536	3	1
+TXN01004	9	6840.74	GameHub	Gaming	Singapore	DEV-855	1	0	9	62	1876	8	1
+TXN01005	2	3342.98	TechZone	Gaming	Kolkata	DEV-581	1	0	6	85	1858	6	0
+TXN01006	10	1323.25	SkyWays	Travel	Dubai	DEV-891	0	0	7	3	1336	8	0
+TXN01007	9	519.84	TechZone	Jewellery	London	DEV-521	0	0	5	81	665	7	0
+TXN01008	6	752.69	City ATM	Electronics	Dubai	DEV-666	0	0	7	51	792	6	0
+TXN01009	8	1294.59	TechZone	Gaming	Delhi	DEV-390	0	0	1	95	977	4	0
+TXN01010	6	1253.6	GameHub	Jewellery	Kolkata	DEV-671	1	0	7	8	429	2	0
+TXN01011	3	1116.79	Gold Palace	ATM Withdrawal	Chennai	DEV-393	0	0	1	93	686	5	1
+TXN01012	8	1178.8	QuickFuel	Electronics	Delhi	DEV-648	0	0	2	57	312	6	0
+TXN01013	3	999.31	Metro Mart	Online Transfer	Bengaluru	DEV-809	0	0	5	10	356	4	0
+TXN01014	4	331.03	Metro Mart	Travel	Singapore	DEV-491	1	0	5	50	1642	0	0
+TXN01015	6	761.39	Gold Palace	ATM Withdrawal	Chennai	DEV-486	0	0	2	3	299	8	0
+TXN01016	9	2760.48	Gold Palace	Grocery	Dubai	DEV-389	0	0	8	8	1042	7	0
+TXN01017	4	353.72	City ATM	Electronics	Chennai	DEV-757	0	0	3	53	955	3	0
+TXN01018	5	1021.88	QuickFuel	Gaming	Mumbai	DEV-632	0	0	8	81	120	4	0
+TXN01019	1	579.53	Gold Palace	ATM Withdrawal	Bengaluru	DEV-564	0	0	1	10	1832	1	0
+TXN01020	2	1339.72	TechZone	Electronics	London	DEV-122	0	0	3	26	2164	8	0
+TXN01021	1	854.26	UPI Transfer	Electronics	Chennai	DEV-199	0	0	3	39	1411	2	0
+TXN01022	1	4580.92	City ATM	Travel	Delhi	DEV-106	0	0	6	54	1483	3	0
+TXN01023	9	1912.04	GameHub	ATM Withdrawal	Chennai	DEV-865	0	0	4	0	527	3	0
+TXN01024	9	372.18	City ATM	Travel	Mumbai	DEV-866	0	0	2	63	1860	2	0
+TXN01025	9	2217.43	City ATM	Travel	Kolkata	DEV-161	1	0	6	49	1729	5	0
+TXN01026	1	603.54	Metro Mart	Electronics	Bengaluru	DEV-141	0	0	9	96	975	8	0
+TXN01027	1	721.05	TechZone	Travel	Dubai	DEV-803	0	0	2	30	1558	7	0
+TXN01028	3	1607.5	QuickFuel	Grocery	Kolkata	DEV-572	0	0	3	49	2102	4	0
+TXN01029	6	778.55	QuickFuel	Online Transfer	Delhi	DEV-378	0	0	5	8	1334	1	0
+TXN01030	4	2706.93	TechZone	Online Transfer	Chennai	DEV-653	0	0	7	91	454	7	1
+TXN01031	5	603.62	GameHub	Fuel	Chennai	DEV-312	0	0	2	83	740	2	0
+TXN01032	2	694.33	Metro Mart	Gaming	Kolkata	DEV-278	0	0	3	35	423	8	0
+TXN01033	8	671.33	TechZone	Jewellery	Chennai	DEV-430	0	0	3	46	742	3	0
+TXN01034	4	728.45	Metro Mart	Grocery	Chennai	DEV-906	1	0	6	85	1960	4	0
+TXN01035	1	3259.32	Metro Mart	Online Transfer	Chennai	DEV-790	0	0	1	29	433	3	0
+TXN01036	8	2134.35	Gold Palace	Jewellery	Kolkata	DEV-271	1	0	6	23	1963	4	0
+TXN01037	10	5647.39	Gold Palace	Gaming	Bengaluru	DEV-605	0	0	4	24	641	1	0
+TXN01038	1	9328.97	SkyWays	Grocery	Chennai	DEV-896	0	0	3	70	1107	4	0
+TXN01039	5	479.31	UPI Transfer	Grocery	Chennai	DEV-956	0	0	8	21	1171	3	0
+TXN01040	9	1291.26	UPI Transfer	Fuel	Bengaluru	DEV-786	0	1	8	8	294	7	0
+TXN01041	8	420.49	Gold Palace	Fuel	Kolkata	DEV-215	1	1	8	16	421	4	0
+TXN01042	9	601.94	GameHub	ATM Withdrawal	Delhi	DEV-316	0	0	8	98	685	8	1
+TXN01043	5	687.41	Metro Mart	Online Transfer	Mumbai	DEV-296	0	0	3	87	150	2	0
+TXN01044	4	468.04	City ATM	Jewellery	Delhi	DEV-235	1	0	8	95	1664	2	1
+TXN01045	8	470.27	UPI Transfer	Jewellery	Kolkata	DEV-257	0	0	2	27	1210	0	0
+TXN01046	2	1064.38	Metro Mart	ATM Withdrawal	Delhi	DEV-384	0	0	3	44	1864	6	0
+TXN01047	3	405.43	TechZone	Electronics	Dubai	DEV-599	0	0	5	49	1901	0	0
+TXN01048	7	2586.12	SkyWays	Grocery	Bengaluru	DEV-458	0	0	7	52	777	2	0
+TXN01049	7	530.61	GameHub	Grocery	Bengaluru	DEV-478	0	0	6	2	1801	8	0
+TXN01050	2	15193.33	GameHub	Fuel	Dubai	DEV-321	0	0	6	59	153	5	0
+TXN01051	6	807.35	City ATM	Online Transfer	Singapore	DEV-235	0	0	4	3	956	5	0
+TXN01052	4	1293.12	Gold Palace	Electronics	Singapore	DEV-999	0	0	6	27	1471	7	0
+TXN01053	6	377.74	Gold Palace	Electronics	Kolkata	DEV-639	0	0	5	29	1036	6	0
+TXN01054	10	5627.85	Metro Mart	Electronics	Singapore	DEV-306	1	0	5	67	1632	7	1
+TXN01055	1	3319.44	GameHub	ATM Withdrawal	Kolkata	DEV-828	0	0	6	89	1891	5	0
+TXN01056	10	1583.23	QuickFuel	ATM Withdrawal	Bengaluru	DEV-847	1	0	6	69	944	4	1
+TXN01057	5	360.64	Gold Palace	Grocery	Chennai	DEV-970	0	0	3	43	618	1	0
+TXN01058	8	1464.98	Metro Mart	Travel	Bengaluru	DEV-243	0	1	2	52	1291	3	0
+TXN01059	5	441.74	GameHub	Grocery	Mumbai	DEV-675	0	0	3	51	1913	6	0
+TXN01060	4	4519.33	GameHub	Gaming	London	DEV-982	0	0	4	14	2172	2	0
+TXN01061	8	2510.6	QuickFuel	Electronics	Dubai	DEV-826	0	0	2	95	1797	6	0
+TXN01062	7	1320.67	SkyWays	Gaming	Singapore	DEV-302	0	0	2	91	554	1	0
+TXN01063	2	135.27	City ATM	Online Transfer	Mumbai	DEV-903	0	1	9	24	467	0	0
+TXN01064	8	500.16	UPI Transfer	Jewellery	London	DEV-479	0	0	3	11	1269	3	0
+TXN01065	8	2250.67	Gold Palace	Fuel	Kolkata	DEV-540	0	0	7	16	896	2	0
+TXN01066	4	3610.48	City ATM	Fuel	Chennai	DEV-602	0	0	2	62	1351	7	0
+TXN01067	10	3288.72	UPI Transfer	Grocery	Mumbai	DEV-794	0	0	9	2	2032	3	0
+TXN01068	7	289.22	Gold Palace	Jewellery	Mumbai	DEV-208	0	0	2	10	1217	3	0
+TXN01069	4	1589.85	Gold Palace	Fuel	London	DEV-585	1	0	4	64	795	3	0
+TXN01070	1	3022.88	City ATM	Fuel	Delhi	DEV-835	0	0	8	14	1914	2	0
+TXN01071	7	272.46	QuickFuel	Travel	Kolkata	DEV-593	0	0	2	6	977	8	0
+TXN01072	3	1203.38	TechZone	Gaming	Kolkata	DEV-347	0	0	5	2	1338	6	0
+TXN01073	8	1550.69	Metro Mart	ATM Withdrawal	Singapore	DEV-150	0	1	8	70	314	1	1
+TXN01074	6	924.55	QuickFuel	Electronics	Bengaluru	DEV-594	0	0	1	36	1127	1	0
+TXN01075	5	228.85	Gold Palace	Jewellery	Kolkata	DEV-733	0	1	1	28	949	0	0
+TXN01076	2	904.04	Metro Mart	ATM Withdrawal	Mumbai	DEV-594	0	0	8	63	288	2	0
+TXN01077	8	902.73	GameHub	Jewellery	Dubai	DEV-981	0	0	3	17	481	5	0
+TXN01078	2	1060.75	TechZone	Jewellery	Chennai	DEV-642	0	0	9	52	1552	8	1
+TXN01079	5	729.88	SkyWays	Electronics	Delhi	DEV-557	0	0	9	48	413	4	0
+TXN01080	9	813.45	TechZone	Jewellery	London	DEV-149	0	0	8	67	307	0	0
+TXN01081	10	1169.42	City ATM	Jewellery	Delhi	DEV-602	0	0	9	62	145	0	0
+TXN01082	10	1804.81	City ATM	Online Transfer	Bengaluru	DEV-251	0	0	8	67	77	3	0
+TXN01083	10	921.51	TechZone	Jewellery	Chennai	DEV-752	0	0	4	21	967	2	0
+TXN01084	6	838.25	GameHub	Jewellery	Dubai	DEV-245	0	0	9	14	1084	5	0
+TXN01085	3	1317.01	TechZone	Travel	Kolkata	DEV-916	0	0	4	53	1381	1	0
+TXN01086	9	215.12	Metro Mart	ATM Withdrawal	Mumbai	DEV-371	0	0	6	5	1267	2	0
+TXN01087	9	1861.86	UPI Transfer	ATM Withdrawal	Dubai	DEV-490	0	0	1	45	1190	5	0
+TXN01088	10	1211.35	City ATM	Grocery	Dubai	DEV-230	0	0	9	62	2197	2	0
+TXN01089	7	1256.05	UPI Transfer	Fuel	Mumbai	DEV-289	0	0	6	82	564	3	0
+TXN01090	2	2877.45	City ATM	ATM Withdrawal	Delhi	DEV-929	0	0	9	65	1572	1	0
+TXN01091	6	209.03	UPI Transfer	Fuel	Singapore	DEV-355	0	0	4	99	193	0	1
+TXN01092	5	205.11	Gold Palace	Gaming	Bengaluru	DEV-561	0	1	3	55	1869	3	0
+TXN01093	9	1550.64	Gold Palace	Gaming	Singapore	DEV-983	0	1	5	44	810	2	1
+TXN01094	4	1204.23	QuickFuel	Gaming	Chennai	DEV-661	1	0	8	24	775	8	1
+TXN01095	4	1412.56	GameHub	Travel	Dubai	DEV-137	0	0	5	67	314	8	0
+TXN01096	1	799.58	Gold Palace	Electronics	Dubai	DEV-421	0	0	8	81	1129	3	0
+TXN01097	9	2203.76	QuickFuel	Jewellery	Delhi	DEV-448	0	1	2	32	891	2	0
+TXN01098	8	2805.61	UPI Transfer	Gaming	Dubai	DEV-348	0	0	7	7	2143	3	0
+TXN01099	1	1873.54	City ATM	Grocery	Dubai	DEV-317	0	0	7	1	408	5	0
+TXN01100	5	958.39	SkyWays	Fuel	Singapore	DEV-552	0	0	9	63	929	3	0
+TXN01101	5	181.83	GameHub	Grocery	Bengaluru	DEV-439	0	1	1	66	1982	6	0
+TXN01102	5	2421.91	QuickFuel	Gaming	Dubai	DEV-364	1	1	4	12	1779	8	1
+TXN01103	10	3639.33	Metro Mart	ATM Withdrawal	Chennai	DEV-471	0	0	1	2	1686	3	0
+TXN01104	2	2164.84	Metro Mart	Grocery	Bengaluru	DEV-409	0	1	4	65	1166	1	1
+TXN01105	4	549.12	Gold Palace	Grocery	Delhi	DEV-305	0	0	7	39	1923	1	0
+TXN01106	2	2222.56	City ATM	Fuel	Bengaluru	DEV-507	0	1	6	41	508	7	1
+TXN01107	3	2629.31	SkyWays	ATM Withdrawal	London	DEV-948	0	0	7	26	1784	3	1
+TXN01108	10	4929.21	SkyWays	Electronics	Delhi	DEV-555	0	0	7	71	1285	2	0
+TXN01109	10	550.87	SkyWays	Fuel	Dubai	DEV-637	0	0	9	74	782	5	0
+TXN01110	1	988.5	SkyWays	Fuel	Kolkata	DEV-985	0	0	8	5	495	8	0
+TXN01111	7	2374.51	SkyWays	Jewellery	Chennai	DEV-652	0	0	6	8	1157	3	0
+TXN01112	3	1276.23	Metro Mart	Electronics	Bengaluru	DEV-300	0	1	8	55	26	2	1
+TXN01113	2	443.37	City ATM	Grocery	Mumbai	DEV-458	0	0	1	60	1578	7	0
+TXN01114	3	1760.15	UPI Transfer	Gaming	Delhi	DEV-539	0	0	7	14	534	0	0
+TXN01115	2	2040.18	TechZone	Electronics	Delhi	DEV-527	1	1	5	15	868	7	1
+TXN01116	5	1311.81	TechZone	Fuel	London	DEV-234	0	0	9	68	441	4	0
+TXN01117	10	1476.79	GameHub	Online Transfer	Singapore	DEV-195	0	0	5	45	1034	0	0
+TXN01118	6	960.22	GameHub	Online Transfer	Dubai	DEV-414	1	0	2	11	828	2	0
+TXN01119	8	4584.57	Gold Palace	Grocery	Kolkata	DEV-922	0	0	7	60	429	6	0
+TXN01120	5	538.82	Metro Mart	Travel	Chennai	DEV-745	0	0	9	7	1957	6	0
+TXN01121	1	714.38	TechZone	Travel	Chennai	DEV-857	1	0	1	23	1675	1	0
+TXN01122	1	1224.01	TechZone	Gaming	Delhi	DEV-257	0	0	1	71	865	5	0
+TXN01123	3	2673.27	GameHub	Online Transfer	London	DEV-472	0	1	6	22	145	8	0
+TXN01124	3	314.93	UPI Transfer	Gaming	Chennai	DEV-623	1	1	6	6	1862	6	1
+TXN01125	9	372.68	Gold Palace	Online Transfer	Mumbai	DEV-490	0	0	5	95	1539	6	1
+TXN01126	9	193.65	UPI Transfer	Electronics	Delhi	DEV-475	0	0	1	22	1231	1	0
+TXN01127	9	1248.16	TechZone	Jewellery	Chennai	DEV-423	0	0	6	51	1338	5	0
+TXN01128	7	442.98	GameHub	Online Transfer	Singapore	DEV-146	1	1	6	82	36	6	1
+TXN01129	6	857.4	GameHub	Electronics	Delhi	DEV-871	0	0	8	98	1052	0	1
+TXN01130	7	2197.86	Metro Mart	ATM Withdrawal	Dubai	DEV-939	0	0	4	80	431	2	0
+TXN01131	5	680.35	QuickFuel	ATM Withdrawal	London	DEV-172	1	0	4	33	1439	7	0
+TXN01132	7	1492.42	Metro Mart	Gaming	Delhi	DEV-472	0	0	1	85	2050	8	0
+TXN01133	8	925.74	SkyWays	ATM Withdrawal	Mumbai	DEV-566	1	0	6	1	1177	1	0
+TXN01134	8	2219.2	Metro Mart	Electronics	Delhi	DEV-805	0	0	6	32	1337	6	0
+TXN01135	7	1858.67	UPI Transfer	Travel	Chennai	DEV-988	1	0	3	19	1475	4	0
+TXN01136	1	650.19	QuickFuel	Electronics	Delhi	DEV-474	0	0	7	52	2046	5	0
+TXN01137	8	1041.29	Gold Palace	Online Transfer	Dubai	DEV-774	0	0	9	89	103	4	1
+TXN01138	4	3100.66	QuickFuel	Gaming	Bengaluru	DEV-943	0	0	2	77	696	7	1
+TXN01139	8	1726.82	Gold Palace	Electronics	Bengaluru	DEV-847	0	0	6	99	605	4	0
+TXN01140	6	344.72	City ATM	Fuel	Dubai	DEV-361	0	0	7	13	1582	5	0
+TXN01141	9	2186.5	TechZone	Electronics	Chennai	DEV-835	1	0	1	75	996	6	0
+TXN01142	4	456.62	GameHub	Gaming	Kolkata	DEV-471	0	1	2	72	1703	4	0
+TXN01143	10	4321.08	UPI Transfer	Travel	Delhi	DEV-115	0	0	4	45	1049	7	0
+TXN01144	9	3046.32	UPI Transfer	Fuel	Delhi	DEV-782	0	0	2	9	2147	2	0
+TXN01145	4	1573.25	Gold Palace	Grocery	London	DEV-851	0	0	4	10	1692	8	0
+TXN01146	5	1396.2	UPI Transfer	Gaming	Bengaluru	DEV-409	1	0	2	91	59	6	0
+TXN01147	6	1004.12	GameHub	Electronics	Delhi	DEV-505	0	0	9	29	2174	8	0
+TXN01148	8	2232.04	TechZone	Travel	Kolkata	DEV-427	0	1	6	63	2095	3	1
+TXN01149	7	868.09	GameHub	Fuel	Bengaluru	DEV-205	0	0	3	94	114	4	0
+TXN01150	9	1498.19	TechZone	Travel	London	DEV-995	0	0	8	49	873	0	0
+TXN01151	4	2656.44	QuickFuel	Electronics	Mumbai	DEV-120	0	0	1	20	2135	8	0
+TXN01152	6	730.97	Gold Palace	ATM Withdrawal	Chennai	DEV-600	0	0	6	48	1846	7	0
+TXN01153	5	696.05	SkyWays	Jewellery	Chennai	DEV-113	0	0	7	22	1040	2	0
+TXN01154	10	413.67	TechZone	Gaming	Dubai	DEV-720	0	0	8	18	1207	0	1
+TXN01155	4	464.97	Gold Palace	Online Transfer	Singapore	DEV-910	1	0	3	81	84	6	1
+TXN01156	6	233.79	City ATM	ATM Withdrawal	Chennai	DEV-679	1	0	6	34	1250	6	1
+TXN01157	2	2337.52	City ATM	Fuel	London	DEV-645	1	0	7	68	1472	4	0
+TXN01158	9	6173.51	GameHub	ATM Withdrawal	Bengaluru	DEV-845	0	0	8	72	803	1	0
+TXN01159	4	4371.21	Metro Mart	Grocery	Singapore	DEV-976	0	1	2	54	688	8	0
+TXN01160	4	280.49	UPI Transfer	Electronics	Dubai	DEV-875	1	0	9	54	1826	3	0
+TXN01161	6	2327.08	Gold Palace	Online Transfer	Bengaluru	DEV-308	0	0	3	18	998	6	0
+TXN01162	5	4358.55	UPI Transfer	Fuel	Kolkata	DEV-606	0	0	4	52	595	7	0
+TXN01163	9	803.41	QuickFuel	Fuel	Chennai	DEV-836	1	1	2	75	837	4	1
+TXN01164	6	1327.83	UPI Transfer	Grocery	Delhi	DEV-365	0	0	2	19	1093	0	0
+TXN01165	6	198.92	QuickFuel	Travel	London	DEV-707	0	0	3	23	585	7	0
+TXN01166	2	1540.81	GameHub	Jewellery	London	DEV-120	0	0	2	69	1241	6	0
+TXN01167	1	465.35	UPI Transfer	ATM Withdrawal	Bengaluru	DEV-889	0	0	7	98	1897	8	1
+TXN01168	4	1450.51	QuickFuel	Grocery	Delhi	DEV-652	0	0	6	39	1638	5	1
+TXN01169	10	297.35	Gold Palace	Electronics	Singapore	DEV-768	0	0	4	82	524	8	0
+TXN01170	10	1975.49	GameHub	ATM Withdrawal	Chennai	DEV-842	0	0	5	18	1048	7	0
+TXN01171	7	3047.45	QuickFuel	Gaming	Kolkata	DEV-296	0	0	6	56	1205	1	0
+TXN01172	7	598.93	SkyWays	Travel	London	DEV-505	0	0	2	94	1503	1	0
+TXN01173	4	435.62	UPI Transfer	Jewellery	Dubai	DEV-872	0	0	3	44	1669	1	0
+TXN01174	2	174.09	Metro Mart	Grocery	Chennai	DEV-248	0	0	8	50	1077	7	0
+TXN01175	1	953.58	SkyWays	Grocery	Bengaluru	DEV-840	0	0	1	15	706	2	0
+TXN01176	4	718.07	UPI Transfer	Grocery	Mumbai	DEV-359	1	0	9	52	1457	4	1
+TXN01177	4	300.09	TechZone	Jewellery	London	DEV-617	0	0	9	58	294	7	0
+TXN01178	2	1822.05	Metro Mart	Grocery	Singapore	DEV-558	0	0	3	98	1489	3	0
+TXN01179	3	808.38	City ATM	Fuel	London	DEV-717	0	0	3	20	1973	0	0
+TXN01180	1	460.28	UPI Transfer	Grocery	London	DEV-853	0	0	2	36	1566	3	0
+TXN01181	7	735.75	SkyWays	Fuel	London	DEV-414	0	0	6	64	965	0	0
+TXN01182	10	3178.53	UPI Transfer	Online Transfer	Kolkata	DEV-254	0	0	2	94	1814	3	0
+TXN01183	7	2085.25	Metro Mart	Electronics	Dubai	DEV-480	0	0	8	23	1180	6	0
+TXN01184	5	1078.12	Gold Palace	Fuel	Bengaluru	DEV-650	0	1	4	69	1198	4	0
+TXN01185	5	2115.81	TechZone	Jewellery	Chennai	DEV-775	0	0	9	87	1877	6	0
+TXN01186	4	426.32	QuickFuel	Jewellery	London	DEV-778	0	0	8	63	441	0	0
+TXN01187	2	1247.79	Gold Palace	Travel	Chennai	DEV-405	0	0	4	42	1719	6	0
+TXN01188	6	1383.8	City ATM	ATM Withdrawal	Chennai	DEV-942	0	0	6	23	1501	3	0
+TXN01189	6	794.05	UPI Transfer	ATM Withdrawal	Chennai	DEV-174	0	1	1	28	1173	2	0
+TXN01190	1	1793.48	UPI Transfer	Jewellery	London	DEV-205	0	0	1	5	188	5	0
+TXN01191	5	600.41	GameHub	Jewellery	Bengaluru	DEV-122	0	1	5	15	1689	1	0
+TXN01192	3	1917.62	City ATM	Online Transfer	Delhi	DEV-933	0	0	5	43	497	4	0
+TXN01193	2	1991.56	GameHub	Electronics	Singapore	DEV-262	0	0	4	14	1972	3	0
+TXN01194	8	87.76	UPI Transfer	Fuel	Singapore	DEV-641	0	0	1	1	1746	1	0
+TXN01195	6	3537.85	Metro Mart	Fuel	Dubai	DEV-831	0	0	8	69	812	8	0
+TXN01196	7	78.03	Gold Palace	Grocery	Bengaluru	DEV-790	0	0	4	7	968	3	0
+TXN01197	8	696.14	QuickFuel	Gaming	Singapore	DEV-953	0	0	5	14	75	0	0
+TXN01198	10	3049.74	SkyWays	Fuel	Kolkata	DEV-148	0	0	4	59	1105	3	0
+TXN01199	9	910.91	TechZone	Fuel	London	DEV-466	0	1	5	92	146	8	1
+TXN01200	7	323.9	City ATM	ATM Withdrawal	Singapore	DEV-555	0	1	6	72	2172	6	1
+TXN01201	9	452.88	GameHub	Jewellery	Delhi	DEV-726	0	0	7	3	1415	5	0
+TXN01202	5	3054.02	Gold Palace	Jewellery	Mumbai	DEV-660	0	0	5	16	532	8	0
+TXN01203	10	215.0	SkyWays	Grocery	Chennai	DEV-603	0	0	2	74	1772	0	0
+TXN01204	8	3347.91	UPI Transfer	Fuel	Delhi	DEV-376	0	1	8	73	62	4	1
+TXN01205	7	1153.33	City ATM	Online Transfer	Singapore	DEV-195	1	0	3	39	1217	2	0
+TXN01206	10	414.41	City ATM	Electronics	Bengaluru	DEV-488	1	0	1	94	262	6	0
+TXN01207	6	717.09	UPI Transfer	Grocery	Delhi	DEV-333	0	0	1	88	138	7	0
+TXN01208	8	485.17	TechZone	Gaming	Kolkata	DEV-598	0	0	7	74	553	0	0
+TXN01209	3	2642.82	SkyWays	Electronics	Chennai	DEV-817	0	0	4	74	661	1	0
+TXN01210	10	2342.99	City ATM	Online Transfer	Bengaluru	DEV-597	0	0	1	78	1602	8	0
+TXN01211	7	257.95	SkyWays	Fuel	Kolkata	DEV-624	0	0	8	14	1961	4	0
+TXN01212	8	842.83	TechZone	Jewellery	Kolkata	DEV-137	0	0	3	70	1711	2	0
+TXN01213	5	557.32	City ATM	Gaming	Singapore	DEV-680	0	0	9	93	1632	1	1
+TXN01214	9	3882.21	QuickFuel	ATM Withdrawal	London	DEV-495	0	0	8	22	1252	3	0
+TXN01215	1	359.57	TechZone	Grocery	London	DEV-211	0	0	1	1	829	0	0
+TXN01216	2	5134.85	UPI Transfer	Online Transfer	Kolkata	DEV-292	0	0	7	36	576	2	0
+TXN01217	6	1176.19	QuickFuel	ATM Withdrawal	London	DEV-802	0	0	6	26	2081	1	0
+TXN01218	8	425.92	Gold Palace	Online Transfer	Chennai	DEV-925	0	0	2	94	1157	0	0
+TXN01219	9	658.82	Gold Palace	Grocery	Kolkata	DEV-556	1	0	4	44	1250	8	0
+TXN01220	5	589.07	City ATM	Grocery	Delhi	DEV-978	0	0	5	66	52	7	0
+TXN01221	7	384.85	City ATM	Grocery	Chennai	DEV-262	0	0	2	98	1018	8	1
+TXN01222	6	1319.94	TechZone	Travel	Bengaluru	DEV-369	0	0	7	78	1506	2	0
+TXN01223	10	401.37	TechZone	Gaming	Dubai	DEV-937	0	1	3	74	1099	2	0
+TXN01224	7	170.32	City ATM	ATM Withdrawal	Mumbai	DEV-257	1	0	9	96	1359	2	0
+TXN01225	5	861.17	QuickFuel	Jewellery	Mumbai	DEV-693	0	1	8	68	1785	5	0
+TXN01226	10	239.23	Gold Palace	Jewellery	Kolkata	DEV-297	1	0	6	23	67	1	0
+TXN01227	2	615.88	QuickFuel	Gaming	Kolkata	DEV-398	0	1	2	72	1991	2	0
+TXN01228	10	534.75	QuickFuel	Electronics	Singapore	DEV-529	0	0	1	32	1801	8	0
+TXN01229	2	553.3	UPI Transfer	Electronics	Delhi	DEV-423	0	0	2	33	935	3	0
+TXN01230	3	7338.33	Gold Palace	Jewellery	Dubai	DEV-887	0	0	5	64	1684	7	1
+TXN01231	9	1275.09	QuickFuel	Fuel	Bengaluru	DEV-975	0	0	8	31	165	2	0
+TXN01232	8	1511.46	TechZone	Travel	Chennai	DEV-550	0	0	2	2	691	8	0
+TXN01233	10	245.0	UPI Transfer	Jewellery	Bengaluru	DEV-572	0	0	7	99	254	6	1
+TXN01234	8	672.79	City ATM	Gaming	Mumbai	DEV-149	0	1	1	57	1405	7	0
+TXN01235	7	1471.11	UPI Transfer	Travel	Bengaluru	DEV-310	0	0	3	67	1886	4	0
+TXN01236	4	481.99	SkyWays	Grocery	Kolkata	DEV-135	1	0	6	80	1331	8	1
+TXN01237	1	2744.23	UPI Transfer	Fuel	Dubai	DEV-870	0	0	8	63	1571	3	0
+TXN01238	2	410.58	City ATM	Gaming	London	DEV-304	1	0	7	61	332	4	1
+TXN01239	3	936.61	Metro Mart	Jewellery	Kolkata	DEV-406	0	0	5	79	2056	0	0
+TXN01240	1	715.19	TechZone	Jewellery	Bengaluru	DEV-858	0	0	1	29	441	1	0
+TXN01241	6	1405.13	TechZone	Online Transfer	Bengaluru	DEV-741	0	0	3	82	1167	6	1
+TXN01242	8	681.0	TechZone	Fuel	Kolkata	DEV-659	1	0	8	72	1509	2	1
+TXN01243	10	949.75	SkyWays	Online Transfer	Delhi	DEV-134	1	0	1	18	1887	0	0
+TXN01244	5	979.93	SkyWays	Travel	Dubai	DEV-606	0	0	7	14	2055	2	0
+TXN01245	9	625.81	Gold Palace	Travel	Mumbai	DEV-604	1	1	7	87	1325	3	1
+TXN01246	10	1875.41	Gold Palace	Gaming	Bengaluru	DEV-387	0	0	7	89	1276	6	0
+TXN01247	9	1502.0	Metro Mart	Online Transfer	Kolkata	DEV-770	0	0	2	99	929	0	0
+TXN01248	5	1119.06	Gold Palace	Grocery	London	DEV-936	0	0	3	10	1257	0	0
+TXN01249	4	822.7	Gold Palace	Electronics	Delhi	DEV-333	0	0	2	89	1491	6	1
+TXN01250	10	2482.17	SkyWays	Travel	Mumbai	DEV-398	0	0	4	86	1429	1	0
+TXN01251	3	980.19	Metro Mart	Online Transfer	Bengaluru	DEV-390	0	0	5	76	1311	3	0
+TXN01252	5	919.63	City ATM	Gaming	Singapore	DEV-851	0	0	2	49	980	6	0
+TXN01253	1	1331.71	UPI Transfer	Fuel	Bengaluru	DEV-169	1	0	6	50	446	4	0
+TXN01254	8	5579.91	SkyWays	Fuel	Kolkata	DEV-906	0	0	3	42	138	1	0
+TXN01255	7	362.74	UPI Transfer	Grocery	Singapore	DEV-797	0	0	6	2	937	6	0
+TXN01256	1	2423.27	TechZone	Electronics	Dubai	DEV-535	0	0	3	50	884	0	0
+TXN01257	3	220.55	GameHub	Fuel	Mumbai	DEV-625	0	0	9	23	1345	2	0
+TXN01258	6	1473.72	Gold Palace	Grocery	Kolkata	DEV-904	1	0	3	20	1982	0	1
+TXN01259	6	5001.91	Gold Palace	Electronics	Dubai	DEV-792	0	0	8	5	1549	4	0
+TXN01260	9	1881.46	UPI Transfer	Gaming	Dubai	DEV-349	1	0	2	45	1774	6	1
+TXN01261	3	1413.13	City ATM	Gaming	London	DEV-145	0	0	1	4	1280	5	0
+TXN01262	10	731.86	UPI Transfer	Fuel	Dubai	DEV-692	0	0	2	84	2041	1	0
+TXN01263	5	1246.31	UPI Transfer	ATM Withdrawal	Dubai	DEV-231	0	0	4	88	2068	3	0
+TXN01264	9	965.98	SkyWays	Grocery	London	DEV-179	1	0	9	80	353	1	1
+TXN01265	3	597.42	QuickFuel	ATM Withdrawal	Bengaluru	DEV-984	0	1	2	30	1413	3	0
+TXN01266	1	933.66	TechZone	Fuel	Delhi	DEV-526	1	0	8	16	1122	2	0
+TXN01267	1	1448.88	UPI Transfer	Jewellery	Bengaluru	DEV-685	1	0	7	50	2139	6	1
+TXN01268	4	607.59	SkyWays	Grocery	Mumbai	DEV-295	0	0	4	67	1294	6	0
+TXN01269	10	586.6	UPI Transfer	Gaming	Dubai	DEV-191	0	1	4	2	54	7	0
+TXN01270	1	356.3	UPI Transfer	Fuel	Singapore	DEV-156	0	0	9	85	477	1	0
+TXN01271	4	1722.71	Metro Mart	Gaming	Chennai	DEV-418	0	0	7	43	302	0	0
+TXN01272	2	1979.88	Metro Mart	Travel	Bengaluru	DEV-103	0	0	3	81	458	0	0
+TXN01273	10	1492.93	QuickFuel	Jewellery	Bengaluru	DEV-478	0	0	9	7	228	7	1
+TXN01274	7	2888.96	SkyWays	Grocery	Chennai	DEV-392	0	0	4	42	1724	8	0
+TXN01275	8	1311.7	Gold Palace	ATM Withdrawal	Singapore	DEV-574	0	0	1	45	1097	1	0
+TXN01276	8	1724.7	City ATM	Electronics	Singapore	DEV-630	0	0	8	4	1484	7	0
+TXN01277	7	1593.13	UPI Transfer	Online Transfer	Mumbai	DEV-377	1	0	8	70	2199	4	0
+TXN01278	8	1116.12	SkyWays	ATM Withdrawal	Chennai	DEV-509	0	0	4	93	1430	1	0
+TXN01279	1	751.64	UPI Transfer	Jewellery	Dubai	DEV-170	0	0	7	54	1064	2	1
+TXN01280	9	8890.49	Gold Palace	Travel	Kolkata	DEV-371	0	0	3	39	602	2	0
+TXN01281	8	806.94	Gold Palace	Grocery	Singapore	DEV-980	0	0	8	63	1664	6	0
+TXN01282	8	665.61	Metro Mart	Grocery	Mumbai	DEV-992	0	0	4	36	1124	1	0
+TXN01283	4	1791.14	GameHub	ATM Withdrawal	London	DEV-537	0	0	3	35	1670	1	0
+TXN01284	9	1520.31	TechZone	ATM Withdrawal	Delhi	DEV-945	1	0	5	75	70	6	1
+TXN01285	4	342.3	Gold Palace	Electronics	London	DEV-551	1	0	3	59	375	2	0
+TXN01286	1	3328.94	Gold Palace	ATM Withdrawal	London	DEV-213	0	0	6	26	303	2	0
+TXN01287	10	1113.46	TechZone	Grocery	Kolkata	DEV-881	0	0	7	40	1505	7	1
+TXN01288	3	445.93	Metro Mart	Online Transfer	Kolkata	DEV-473	1	0	4	83	1149	8	1
+TXN01289	2	3533.01	City ATM	Electronics	London	DEV-651	0	0	8	52	710	4	0
+TXN01290	7	2128.36	UPI Transfer	Grocery	Mumbai	DEV-683	0	0	4	7	695	7	0
+TXN01291	3	388.35	QuickFuel	Fuel	Chennai	DEV-377	0	0	9	85	1342	7	0
+TXN01292	9	5999.7	TechZone	Electronics	Dubai	DEV-760	0	0	3	74	2125	5	0
+TXN01293	5	2192.76	GameHub	Fuel	Chennai	DEV-551	1	0	7	26	2190	7	0
+TXN01294	1	1200.9	TechZone	Grocery	Bengaluru	DEV-429	0	0	5	96	1047	0	0
+TXN01295	10	5070.51	QuickFuel	Fuel	Chennai	DEV-368	0	0	9	95	1481	0	0
+TXN01296	6	1398.8	GameHub	Grocery	Delhi	DEV-771	0	0	2	99	202	7	1
+TXN01297	3	1181.72	SkyWays	ATM Withdrawal	Mumbai	DEV-324	0	1	2	37	2081	1	0
+TXN01298	7	668.96	City ATM	Electronics	Delhi	DEV-211	0	0	8	92	58	6	1
+TXN01299	6	2046.05	QuickFuel	Travel	London	DEV-893	0	1	9	80	766	3	0
+TXN01300	1	1861.14	Metro Mart	Jewellery	Bengaluru	DEV-398	0	0	7	87	1601	7	0
+TXN01301	8	1228.09	GameHub	ATM Withdrawal	Mumbai	DEV-676	0	0	5	54	2134	5	0
+TXN01302	5	595.27	SkyWays	Fuel	Mumbai	DEV-744	0	0	4	27	393	0	0
+TXN01303	7	1362.31	Gold Palace	Gaming	London	DEV-854	0	0	6	22	1461	3	0
+TXN01304	9	1138.17	City ATM	Jewellery	Kolkata	DEV-663	0	0	7	96	429	6	1
+TXN01305	7	364.99	GameHub	Online Transfer	Bengaluru	DEV-737	0	0	3	50	129	8	0
+TXN01306	7	322.26	TechZone	Fuel	Bengaluru	DEV-853	0	0	1	92	943	7	0
+TXN01307	3	2015.53	City ATM	Travel	Kolkata	DEV-949	0	1	1	55	1277	8	0
+TXN01308	3	116.55	Metro Mart	Fuel	Kolkata	DEV-142	0	0	4	53	595	8	0
+TXN01309	5	1458.07	Gold Palace	ATM Withdrawal	Mumbai	DEV-768	0	0	7	7	2141	8	0
+TXN01310	9	788.18	City ATM	Gaming	Bengaluru	DEV-256	0	0	4	40	1364	5	0
+TXN01311	6	3934.04	TechZone	Gaming	Mumbai	DEV-902	0	0	6	55	975	3	1
+TXN01312	4	777.34	Gold Palace	ATM Withdrawal	Singapore	DEV-143	0	0	5	10	1078	4	0
+TXN01313	8	2194.12	QuickFuel	Fuel	Bengaluru	DEV-322	0	1	3	16	1032	7	0
+TXN01314	9	847.91	Metro Mart	Fuel	Kolkata	DEV-272	1	0	7	59	262	3	0
+TXN01315	10	1342.61	UPI Transfer	ATM Withdrawal	Bengaluru	DEV-643	0	1	7	24	1341	7	0
+TXN01316	3	2352.31	Gold Palace	Jewellery	Kolkata	DEV-103	0	0	9	70	1730	6	1
+TXN01317	8	799.27	UPI Transfer	Fuel	Kolkata	DEV-115	1	0	8	46	938	1	1
+TXN01318	6	2971.73	QuickFuel	Fuel	Kolkata	DEV-553	0	0	4	40	948	8	0
+TXN01319	5	495.55	QuickFuel	ATM Withdrawal	Mumbai	DEV-974	0	0	7	11	2004	7	0
+TXN01320	4	1579.93	Metro Mart	Travel	Delhi	DEV-575	0	1	4	40	1351	5	0
+TXN01321	2	2780.47	Gold Palace	Travel	Chennai	DEV-501	0	0	8	54	669	1	0
+TXN01322	3	2195.21	Gold Palace	Online Transfer	Mumbai	DEV-692	0	1	6	57	28	2	0
+TXN01323	6	6800.83	Gold Palace	Travel	Dubai	DEV-596	0	0	8	27	1814	7	0
+TXN01324	9	609.66	TechZone	Grocery	Chennai	DEV-446	0	0	3	2	1385	0	0
+TXN01325	9	350.29	SkyWays	ATM Withdrawal	Dubai	DEV-629	0	1	1	93	1384	4	0
+TXN01326	2	495.27	Gold Palace	Electronics	Dubai	DEV-102	0	0	2	95	636	5	0
+TXN01327	7	2196.01	Metro Mart	Online Transfer	Delhi	DEV-320	0	1	5	90	425	2	0
+TXN01328	1	1897.19	SkyWays	Electronics	Mumbai	DEV-706	0	0	9	28	1097	7	0
+TXN01329	7	1328.8	SkyWays	Travel	London	DEV-407	1	0	6	60	1672	4	0
+TXN01330	4	441.13	Metro Mart	Grocery	Bengaluru	DEV-148	0	0	8	14	669	0	0
+TXN01331	5	2416.75	GameHub	Gaming	Delhi	DEV-211	1	0	5	90	1168	2	0
+TXN01332	8	402.53	UPI Transfer	Travel	Bengaluru	DEV-879	1	0	9	0	2191	3	0
+TXN01333	5	3439.41	Metro Mart	Jewellery	Dubai	DEV-396	0	0	9	47	498	2	0
+TXN01334	9	15862.21	QuickFuel	Fuel	Dubai	DEV-120	1	0	2	85	523	8	1
+TXN01335	6	1685.48	Metro Mart	Fuel	Singapore	DEV-755	0	0	8	72	534	3	1
+TXN01336	10	2048.37	City ATM	ATM Withdrawal	Kolkata	DEV-577	1	1	1	86	2010	4	0
+TXN01337	7	777.77	SkyWays	Jewellery	Mumbai	DEV-506	0	0	6	49	1172	4	0
+TXN01338	3	237.65	TechZone	Jewellery	Mumbai	DEV-905	0	0	4	9	2021	1	0
+TXN01339	8	704.55	Metro Mart	Fuel	Mumbai	DEV-382	1	0	3	0	2086	5	0
+TXN01340	5	453.23	City ATM	Electronics	Mumbai	DEV-615	1	0	9	15	937	3	0
+TXN01341	6	329.54	TechZone	Online Transfer	Singapore	DEV-770	0	0	6	5	139	0	0
+TXN01342	2	5710.85	SkyWays	Travel	Delhi	DEV-647	0	0	2	44	682	3	0
+TXN01343	2	1549.33	GameHub	Grocery	Mumbai	DEV-287	0	0	2	5	1205	5	0
+TXN01344	6	1705.68	TechZone	Jewellery	Mumbai	DEV-713	1	0	2	18	850	1	0
+TXN01345	2	917.71	TechZone	Jewellery	Kolkata	DEV-769	0	1	3	41	24	7	1
+TXN01346	10	1037.34	GameHub	Travel	Chennai	DEV-210	1	0	1	73	2176	5	0
+TXN01347	9	2887.35	SkyWays	Gaming	London	DEV-248	0	0	3	67	680	2	0
+TXN01348	8	1177.2	TechZone	Jewellery	Chennai	DEV-707	0	0	7	5	1368	5	0
+TXN01349	8	1953.98	Metro Mart	Grocery	Bengaluru	DEV-207	0	0	8	90	2083	2	0
+TXN01350	6	1015.97	QuickFuel	Gaming	Delhi	DEV-892	0	0	8	54	1207	5	0
+TXN01351	1	890.75	Metro Mart	ATM Withdrawal	Chennai	DEV-198	0	0	5	34	1533	1	0
+TXN01352	4	341.65	UPI Transfer	Electronics	Singapore	DEV-976	0	0	7	38	98	5	0
+TXN01353	5	204.39	TechZone	Fuel	London	DEV-704	1	0	9	84	1538	0	0
+TXN01354	10	957.76	QuickFuel	Fuel	Singapore	DEV-498	0	0	1	46	1868	0	0
+TXN01355	3	1275.19	Gold Palace	Jewellery	Singapore	DEV-341	1	0	9	24	2021	2	0
+TXN01356	5	380.88	GameHub	Travel	Singapore	DEV-410	0	0	7	42	202	1	0
+TXN01357	4	1174.94	City ATM	Electronics	Mumbai	DEV-773	0	0	4	6	517	4	0
+TXN01358	2	1272.04	SkyWays	Travel	Bengaluru	DEV-777	0	0	5	15	122	1	0
+TXN01359	2	174.09	Metro Mart	Travel	London	DEV-287	0	0	4	31	2021	2	0
+TXN01360	4	531.86	SkyWays	Electronics	Delhi	DEV-588	0	0	2	22	619	0	0
+TXN01361	1	1748.54	SkyWays	Online Transfer	Kolkata	DEV-993	0	0	3	34	1178	7	0
+TXN01362	1	1717.03	TechZone	ATM Withdrawal	Dubai	DEV-331	1	0	3	6	1057	6	0
+TXN01363	4	429.1	City ATM	Travel	Bengaluru	DEV-724	0	0	1	61	1521	1	0
+TXN01364	3	1397.73	GameHub	Grocery	Chennai	DEV-254	0	0	5	11	1971	1	0
+TXN01365	6	3041.68	TechZone	Electronics	Bengaluru	DEV-850	0	0	5	21	725	7	1
+TXN01366	1	2439.05	TechZone	Jewellery	London	DEV-253	0	0	3	97	1742	6	0
+TXN01367	4	1112.36	UPI Transfer	ATM Withdrawal	Chennai	DEV-367	1	0	2	0	654	7	1
+TXN01368	5	795.38	SkyWays	Online Transfer	London	DEV-513	0	1	9	27	450	1	0
+TXN01369	10	687.86	GameHub	Jewellery	Mumbai	DEV-433	0	0	7	50	251	3	0
+TXN01370	7	1846.48	Gold Palace	Travel	Bengaluru	DEV-253	0	0	5	30	831	1	0
+TXN01371	9	1444.61	TechZone	Travel	Kolkata	DEV-676	1	0	7	32	1241	3	0
+TXN01372	4	2135.52	QuickFuel	Grocery	Mumbai	DEV-117	0	0	4	12	1720	1	0
+TXN01373	5	1364.7	Metro Mart	Online Transfer	London	DEV-985	0	0	2	42	1869	0	0
+TXN01374	5	2532.31	TechZone	Fuel	Kolkata	DEV-146	0	0	7	75	1169	4	0
+TXN01375	9	1319.67	Gold Palace	Grocery	London	DEV-400	0	0	7	58	911	8	0
+TXN01376	10	2455.83	City ATM	Online Transfer	Bengaluru	DEV-936	1	0	6	92	400	5	0
+TXN01377	10	2653.78	QuickFuel	Gaming	Mumbai	DEV-239	1	0	6	69	2012	6	1
+TXN01378	8	587.53	TechZone	Electronics	Delhi	DEV-165	1	0	1	78	883	7	0
+TXN01379	6	238.1	Metro Mart	ATM Withdrawal	London	DEV-769	0	0	6	43	1686	8	0
+TXN01380	6	4861.7	SkyWays	Online Transfer	Dubai	DEV-165	0	1	6	61	1384	1	1
+TXN01381	10	1526.9	TechZone	Online Transfer	London	DEV-909	0	0	4	57	2050	2	0
+TXN01382	3	259.03	GameHub	Gaming	Singapore	DEV-506	0	0	3	81	2141	5	0
+TXN01383	4	637.51	Metro Mart	Grocery	London	DEV-882	0	0	9	50	1560	7	1
+TXN01384	9	2427.67	SkyWays	Gaming	Singapore	DEV-320	0	0	4	40	1462	6	0
+TXN01385	4	942.27	SkyWays	ATM Withdrawal	Mumbai	DEV-227	0	0	3	7	319	6	0
+TXN01386	3	764.44	City ATM	ATM Withdrawal	Mumbai	DEV-966	0	0	7	85	55	2	0
+TXN01387	6	4276.09	Metro Mart	Jewellery	Kolkata	DEV-785	0	0	5	43	1210	3	0
+TXN01388	4	472.22	Gold Palace	Gaming	Chennai	DEV-919	0	0	6	79	1556	0	0
+TXN01389	9	590.91	City ATM	ATM Withdrawal	London	DEV-387	0	0	6	67	1646	2	0
+TXN01390	10	1465.93	QuickFuel	Gaming	Kolkata	DEV-464	0	0	4	0	566	1	0
+TXN01391	4	1722.29	SkyWays	ATM Withdrawal	Dubai	DEV-619	0	0	2	65	1116	8	0
+TXN01392	6	1894.5	Gold Palace	Gaming	Kolkata	DEV-503	0	0	2	48	1899	0	0
+TXN01393	10	2752.09	QuickFuel	Electronics	Bengaluru	DEV-318	1	0	9	23	228	3	0
+TXN01394	8	1449.13	QuickFuel	Online Transfer	Kolkata	DEV-437	0	0	5	26	856	7	0
+TXN01395	3	1882.67	GameHub	Electronics	Mumbai	DEV-647	0	0	4	63	2079	8	0
+TXN01396	6	959.79	QuickFuel	Gaming	London	DEV-134	0	0	3	8	455	3	0
+TXN01397	7	1282.32	TechZone	Gaming	Chennai	DEV-402	0	0	7	60	710	4	1
+TXN01398	7	1335.13	Gold Palace	ATM Withdrawal	Chennai	DEV-363	0	0	9	84	1040	4	0
+TXN01399	1	1470.84	SkyWays	Jewellery	Chennai	DEV-163	1	0	7	8	1520	7	0
+TXN01400	3	2429.12	TechZone	Electronics	Kolkata	DEV-210	0	0	5	0	576	6	0
+TXN01401	9	1997.46	QuickFuel	Grocery	Delhi	DEV-546	0	0	5	6	1747	4	0
+TXN01402	3	1261.17	UPI Transfer	Online Transfer	Chennai	DEV-192	0	0	8	73	534	3	0
+TXN01403	3	585.1	TechZone	Jewellery	Chennai	DEV-410	0	0	8	84	822	3	1
+TXN01404	4	1288.07	Metro Mart	Jewellery	Mumbai	DEV-604	0	0	4	98	1269	5	0
+TXN01405	2	1181.79	QuickFuel	Online Transfer	Delhi	DEV-886	0	1	9	2	46	7	1
+TXN01406	2	1442.11	TechZone	Gaming	London	DEV-188	1	0	8	48	1692	0	1
+TXN01407	4	8829.67	QuickFuel	Grocery	Delhi	DEV-491	0	0	8	4	1478	6	1
+TXN01408	9	756.43	SkyWays	Electronics	Delhi	DEV-192	0	0	1	37	1840	4	0
+TXN01409	1	1772.35	SkyWays	Online Transfer	Chennai	DEV-485	1	0	2	30	619	1	0
+TXN01410	3	3170.41	Gold Palace	Gaming	Singapore	DEV-532	0	0	3	60	886	0	0
+TXN01411	1	1323.72	UPI Transfer	Gaming	Delhi	DEV-819	0	0	7	90	1978	3	0
+TXN01412	6	9937.4	GameHub	Gaming	London	DEV-498	0	0	1	80	165	2	0
+TXN01413	3	862.44	TechZone	Gaming	Mumbai	DEV-941	0	0	1	6	1090	0	0
+TXN01414	8	1622.43	Metro Mart	ATM Withdrawal	Bengaluru	DEV-223	0	1	1	24	1075	2	0
+TXN01415	6	590.56	Metro Mart	Jewellery	Chennai	DEV-147	0	0	2	27	995	7	0
+TXN01416	8	883.27	Metro Mart	Grocery	Kolkata	DEV-104	0	0	9	25	965	6	0
+TXN01417	7	1516.32	TechZone	Jewellery	London	DEV-421	0	0	7	35	1649	1	0
+TXN01418	5	2595.86	Metro Mart	Online Transfer	Dubai	DEV-273	0	0	7	60	449	6	1
+TXN01419	9	1615.15	Gold Palace	Travel	Singapore	DEV-182	0	0	3	73	1962	4	0
+TXN01420	5	3763.87	SkyWays	Gaming	Chennai	DEV-312	0	0	6	93	1973	6	0
+TXN01421	10	1112.68	TechZone	Jewellery	Singapore	DEV-977	0	0	8	70	411	2	0
+TXN01422	10	898.79	Gold Palace	ATM Withdrawal	Singapore	DEV-820	1	0	5	29	2143	0	0
+TXN01423	6	13816.05	GameHub	Grocery	Chennai	DEV-116	0	1	8	18	591	2	0
+TXN01424	7	1728.16	QuickFuel	ATM Withdrawal	London	DEV-923	0	0	6	37	132	8	1
+TXN01425	3	634.26	Metro Mart	Electronics	Dubai	DEV-284	0	0	3	79	887	5	0
+TXN01426	9	648.82	City ATM	Jewellery	Dubai	DEV-465	0	0	6	99	1754	0	0
+TXN01427	7	518.84	Metro Mart	Online Transfer	London	DEV-394	0	0	9	39	1861	8	0
+TXN01428	10	2815.55	Gold Palace	Jewellery	Kolkata	DEV-464	1	0	8	17	1427	7	0
+TXN01429	3	873.11	TechZone	ATM Withdrawal	Singapore	DEV-784	0	0	5	0	1788	4	0
+TXN01430	8	1359.17	City ATM	Grocery	Dubai	DEV-741	0	0	6	7	589	6	0
+TXN01431	5	1144.64	Metro Mart	Online Transfer	Bengaluru	DEV-634	0	1	9	63	1936	1	0
+TXN01432	2	2341.02	TechZone	ATM Withdrawal	Mumbai	DEV-664	0	0	7	58	1404	5	0
+TXN01433	2	565.62	UPI Transfer	Grocery	Mumbai	DEV-754	0	0	5	64	311	8	0
+TXN01434	6	460.35	City ATM	Fuel	Dubai	DEV-265	1	0	3	2	300	3	0
+TXN01435	4	1483.07	SkyWays	Electronics	Kolkata	DEV-456	0	0	9	43	602	0	0
+TXN01436	2	2081.54	Gold Palace	Online Transfer	Delhi	DEV-196	0	0	9	18	171	6	0
+TXN01437	5	1634.81	SkyWays	ATM Withdrawal	Dubai	DEV-733	1	0	1	33	636	6	0
+TXN01438	7	584.93	TechZone	Gaming	Mumbai	DEV-493	0	0	1	62	2185	6	0
+TXN01439	4	2229.95	TechZone	Gaming	Dubai	DEV-673	0	0	2	27	543	5	0
+TXN01440	10	620.5	Gold Palace	Electronics	Bengaluru	DEV-608	1	0	4	65	1407	1	0
+TXN01441	8	757.95	Gold Palace	Online Transfer	Chennai	DEV-346	1	0	2	28	2151	1	0
+TXN01442	6	518.24	GameHub	Grocery	Bengaluru	DEV-224	0	0	8	51	572	7	0
+TXN01443	10	3909.02	SkyWays	Electronics	Dubai	DEV-975	0	0	9	45	1537	7	0
+TXN01444	5	2143.25	GameHub	Grocery	Dubai	DEV-363	0	0	2	38	1001	0	0
+TXN01445	2	2089.11	TechZone	Travel	Kolkata	DEV-198	0	0	8	12	641	5	0
+TXN01446	1	3723.76	QuickFuel	Gaming	Chennai	DEV-375	0	1	2	57	2091	4	0
+TXN01447	10	15235.51	SkyWays	Gaming	London	DEV-912	0	0	8	99	1451	3	1
+TXN01448	10	260.26	Gold Palace	Jewellery	Delhi	DEV-335	0	0	4	64	976	5	0
+TXN01449	8	623.57	GameHub	Travel	Delhi	DEV-988	0	0	1	74	1790	8	0
+TXN01450	2	696.06	Gold Palace	Travel	Mumbai	DEV-514	0	0	4	80	1982	7	0
+TXN01451	3	563.55	City ATM	Travel	Delhi	DEV-875	0	0	8	3	1723	1	0
+TXN01452	1	459.52	UPI Transfer	Online Transfer	Mumbai	DEV-687	0	0	9	79	1914	4	1
+TXN01453	1	925.48	GameHub	Grocery	Chennai	DEV-139	0	0	2	24	721	8	1
+TXN01454	3	405.47	Metro Mart	Fuel	Singapore	DEV-558	1	0	8	66	770	2	0
+TXN01455	6	1638.5	TechZone	Gaming	Delhi	DEV-475	0	0	3	98	527	7	1
+TXN01456	1	1269.69	TechZone	ATM Withdrawal	Singapore	DEV-281	0	1	5	89	1537	4	1
+TXN01457	10	1868.56	GameHub	Gaming	Kolkata	DEV-594	1	0	1	41	1770	4	0
+TXN01458	5	1914.01	SkyWays	Fuel	Dubai	DEV-192	0	0	9	83	1459	2	0
+TXN01459	3	2085.38	GameHub	Jewellery	Delhi	DEV-728	0	0	8	61	1326	8	0
+TXN01460	6	866.04	City ATM	Grocery	Dubai	DEV-839	0	0	6	13	1701	4	0
+TXN01461	8	8176.58	Gold Palace	Gaming	Singapore	DEV-183	0	0	7	23	415	5	0
+TXN01462	4	1496.66	GameHub	Travel	Delhi	DEV-531	0	0	8	95	817	4	1
+TXN01463	1	226.73	Metro Mart	Online Transfer	London	DEV-689	0	0	2	91	1561	0	0
+TXN01464	1	491.7	Gold Palace	Jewellery	Singapore	DEV-155	0	0	3	89	133	7	0
+TXN01465	9	253.04	UPI Transfer	Gaming	Dubai	DEV-450	1	0	1	38	2005	2	0
+TXN01466	2	1231.02	TechZone	Electronics	Bengaluru	DEV-332	0	1	5	32	392	2	0
+TXN01467	7	1086.13	QuickFuel	Grocery	Dubai	DEV-135	1	0	5	80	1735	7	1
+TXN01468	4	795.06	Metro Mart	Gaming	Singapore	DEV-823	0	0	1	2	1364	1	0
+TXN01469	8	7404.43	City ATM	Online Transfer	Delhi	DEV-500	0	0	6	89	1867	6	1
+TXN01470	1	1986.41	City ATM	Electronics	Kolkata	DEV-776	0	0	1	60	1709	4	0
+TXN01471	9	2329.69	UPI Transfer	Fuel	Singapore	DEV-628	0	1	8	63	1144	7	0
+TXN01472	7	524.28	GameHub	Fuel	Singapore	DEV-888	0	0	7	43	1668	0	0
+TXN01473	5	493.13	Metro Mart	Electronics	Dubai	DEV-997	1	0	8	97	775	6	1
+TXN01474	3	1252.79	Gold Palace	Fuel	Singapore	DEV-641	1	0	2	74	1292	2	0
+TXN01475	10	1416.16	Gold Palace	Fuel	Dubai	DEV-416	1	0	8	5	2014	7	0
+TXN01476	4	227.99	City ATM	Fuel	Kolkata	DEV-480	1	0	5	52	204	3	1
+TXN01477	5	1030.42	QuickFuel	Travel	Singapore	DEV-842	0	0	8	85	795	0	0
+TXN01478	4	1227.41	City ATM	ATM Withdrawal	Dubai	DEV-483	0	1	7	7	57	4	0
+TXN01479	3	998.61	GameHub	Grocery	Delhi	DEV-567	0	0	6	73	1184	0	0
+TXN01480	5	582.86	GameHub	Grocery	Mumbai	DEV-274	0	1	1	24	1725	2	0
+TXN01481	2	745.77	QuickFuel	Grocery	Dubai	DEV-991	1	0	7	50	104	6	0
+TXN01482	1	1033.62	QuickFuel	ATM Withdrawal	Bengaluru	DEV-685	0	1	5	88	1217	5	1
+TXN01483	3	1315.17	QuickFuel	Electronics	Dubai	DEV-397	0	0	8	49	925	6	0
+TXN01484	2	2088.73	SkyWays	Fuel	Bengaluru	DEV-626	0	0	7	3	1726	7	0
+TXN01485	5	3205.97	UPI Transfer	Electronics	Dubai	DEV-461	0	0	1	2	499	4	0
+TXN01486	9	929.91	GameHub	Travel	Chennai	DEV-239	1	0	9	73	374	4	0
+TXN01487	2	803.89	UPI Transfer	Fuel	Chennai	DEV-887	0	0	1	93	226	0	0
+TXN01488	1	1797.03	Metro Mart	Grocery	Delhi	DEV-897	0	0	3	29	908	2	0
+TXN01489	2	2100.14	Gold Palace	Gaming	Bengaluru	DEV-851	0	0	2	93	1082	6	0
+TXN01490	6	819.93	QuickFuel	Travel	Delhi	DEV-431	0	0	9	45	2023	0	0
+TXN01491	3	2468.47	SkyWays	Electronics	Kolkata	DEV-330	1	0	2	5	1035	3	0
+TXN01492	5	2926.69	Metro Mart	Gaming	Mumbai	DEV-144	0	1	8	53	394	1	1
+TXN01493	1	3875.84	GameHub	Gaming	London	DEV-758	0	0	2	97	1543	7	0
+TXN01494	4	6005.85	SkyWays	Jewellery	Singapore	DEV-395	0	0	6	25	154	5	0
+TXN01495	5	555.7	TechZone	Grocery	Dubai	DEV-902	0	0	1	96	772	5	0
+TXN01496	5	1227.22	City ATM	Fuel	Mumbai	DEV-882	0	0	4	65	1444	6	0
+TXN01497	6	1224.33	Gold Palace	Grocery	Bengaluru	DEV-215	0	0	6	39	573	2	0
+TXN01498	8	1109.58	QuickFuel	Online Transfer	Dubai	DEV-925	0	0	7	69	1316	0	0
+TXN01499	5	675.64	UPI Transfer	Fuel	Chennai	DEV-226	0	0	8	40	1008	3	0
+TXN01500	9	318.3	TechZone	Online Transfer	Kolkata	DEV-541	0	0	8	8	2095	1	0

@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 import joblib
 import pandas as pd
@@ -8,9 +9,10 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
 BASE_DIR = Path(__file__).parent
-MODEL_PATH = BASE_DIR / "fraud_model.pkl"
-DATA_PATH = BASE_DIR.parent / "data" / "synthetic_transactions.csv"
-
+MODEL_PATH = BASE_DIR / "fraud_model_v2.pkl"
+INFO_PATH = BASE_DIR / "model_info.json"
+THRESHOLD = json.loads(INFO_PATH.read_text())["threshold"] if INFO_PATH.exists() else 0.5
+DATA_PATH = BASE_DIR.parent / "data" / "synthetic_transactions_v2.csv"
 FEATURES = [
     "amount", "location_mismatch", "device_mismatch", "transaction_velocity",
     "ip_risk", "merchant_category", "account_age_days", "risk_history"
@@ -54,15 +56,12 @@ def predict_fraud(payload):
         row.loc[0, "merchant_category"] = "Online Transfer"
     probability = float(model.predict_proba(row)[0][1])
     score = round(probability * 100, 2)
-    if score >= 75:
-        level = "High"
-        label = "Fraud"
-    elif score >= 45:
-        level = "Medium"
-        label = "Fraud"
+    if probability >= 0.70:
+        level, label = "High", "Fraud"
+    elif probability >= THRESHOLD:
+        level, label = "Medium", "Fraud"
     else:
-        level = "Low"
-        label = "Not Fraud"
+        level, label = "Low", "Not Fraud"
     return {"prediction": label, "fraud_score": score, "risk_level": level}
 
 if __name__ == "__main__":
